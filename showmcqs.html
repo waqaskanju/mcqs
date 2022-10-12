@@ -9,6 +9,7 @@
     <title>Show Mcqs</title>
 </head>
 <body>
+    <a href="selection.html"> Chapter Selection Page </a>
     <script>
        // Call to get url parameters.
        let url_params = get_url_values();
@@ -16,6 +17,9 @@
        let subject = url_params.subject;
        // get chapter
        let chapter = url_params.chapter;
+
+    //    if the mcqs data file increase in size i will need switch or if statment to decide
+    // what will be the first argument in show_data file.
 
         show_data(mcqs,subject,chapter);
     </script>

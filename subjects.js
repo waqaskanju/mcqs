@@ -34,11 +34,11 @@ const subjects = {
             },
             {
             id : '2',
-            name :'abc',
+            name :'OSI MOdel',
             },
             {
             id : '3',
-            name :'def',
+            name :'Security and Physical Layer',
             }
         ]
 
