@@ -4,7 +4,7 @@ const mcqs = {
     mcq1: [
         {
           id:"1",
-          subject_name: "os",
+          subject_name: "o system",
           chapter_name: "abc",
           question: "What is Operating System",
           option_one: "A program",
@@ -20,7 +20,7 @@ const mcqs = {
           id:"2",
           subject_name: "os",
           chapter_name: "def",
-          question: "What is Operating System",
+          question: "What is not Operating System",
           option_one: "https://dashboard.microverse.org/",
           option_two: "Microverse",
           option_three: "Microverse",

@@ -10,9 +10,12 @@
 </head>
 <body>
     <script>
-        subject='os',
-        chapter='all';
-        show_data(mcqs);
+     let url_params = get_url_values();
+       let subject = url_params.subject;
+       let chapter = url_params.chapter;
+       console.log(chapter);
+       console.log(subject);
+        show_data(mcqs,subject,chapter);
       </script>
 </body>
 </html>
