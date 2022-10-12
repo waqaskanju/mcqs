@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function get_values(){
+        const params = new Proxy(new URLSearchParams(window.location.search), {
+  get: (searchParams, prop) => searchParams.get(prop),
+});
+return params
+        }
+// Get the value of "some_key" in eg "https://example.com/?some_key=some_value"
+// let value = params.some_key;
+// console.log(get_values()); // "some_value"
+   
+   const value=get_values();
+   console.log(value.abc);
+   </script>
+</body>
+</html>
