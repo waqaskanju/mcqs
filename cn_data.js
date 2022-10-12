@@ -12,7 +12,7 @@ const mcqs = {
       option_three: "ID",
       option_four: "DFC",
       answer: "A",
-      explaination:
+      explanation:
         "RFC stands for Request For Comments and they are documents that describe methods, behaviors, research, or innovations applicable to the working of the Internet",
     },
   ],
@@ -28,7 +28,7 @@ const mcqs = {
       option_three: "Rearranged",
       option_four: "Remain the same",
       answer: "A",
-      explaination:
+      explanation:
         "Each layer adds its own header to the packet from the previous layer",
     },
   ],
@@ -43,7 +43,7 @@ const mcqs = {
       option_three: "Struct",
       option_four: "Formatting",
       answer: "A",
-      explaination:
+      explanation:
         "The structure and format of data are defined using syntax while Semantics defines how a particular pattern to be interpreted, and what action is to be taken based on that interpretation",
     },
   ],
@@ -59,7 +59,7 @@ const mcqs = {
       option_three: "Full-duplex",
       option_four: "Simplex",
       answer: "D",
-      explaination: "data flows in single direction",
+      explanation: "data flows in single direction",
     },
   ],
   mcq5: [
@@ -73,7 +73,7 @@ const mcqs = {
       option_three: "ASAPNET",
       option_four: "ARPANET",
       answer: "D",
-      explaination:
+      explanation:
         "ARPANET stands for Advanced Research Projects Agency Networks developed in 1969",
     },
   ],
@@ -88,7 +88,7 @@ const mcqs = {
       option_three: "Protocol",
       option_four: "Route",
       answer: "B",
-      explaination: " Mediums can be guided (wired) or unguided (wireless).",
+      explanation: " Mediums can be guided (wired) or unguided (wireless).",
     },
   ],
   mcq7: [
@@ -103,7 +103,7 @@ const mcqs = {
       option_three: "FCC",
       option_four: "ISOC",
       answer: "C",
-      explaination:
+      explanation:
         " FCC is the abbreviation for Federal Communications Commission. founded in 1934",
     },
   ],
@@ -119,7 +119,7 @@ const mcqs = {
       option_three: "Servers",
       option_four: "Switch",
       answer: "D",
-      explaination:
+      explanation:
         "Edge devices host application like browser switch donot do such",
     },
   ],
@@ -134,7 +134,7 @@ const mcqs = {
       option_three: "RFCs",
       option_four: "Servers",
       answer: "A",
-      explaination: "",
+      explanation: "",
     },
   ],
   mcq10: [
@@ -148,7 +148,7 @@ const mcqs = {
       option_three: "Point to point",
       option_four: "Simplex",
       answer: "B",
-      explaination:
+      explanation:
         "Ethernet and ATM are some examples of multipoint connections",
     },
   ],
@@ -165,7 +165,7 @@ const mcqs = {
       option_three: "Networking System",
       option_four: "Mail System",
       answer: "B",
-      explaination: "",
+      explanation: "",
     },
   ],
 
@@ -182,7 +182,7 @@ const mcqs = {
         "PIDs of the processes running of different devices are same",
       option_four: "",
       answer: "A",
-      explaination: "",
+      explanation: "",
     },
   ],
 
@@ -198,7 +198,7 @@ const mcqs = {
       option_three: " Prime Network",
       option_four: "Overlay Network",
       answer: "D",
-      explaination:
+      explanation:
         "Prior network are new type of network which solve some complex task, chief is a network of women to develop leaders ship skills, prime is FTTH network for homes. An overlay network is a virtual or logical network that is created on top of an existing physical network",
     },
   ],
@@ -214,7 +214,7 @@ const mcqs = {
       option_three: " the computer that terminates the data",
       option_four: "all of the mentioned",
       answer: "D",
-      explaination:
+      explanation:
         "In a computer network, a node can be anything that is capable of sending data or receiving data or even routing the data to its destination. Routers, Computers and Smartphones are some examples of network nodes.",
     },
   ],
@@ -231,7 +231,7 @@ const mcqs = {
       option_three: "multicast network",
       option_four: "anycast network",
       answer: "A",
-      explaination:
+      explanation:
         " In a broadcast network, information is sent to all stations in a network whereas in a multicast network the data or information is sent to more than one  stations but not all",
     },
   ],
@@ -247,7 +247,7 @@ const mcqs = {
       option_three: "Virtual Private Network",
       option_four: "Wide Area Network",
       answer: "A",
-      explaination: "",
+      explanation: "",
     },
   ],
 
@@ -263,7 +263,7 @@ const mcqs = {
       option_three: "Router",
       option_four: "Hub",
       answer: "Router",
-      explaination: "",
+      explanation: "",
     },
   ],
 
@@ -279,7 +279,7 @@ const mcqs = {
       option_three: "Protocol Suite",
       option_four: "Protocol System",
       answer: "B",
-      explaination: "",
+      explanation: "",
     },
   ],
 
@@ -294,7 +294,7 @@ const mcqs = {
       option_three: "when connection between two nodes terminates",
       option_four: "In case of transfer failure",
       answer: "",
-      explaination: "",
+      explanation: "",
     },
   ],
 
@@ -310,7 +310,7 @@ const mcqs = {
       option_three: "Enterprise private network",
       option_four: "Storage area network",
       answer: "B",
-      explaination: "",
+      explanation: "",
     },
   ],
   mcq21: [
@@ -324,7 +324,7 @@ const mcqs = {
       option_three: "A low-speed downstream channel",
       option_four: "An ultra-high speed downstream channe",
       answer: "C",
-      explaination: "Internet can be provided through a high-speed downstream channel in a residential telephone line.",
+      explanation: "Internet can be provided through a high-speed downstream channel in a residential telephone line.",
     },
   ],
   mcq22: [
@@ -338,7 +338,7 @@ const mcqs = {
       option_three: "Wired phone and ISP",
       option_four: "Network routing and ISP",
       answer: "c",
-      explaination: "",
+      explanation: "",
     },
   ],
   mcq23: [
@@ -352,7 +352,7 @@ const mcqs = {
       option_three: "Amplify digital signals",
       option_four: "De-amplify digital signals",
       answer: "A",
-      explaination: "",
+      explanation: "",
     },
   ],
   mcq24: [
@@ -366,7 +366,7 @@ const mcqs = {
       option_three: "Splitter",
       option_four: "CMTS",
       answer: "D",
-      explaination: "CMTS stands for Cable modem termination system. It is used in cable internet access.",
+      explanation: "CMTS stands for Cable modem termination system. It is used in cable internet access.",
     },
   ],
   mcq25: [
@@ -380,7 +380,7 @@ const mcqs = {
       option_three: "A Combination of FIber and Coaxial cable",
       option_four: "Twisted Pair Cable",
       answer: "C",
-      explaination: "Hybrid fiber-coaxial (HFC)",
+      explanation: "Hybrid fiber-coaxial (HFC)",
     },
   ],
   mcq26: [
@@ -394,7 +394,7 @@ const mcqs = {
       option_three: "Cable modem connects home PC to Ethernet port",
       option_four: "Analog signal is converted to digital signal in DSLAM",
       answer: "D",
-      explaination: "CMTS stands for Cable modem termination system. In cable access analog signal is converted to digital signal by CMTS. In cable internet access, internet is not provided through telephone lines. DSLAM is used by Telecom companies.",
+      explanation: "CMTS stands for Cable modem termination system. In cable access analog signal is converted to digital signal by CMTS. In cable internet access, internet is not provided through telephone lines. DSLAM is used by Telecom companies.",
     },
   ],
   mcq27: [
@@ -408,7 +408,7 @@ const mcqs = {
       option_three: "NON",
       option_four: "MON",
       answer: "A",
-      explaination: "AON stands for Active optical networks which are essentially switched Ethernets. Each user has his/her own dedicated optical fiber line connecting to the ISP in an AON.",
+      explanation: "AON stands for Active optical networks which are essentially switched Ethernets. Each user has his/her own dedicated optical fiber line connecting to the ISP in an AON.",
     },
   ],
   mcq28: [
@@ -422,7 +422,7 @@ const mcqs = {
       option_three: "Telephone access",
       option_four: "Satellite access",
       answer: "d",
-      explaination: "",
+      explanation: "",
     },
   ],
   mcq29: [
@@ -436,7 +436,7 @@ const mcqs = {
       option_three: "Cable",
       option_four: "All of the mentioned",
       answer: "D",
-      explaination: "",
+      explanation: "",
     },
   ],
   mcq30: [
@@ -450,7 +450,7 @@ const mcqs = {
       option_three: "Optical cable",
       option_four: "Twisted pair cable",
       answer: "c",
-      explaination: "ONT stands for Optical Network Terminal. The ONT connects to the Termination Point (TP) with an optical fibre cable. It translates light signals from the fibre optic line to electric signals that the router can read.",
+      explanation: "ONT stands for Optical Network Terminal. The ONT connects to the Termination Point (TP) with an optical fibre cable. It translates light signals from the fibre optic line to electric signals that the router can read.",
     },
   ],
   mcq31: [
@@ -464,7 +464,7 @@ const mcqs = {
       option_three: "Shadow fading",
       option_four: "The gauge of the twisted-pair line and degree of electrical interference",
       answer: "D",
-      explaination: "Because DSL is made of twisted wire copper pair, the gauge of twisted pair line i.e. the protection and electrical interference would affect the transmission rate in DSL. Unlike DSL, FTTP is not really affected by these factors.",
+      explanation: "Because DSL is made of twisted wire copper pair, the gauge of twisted pair line i.e. the protection and electrical interference would affect the transmission rate in DSL. Unlike DSL, FTTP is not really affected by these factors.",
     },
   ],
   mcq32: [
@@ -478,7 +478,7 @@ const mcqs = {
       option_three: "6",
       option_four: "10",
       answer: "A",
-      explaination: "here are five layers in the Internet Protocol stack. The five layers in Internet Protocol stack is Application, Transport, Network, Data link and Physical layer. The internet protocol stack model is also called the TCP/IP model and it’s used in modern Internet Communication.",
+      explanation: "here are five layers in the Internet Protocol stack. The five layers in Internet Protocol stack is Application, Transport, Network, Data link and Physical layer. The internet protocol stack model is also called the TCP/IP model and it’s used in modern Internet Communication.",
     },
   ],
   mcq33: [
@@ -492,7 +492,7 @@ const mcqs = {
       option_three: "7",
       option_four: "10",
       answer: "C",
-      explaination: "The seven layers in ISO OSI reference model is Application, Presentation, Session, Transport, Network, Data link and Physical layer. OSI stands for Open System Interconnect and it is a generalized model.",
+      explanation: "The seven layers in ISO OSI reference model is Application, Presentation, Session, Transport, Network, Data link and Physical layer. OSI stands for Open System Interconnect and it is a generalized model.",
     },
   ],
   mcq34: [
@@ -506,7 +506,7 @@ const mcqs = {
       option_three: "Ethernet",
       option_four: "Packet Transport",
       answer: "A",
-      explaination: "Not only application layer, but presentation layer, session layer and transport layer are also implemented in the end system. The layers below are implemented outside the end system, for example, the network layer is implemented on the routers and the physical layer is implemented for the medium.",
+      explanation: "Not only application layer, but presentation layer, session layer and transport layer are also implemented in the end system. The layers below are implemented outside the end system, for example, the network layer is implemented on the routers and the physical layer is implemented for the medium.",
     },
   ],
   mcq35: [
@@ -520,7 +520,7 @@ const mcqs = {
       option_three: "Ethernet",
       option_four: "Signal transmission",
       answer: "A",
-      explaination: "Application, Presentation, Session and Transport layer are implemented in the end system. The transport layer handles the process to process delivery of the packet through ports.",
+      explanation: "Application, Presentation, Session and Transport layer are implemented in the end system. The transport layer handles the process to process delivery of the packet through ports.",
     },
   ],
   mcq36: [
@@ -534,7 +534,7 @@ const mcqs = {
       option_three: "Session Layer",
       option_four: "Session and Presentation layer",
       answer: "D",
-      explaination: "The only difference between OSI model and TCP/IP model is that the functions of Presentation and Session layer in the OSI model are handled by the transport layer itself in TCP/IP. OSI is a generalized model and TCP/IP is an application specific model.",
+      explanation: "The only difference between OSI model and TCP/IP model is that the functions of Presentation and Session layer in the OSI model are handled by the transport layer itself in TCP/IP. OSI is a generalized model and TCP/IP is an application specific model.",
     },
   ],
   mcq37: [
@@ -548,7 +548,7 @@ const mcqs = {
       option_three: "Data De-cryption",
       option_four: "All of the mentioned",
       answer: "D",
-      explaination: "",
+      explanation: "",
     },
   ],
   mcq38: [
@@ -562,7 +562,7 @@ const mcqs = {
       option_three: "Transport layer",
       option_four: "Link layer",
       answer: "B",
-      explaination: "The session layer provides the mechanism for opening, closing and managing a session between end-user application processes. The session layer 5 is responsible for establishing managing synchronizing and terminating sessions. In TCP/IP protocol stack, the functions of the session layer are handled by the transport layer itself and thus the session layer is missing from the TCP/IP model.",
+      explanation: "The session layer provides the mechanism for opening, closing and managing a session between end-user application processes. The session layer 5 is responsible for establishing managing synchronizing and terminating sessions. In TCP/IP protocol stack, the functions of the session layer are handled by the transport layer itself and thus the session layer is missing from the TCP/IP model.",
     },
   ],
   mcq39: [
@@ -576,7 +576,7 @@ const mcqs = {
       option_three: "Link layer",
       option_four: "Session layer",
       answer: "D",
-      explaination: "",
+      explanation: "",
     },
   ],
   mcq40: [
@@ -590,7 +590,7 @@ const mcqs = {
       option_three: "Link layer",
       option_four: "Session Layer",
       answer: "A",
-      explaination: "Application layer provides the interface between applications and the network. The user interacts with only this layer.",
+      explanation: "Application layer provides the interface between applications and the network. The user interacts with only this layer.",
     },
   ],
   mcq41: [
@@ -604,7 +604,7 @@ const mcqs = {
       option_three: "Rearranged",
       option_four: "Remain Constant",
       answer: "",
-      explaination: "",
+      explanation: "",
     },
   ],
   mcq42: [
@@ -618,7 +618,7 @@ const mcqs = {
       option_three: "open service Internet",
       option_four: "optical service implementation",
       answer: "B",
-      explaination: "Each layer uses a protocol to perform its designated function, for example, the data link layer uses error detection protocols for error control functions",
+      explanation: "Each layer uses a protocol to perform its designated function, for example, the data link layer uses error detection protocols for error control functions",
     },
   ],
   mcq43: [
@@ -632,7 +632,7 @@ const mcqs = {
       option_three: "Functionality at one layer no way requires information from another layer",
       option_four: "It is an application specific network model",
       answer: "C",
-      explaination: "One layer may use the information from another layer, for example timestamp value. The information is contained in the header inserted by the previous layer. The headers are added as the packet moves from higher layers to the lower layers.",
+      explanation: "One layer may use the information from another layer, for example timestamp value. The information is contained in the header inserted by the previous layer. The headers are added as the packet moves from higher layers to the lower layers.",
     },
   ],
   mcq44: [
@@ -646,7 +646,7 @@ const mcqs = {
       option_three: "network layer",
       option_four: "data link layer",
       answer: "B",
-      explaination: "Physical, data link and network layers are network support layers and session, presentation and application layers are user support layers. The transport layer links these layers by segmenting and rearranging the data. It uses protocols like TCP and UDP.",
+      explanation: "Physical, data link and network layers are network support layers and session, presentation and application layers are user support layers. The transport layer links these layers by segmenting and rearranging the data. It uses protocols like TCP and UDP.",
     },
   ],
   mcq45: [
@@ -660,7 +660,7 @@ const mcqs = {
       option_three: "specific address",
       option_four: "All of the mentioned",
       answer: "D",
-      explaination: "",
+      explanation: "",
     },
   ],
   mcq46: [
@@ -674,7 +674,7 @@ const mcqs = {
       option_three: "simultaneous to",
       option_four: "with no link to",
       answer: "",
-      explaination: " OSI reference model was developed in the year 1984. TCP/IP was developed in the 1970s and adopted as the protocol standard for ARPANET (the predecessor to the Internet) in 1983 TCP/IP was developed with the intention to create a model for the Internet while OSI was intended to be a general network model.",
+      explanation: " OSI reference model was developed in the year 1984. TCP/IP was developed in the 1970s and adopted as the protocol standard for ARPANET (the predecessor to the Internet) in 1983 TCP/IP was developed with the intention to create a model for the Internet while OSI was intended to be a general network model.",
     },
   ],
   mcq47: [
@@ -688,7 +688,7 @@ const mcqs = {
       option_three: "Session layer",
       option_four: "Data link layer",
       answer: "A",
-      explaination: "The role of Transport layer (Layer 4) is to establish a logical end to end connection between two systems in a network. The protocols used in Transport layer is TCP and UDP. The transport layer is responsible for segmentation of the data. It uses ports for the implementation of process-to-process delivery",
+      explanation: "The role of Transport layer (Layer 4) is to establish a logical end to end connection between two systems in a network. The protocols used in Transport layer is TCP and UDP. The transport layer is responsible for segmentation of the data. It uses ports for the implementation of process-to-process delivery",
     },
   ],
   mcq48: [
@@ -702,7 +702,7 @@ const mcqs = {
       option_three: "port address",
       option_four: "specific address",
       answer: "C",
-      explaination: "Some examples of port numbers are port 20 which is used for FTP data, port 22 which is used for SSH remote login ,and port 23 which is used for TELNE",
+      explanation: "Some examples of port numbers are port 20 which is used for FTP data, port 22 which is used for SSH remote login ,and port 23 which is used for TELNE",
     },
   ],
   mcq49: [
@@ -716,7 +716,7 @@ const mcqs = {
       option_three: "session layer",
       option_four: "Physical layer",
       answer: "A",
-      explaination: "Application layer provides the interface between applications and the network. It is the top-most layer in both the TCP/IP and the OSI model.",
+      explanation: "Application layer provides the interface between applications and the network. It is the top-most layer in both the TCP/IP and the OSI model.",
     },
   ],
   mcq50: [
@@ -730,7 +730,7 @@ const mcqs = {
       option_three: "data link layer",
       option_four: "physical layer",
       answer: "D",
-      explaination: "Physical layer is a layer 1 device which deals with network cables or the standards in use like connectors, pins, electric current used etc. Basically the transmission speed is determined by the cables and connectors used. Hence it is physical layer that determines the transmission speed in network.",
+      explanation: "Physical layer is a layer 1 device which deals with network cables or the standards in use like connectors, pins, electric current used etc. Basically the transmission speed is determined by the cables and connectors used. Hence it is physical layer that determines the transmission speed in network.",
     },
   ],
 };
