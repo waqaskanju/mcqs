@@ -82,14 +82,14 @@ const show_data = (mcqs, subject = "none", chapter = "none") => {
     ) {
 
       document.write(
-        "<div id='q"+mcqs[mcq][0].id+"'><p class='question'>  Question " +
+        "<div class='mcq' id='q"+mcqs[mcq][0].id+"'><div class='question_container'>  <p class='question'>  Question " +
           count +
           ":" +
           mcqs[mcq][0].question +
-          " </p> "
+          " </p> </div>"
       );
       document.write(
-        "<p> <input type='radio' name='optionsof" +
+        "<div class='options'><p> <input type='radio' name='optionsof" +
           mcqs[mcq][0].id +
           "'class='option_one' value='A' id='"+mcqs[mcq][0].id+"A' onchange='handleChange(this.id)'/> A: " +
           mcqs[mcq][0].option_one +
@@ -114,7 +114,7 @@ const show_data = (mcqs, subject = "none", chapter = "none") => {
           mcqs[mcq][0].id +
           "'class='option_four' value='D' id='"+mcqs[mcq][0].id+"D' onchange='handleChange(this.id)'/> D: " +
           mcqs[mcq][0].option_four +
-          " </p></div>"
+          " </p></div> "
       );
       document.write(
         "<button id='" +
@@ -132,7 +132,7 @@ const show_data = (mcqs, subject = "none", chapter = "none") => {
           mcqs[mcq][0].explaination +
           "</p>"
       );
-      document.write("</div>");
+      document.write("</div></div>");
       count++;
     } else {
       console.log("false");
