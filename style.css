@@ -1,0 +1,142 @@
+:root {
+  --blue: #264b96;
+  --blue-1: #264b96;
+  --blue-2: #264b96a4;
+  --blue-3: #264b965a;
+  --light-green: #27b376;
+  --green: #006f3c;
+  --yellow: #f9a73e;
+  --yellow-4: rgba(249, 168, 62, 0.4);
+  --red: #bf212f;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  position: relative;
+}
+
+.mcq {
+  color: rgb(221, 221, 221);
+  display: block;
+  margin: 1.5rem 1rem;
+  padding: 1rem 2rem;
+  background: linear-gradient(90deg, var(--blue-1),  var(--light-green));
+}
+
+.mcq * ~  * {
+  margin-top: 1rem;
+}
+
+
+.mcq .question_container {
+  background: linear-gradient(to bottom right, #ffc100, #ff9a00,  	#ff7400,  	#ff4d00, #ff0000);
+  width: 100%;
+  height: 100%;
+
+  font-size: 1.2rem;
+  font-weight: 900;
+
+
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+
+
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  background-size: 200% 200%;
+  animation: gradient 2s linear infinite;
+
+  animation-direction: alternate-reverse;
+}
+
+
+.options {
+  background-color: rgba(128, 128, 128, 0.342);
+  padding: 1.5rem 3rem;
+}
+
+.options input {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  opacity: 0;
+  cursor: pointer;
+ 
+}
+
+.option {
+  position: relative;
+}
+
+.options p {
+  padding: 0.8rem 1.2rem;
+  border-radius: 20px;
+}
+
+
+
+.option input:checked ~ p  {
+  font-weight: 900;
+  background-color: var(--yellow-4);
+  border: 3px solid var(--yellow);
+} 
+
+#showMarks{
+
+  font-size: 1.25rem;
+
+  border-style: none;
+  background-color: var(--yellow);
+
+  position: fixed;
+  width: 150px;
+  height: 50px;
+  top: 20px;
+  right: 20px;
+
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+#showMarks:hover {
+  color: wheat;
+  background-color: var(--blue);
+}
+
+.showbutton {
+  font-size: 1.25rem;
+  border-style: none;
+  background-color: var(--light-green);
+  width: 150px;
+  height:50px;
+  transition: 0.1s;
+  cursor: pointer;
+
+}
+/* Animations  */
+
+
+@keyframes gradient {
+  0% {
+    background-position:100% 100%; /*OR bottom right*/
+  }
+
+  100% {
+    background-position:0 0; /*OR top left*/
+  }
+}
