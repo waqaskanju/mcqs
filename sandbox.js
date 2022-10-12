@@ -1,3 +1,11 @@
+var My_marks=0;
+
+function show_marks()
+{
+
+  alert(My_marks);
+}
+
 // This function toggle the answer button to show or hide answer.
 function showAnswer(abc) {
   var x = document.getElementById("description" + abc);
@@ -8,16 +16,34 @@ function showAnswer(abc) {
   }
 }
 
+function calculateMarks(currentelement,increment_value){
+
+ // let marks=0;
+  let mcqs=[];
+
+  if(mcqs.includes(currentelement)){
+  }
+  else{
+    mcqs.push(currentelement);
+    My_marks=My_marks+increment_value;
+  }
+
+}
+
 function handleChange(id){
-  
+ 
+
   // this will extrackt number only from the given id. 
    let matches = id.match(/(\d+)/);
+
+   let only_match =matches[0];
+
    // create id to select the answer
- let new_id =  matches[0]+'ans';
+ let new_id_ans =  matches[0]+'ans';
  // select div of full question
  let new_id_q='q'+matches[0];
 
-let answerText = document.getElementById(new_id);
+let answerText = document.getElementById(new_id_ans);
 let answerTextValue=answerText.innerText[8];
 
 
@@ -31,10 +57,12 @@ currentValue=document.getElementById(id).value;
 
 if(currentValue==answerTextValue){
 
+  calculateMarks(only_match,1);
   id_q.style.backgroundColor ='#3ec700';
 
 }
 else {
+   calculateMarks(only_match,0);
   id_q.style.backgroundColor ="#e7b5b5";
 }
 
