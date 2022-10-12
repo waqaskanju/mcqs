@@ -10,12 +10,14 @@
 </head>
 <body>
     <script>
-     let url_params = get_url_values();
+       // Call to get url parameters.
+       let url_params = get_url_values();
+       //  get subject.
        let subject = url_params.subject;
+       // get chapter
        let chapter = url_params.chapter;
-       console.log(chapter);
-       console.log(subject);
+
         show_data(mcqs,subject,chapter);
-      </script>
+    </script>
 </body>
 </html>

@@ -1,10 +1,22 @@
+// Subject Names to use
+
+// Programming Fundamentals => PF
+// Object Oriented Programming =>OOP
+// Data Structures and Algorithms =>DSA
+// Discrete Structures =>DS
+// Operating Systems => OS
+// Database Systems =>DBS
+// Software Engineering=>SE
+// Computer Networks=>CN
+// Information Security=>IS
+
 // Data for Links.
 
 const mcqs = {
     mcq1: [
         {
           id:"1",
-          subject_name: "o system",
+          subject_name: "os",
           chapter_name: "abc",
           question: "What is Operating System",
           option_one: "A program",
