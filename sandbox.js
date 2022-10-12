@@ -10,10 +10,8 @@ function showFunction(abc) {
   const show_data = (mcqs, subject = "none", chapter = "none") => {
     let count = 1;
     for (mcq in mcqs) {
-      if (
-        mcqs[mcq][0].subject_name == subject &&
-        mcqs[mcq][0].chapter_name == chapter
-      ) {
+      if( (mcqs[mcq][0].subject_name == subject && mcqs[mcq][0].chapter_name == chapter) || (mcqs[mcq][0].subject_name == subject && chapter == "all")) 
+      {
         document.write(
           "<p class='question'>  Question " +
             count +
