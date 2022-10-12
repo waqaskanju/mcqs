@@ -65,7 +65,7 @@ const show_data = (mcqs, subject = "none", chapter = "none") => {
         "<p class='answer'> Answer:" + mcqs[mcq][0].answer + "</p>"
       );
       document.write(
-        "<p class='description'> Description" +
+        "<p class='description'> Description: " +
           mcqs[mcq][0].explaination +
           "</p>"
       );
