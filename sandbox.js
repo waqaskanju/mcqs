@@ -8,6 +8,39 @@ function showAnswer(abc) {
   }
 }
 
+function handleChange(id){
+  
+  // this will extrackt number only from the given id. 
+   let matches = id.match(/(\d+)/);
+   // create id to select the answer
+ let new_id =  matches[0]+'ans';
+ // select div of full question
+ let new_id_q='q'+matches[0];
+
+let answerText = document.getElementById(new_id);
+let answerTextValue=answerText.innerText[8];
+
+
+let id_q = document.getElementById(new_id_q);
+// as answer is the 8th digit select its value
+
+
+
+// select the current selection
+currentValue=document.getElementById(id).value;
+
+if(currentValue==answerTextValue){
+
+  id_q.style.backgroundColor ='#3ec700';
+
+}
+else {
+  id_q.style.backgroundColor ="#e7b5b5";
+}
+
+
+}
+
 // This function show mcqs
 
 const show_data = (mcqs, subject = "none", chapter = "none") => {
@@ -18,40 +51,41 @@ const show_data = (mcqs, subject = "none", chapter = "none") => {
         mcqs[mcq][0].chapter_name == chapter) ||
       (mcqs[mcq][0].subject_name == subject && chapter == "all")
     ) {
+
       document.write(
-        "<p class='question'>  Question " +
+        "<div id='q"+mcqs[mcq][0].id+"'><p class='question'>  Question " +
           count +
           ":" +
           mcqs[mcq][0].question +
-          "</p> "
+          " </p> "
       );
       document.write(
         "<p> <input type='radio' name='optionsof" +
           mcqs[mcq][0].id +
-          "'class='option_one'/> A: " +
+          "'class='option_one' value='A' id='"+mcqs[mcq][0].id+"A' onchange='handleChange(this.id)'/> A: " +
           mcqs[mcq][0].option_one +
-          "</p>"
+          " </p>"
       );
       document.write(
         "<p> <input type='radio' name='optionsof" +
           mcqs[mcq][0].id +
-          "'class='option_two'/> B: " +
+          "'class='option_two' value='B' id='"+mcqs[mcq][0].id+"B' onchange='handleChange(this.id)'/> B: " +
           mcqs[mcq][0].option_two +
-          "</p>"
+          "  </p>"
       );
       document.write(
         "<p> <input type='radio' name='optionsof" +
           mcqs[mcq][0].id +
-          "'class='option_three'/> C: " +
+          "'class='option_three' value='C' id='"+mcqs[mcq][0].id+"C' onchange='handleChange(this.id)'/> C: " +
           mcqs[mcq][0].option_three +
-          "</p>"
+          "  </p>"
       );
       document.write(
         "<p> <input type='radio' name='optionsof" +
           mcqs[mcq][0].id +
-          "'class='option_four'/> D: " +
+          "'class='option_four' value='D' id='"+mcqs[mcq][0].id+"D' onchange='handleChange(this.id)'/> D: " +
           mcqs[mcq][0].option_four +
-          "</p>"
+          " </p></div>"
       );
       document.write(
         "<button id='" +
@@ -62,7 +96,7 @@ const show_data = (mcqs, subject = "none", chapter = "none") => {
         "<div class='hidden' id='description" + mcqs[mcq][0].id + "'>"
       );
       document.write(
-        "<p class='answer'> Answer:" + mcqs[mcq][0].answer + "</p>"
+        "<p class='answer' id='"+mcqs[mcq][0].id+"ans'> Answer:" + mcqs[mcq][0].answer + "</p>"
       );
       document.write(
         "<p class='description'> Description: " +
