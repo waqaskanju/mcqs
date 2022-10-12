@@ -1,22 +1,10 @@
-// Subject Names to use
-
-// Programming Fundamentals => PF
-// Object Oriented Programming =>OOP
-// Data Structures and Algorithms =>DSA
-// Discrete Structures =>DS
-// Operating Systems => OS
-// Database Systems =>DBS
-// Software Engineering=>SE
-// Computer Networks=>CN
-// Information Security=>IS
-
 // Data for Links.
 
 const mcqs = {
   mcq1: [
     {
       id: "1",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: "The IETF standards documents are called ________",
       option_one: "RFC",
@@ -31,7 +19,7 @@ const mcqs = {
   mcq2: [
     {
       id: "2",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question:
         " In the layer hierarchy as the data packet moves from the upper to the lower layers, headers are ___________",
@@ -47,7 +35,7 @@ const mcqs = {
   mcq3: [
     {
       id: "3",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: "The structure or format of data is called ___________",
       option_one: "Syntax",
@@ -62,7 +50,7 @@ const mcqs = {
   mcq4: [
     {
       id: "4",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question:
         "Communication between a computer and a keyboard involves ______________ transmission",
@@ -77,7 +65,7 @@ const mcqs = {
   mcq5: [
     {
       id: "5",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: "The first Network was called ________",
       option_one: "CNNET",
@@ -92,7 +80,7 @@ const mcqs = {
   mcq6: [
     {
       id: "6",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: "A _______ is the physical path over which a message travels.",
       option_one: "Path",
@@ -106,7 +94,7 @@ const mcqs = {
   mcq7: [
     {
       id: "7",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question:
         "Which organization has authority over interstate and international commerce in the communications field?",
@@ -123,7 +111,7 @@ const mcqs = {
   mcq8: [
     {
       id: "8",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: "Which of this is not a network edge device?",
       option_one: "PC",
@@ -138,7 +126,7 @@ const mcqs = {
   mcq9: [
     {
       id: "9",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: "A _________ set of rules that governs data",
       option_one: "Protocol",
@@ -152,7 +140,7 @@ const mcqs = {
   mcq10: [
     {
       id: "10",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: "Three or more devices share a link in ________ connection.",
       option_one: "Uniport",
@@ -168,7 +156,7 @@ const mcqs = {
   mcq11: [
     {
       id: "11",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question:
         "When collection of various computers seems a single coherent system to its client, then it is called _________",
@@ -184,7 +172,7 @@ const mcqs = {
   mcq12: [
     {
       id: "12",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: "Two devices are in network if __________",
       option_one:
@@ -201,7 +189,7 @@ const mcqs = {
   mcq13: [
     {
       id: "13",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question:
         " Which of the following computer networks is built on the top of another network?",
@@ -218,7 +206,7 @@ const mcqs = {
   mcqx14: [
     {
       id: "14",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: " In computer network nodes are _________",
       option_one: "the computer that originates the data",
@@ -234,7 +222,7 @@ const mcqs = {
   mcq15: [
     {
       id: "15",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question:
         "Communication channel is shared by all the machines on the network in ________",
@@ -251,7 +239,7 @@ const mcqs = {
   mcq16: [
     {
       id: "16",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: "Bluetooth is an example of __________",
       option_one: "Personal Area Network",
@@ -266,7 +254,7 @@ const mcqs = {
   mcq17: [
     {
       id: "17",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question:
         "A __________ is a device that forwards packets between networks by processing the routing information included in the packet.",
@@ -282,7 +270,7 @@ const mcqs = {
   mcq18: [
     {
       id: "18",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question:
         " A list of protocols used by a system, one protocol per layer, is called ________",
@@ -298,7 +286,7 @@ const mcqs = {
   mcq19: [
     {
       id: "19",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: "Network congestion occurs _________",
       option_one: "In case of traffic overloading",
@@ -313,7 +301,7 @@ const mcqs = {
   mcq20: [
     {
       id: "20",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question:
         "Which of the following networks extends a private network across public networks?",
@@ -328,7 +316,7 @@ const mcqs = {
   mcq21: [
     {
       id: "21",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: "Which of this is not a constituent of residential telephone line?",
       option_one: "A high-speed downstream channel",
@@ -342,7 +330,7 @@ const mcqs = {
   mcq22: [
     {
       id: "22",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: "DSL telcos provide which of the following services?",
       option_one: "Wired Phone access",
@@ -356,7 +344,7 @@ const mcqs = {
   mcq23: [
     {
       id: "23",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: "The function of DSLAM is to __________",
       option_one: "Convert analog signals into digital signals",
@@ -370,7 +358,7 @@ const mcqs = {
   mcq24: [
     {
       id: "24",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: "Which of the following terms is not associated with DSL?",
       option_one: "DSLAM",
@@ -384,7 +372,7 @@ const mcqs = {
   mcq25: [
     {
       id: "25",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: "HFC contains _______",
       option_one: "Fibre Cable",
@@ -398,7 +386,7 @@ const mcqs = {
   mcq26: [
     {
       id: "26",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: "Which of the following statements is not applicable for cable internet access?",
       option_one: "It is a shared broadcast medium",
@@ -412,7 +400,7 @@ const mcqs = {
   mcq27: [
     {
       id: "27",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: "Among the optical-distribution architectures that are essentially switched ethernet is __________",
       option_one: "AON",
@@ -426,7 +414,7 @@ const mcqs = {
   mcq28: [
     {
       id: "28",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: "StarBand provides __________",
       option_one: "FTTH internet access",
@@ -440,7 +428,7 @@ const mcqs = {
   mcq29: [
     {
       id: "29",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: " Home Access is provided by __________",
       option_one: "DSL",
@@ -454,7 +442,7 @@ const mcqs = {
   mcq30: [
     {
       id: "30",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: "ONT is connected to splitter using _________",
       option_one: "High speed fibre cable",
@@ -468,7 +456,7 @@ const mcqs = {
   mcq31: [
     {
       id: "31",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: "Which of the following factors affect transmission rate in DSL?",
       option_one: "The gauge of the twisted-pair line",
@@ -482,7 +470,7 @@ const mcqs = {
   mcq32: [
     {
       id: "32",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: "How many layers are present in the Internet protocol stack (TCP/IP model)?",
       option_one: "5",
@@ -496,7 +484,7 @@ const mcqs = {
   mcq33: [
     {
       id: "33",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: "The number of layers in ISO OSI reference model is __________",
       option_one: "5",
@@ -510,7 +498,7 @@ const mcqs = {
   mcq34: [
     {
       id: "34",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: "Application layer is implemented in ____________",
       option_one: "End System",
@@ -524,7 +512,7 @@ const mcqs = {
   mcq35: [
     {
       id: "35",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: "Transport layer is implemented in ______________",
       option_one: "End System",
@@ -538,7 +526,7 @@ const mcqs = {
   mcq36: [
     {
       id: "36",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: "Which of the following layers is an addition to OSI model when compared with TCP IP model?",
       option_one: "Application Layer",
@@ -552,7 +540,7 @@ const mcqs = {
   mcq37: [
     {
       id: "37",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: "The functionalities of the presentation layer include ____________",
       option_one: "Data Compression",
@@ -566,7 +554,7 @@ const mcqs = {
   mcq38: [
     {
       id: "38",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: "Delimiting and synchronization of data exchange is provided by __________",
       option_one: "Application Layer",
@@ -580,7 +568,7 @@ const mcqs = {
   mcq39: [
     {
       id: "39",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: " In OSI model, when data is sent from device A to device B, the 5th layer to receive data at B is _________",
       option_one: "Application Layer",
@@ -594,7 +582,7 @@ const mcqs = {
   mcq40: [
     {
       id: "40",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: "In TCP IP Model, when data is sent from device A to device B, the 5th layer to receive data at B is ____________",
       option_one: "Application Layer",
@@ -608,7 +596,7 @@ const mcqs = {
   mcq41: [
     {
       id: "41",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: "In the OSI model, as a data packet moves from the lower to the upper layers, headers are _______",
       option_one: "Added",
@@ -622,7 +610,7 @@ const mcqs = {
   mcq42: [
     {
       id: "42",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: "OSI stands for",
       option_one: "operating system interface",
@@ -636,7 +624,7 @@ const mcqs = {
   mcq43: [
     {
       id: "43",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: "Which of the following statements can be associated with OSI model?",
       option_one: "A structured way to discuss and easier update system components",
@@ -650,7 +638,7 @@ const mcqs = {
   mcq44: [
     {
       id: "44",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: "Which layer is used to link the network support layers and user support layers?",
       option_one: "session layer",
@@ -664,7 +652,7 @@ const mcqs = {
   mcq45: [
     {
       id: "45",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: "Which address is used on the internet for employing the TCP/IP protocols?",
       option_one: "Physical address and logical address",
@@ -678,7 +666,7 @@ const mcqs = {
   mcq46: [
     {
       id: "46",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: "TCP/IP model was developed _____ the OSI model.",
       option_one: "prior to",
@@ -692,7 +680,7 @@ const mcqs = {
   mcq47: [
     {
       id: "47",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: "Which layer is responsible for process to process delivery in a general network model?",
       option_one: "Transport layer",
@@ -706,7 +694,7 @@ const mcqs = {
   mcq48: [
     {
       id: "48",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: "Which address is used to identify a process on a host by the transport layer?",
       option_one: "Physical address",
@@ -720,7 +708,7 @@ const mcqs = {
   mcq49: [
     {
       id: "49",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: "Which layer provides the services to user?",
       option_one: "Application layer",
@@ -734,7 +722,7 @@ const mcqs = {
   mcq50: [
     {
       id: "50",
-      subject_name: "cn",
+      subject_name: "CN",
       chapter_name: "Introduction",
       question: "Transmission data rate is decided by ____________",
       option_one: "transport",

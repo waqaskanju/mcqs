@@ -12,45 +12,24 @@
 </head>
 
 <body>
-    <table border="1">
-        <tr>
-            <th> Subject Names to use </th>
-        </tr>
-        <tr>
-            <td> Programming Fundamentals => PF </td>
-        </tr>
-        <tr>
-            <td> Object Oriented Programming =>OOP</td>
-        </tr>
-        <tr>
-            <td> Data Structures and Algorithms =>DSA</td>
-        </tr>
-        <tr>
-            <td> Discrete Structures =>DS</td>
-        </tr>
-        <tr>
-            <td> Operating Systems => OS</td>
-        </tr>
-        <tr>
-            <td> Database Systems =>DBS</td>
-        </tr>
-        <tr>
-            <td> Software Engineering=>SE</td>
-        </tr>
-        <tr>
-            <td> Computer Networks=>CN</td>
-        </tr>
-        <tr>
-            <td> Information Security=>IS</td>
-        </tr>
-    </table>
-
     <script>
+        const abbrv = {
+            PF: "Programming Fundamentals",
+            OOP: "Object Oriented Programming",
+            DSA: "Data Structures and Algorithms",
+            OS: "Operating Systems",
+            DBS: "Database Systems",
+            SE: "Software Engineering",
+            CN : "Computer Networks",
+            IS : "Information Security"
+        }
+
+    
         let length = 0;
         for (subject in subjects) {
             for (chapter in subjects[subject]) {
                 length = subjects[subject].chapters.length;
-                document.write('<h2>' + subject + '</h2>');
+                document.write('<h2>' + abbrv[subject] + '</h2>');
                 for (let i = 0; i < length; i++) {
                     document.write('<p><a href="showmcqs.html?subject=' + subject + '&chapter=' + subjects[subject].chapters[i].name + '">' + subjects[subject].chapters[i].name + '</a></p>');
                 }

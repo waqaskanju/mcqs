@@ -13,7 +13,7 @@
 // Data for Links.
 
 const subjects = {
-    ob : {
+    OS : {
     chapters:[
         {
         id : '1',
@@ -21,12 +21,12 @@ const subjects = {
         },
         {
         id : '2',
-        name :'abcd',
+        name :'Process',
         }
     ]
 
     },
-    cn : {
+    CN : {
         chapters:[
             {
             id : '1',
