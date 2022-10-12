@@ -10,7 +10,7 @@ function show_marks()
 // This function toggle the answer button to show or hide answer.
 function showAnswer(abc) {
   var x = document.getElementById("description" + abc);
-  if (x.style.display === "none") {
+  if (x.style.display !== "block") {
     x.style.display = "block";
   } else {
     x.style.display = "none";
@@ -59,6 +59,7 @@ currentValue=document.getElementById(id).value;
 if(currentValue==answerTextValue){
 
   calculateMarks(only_match,1);
+  console.log(id_q);
   id_q.style.backgroundColor ='#3ec700';
 
 }
@@ -88,36 +89,39 @@ const show_data = (mcqs, subject = "none", chapter = "none") => {
           mcqs[mcq][0].question +
           " </p> </div>"
       );
+
+      document.write("<div class='options'> ");
+
       document.write(
-        "<div class='options'><p> <input type='radio' name='optionsof" +
-          mcqs[mcq][0].id +
-          "'class='option_one' value='A' id='"+mcqs[mcq][0].id+"A' onchange='handleChange(this.id)'/> A: " +
+        " <div class='option'> <input type='radio' name='optionsof" +
+        mcqs[mcq][0].id +
+        "'class='option_one' value='A' id='"+mcqs[mcq][0].id+"A' onchange='handleChange(this.id)'/>  <p>  A: " +
           mcqs[mcq][0].option_one +
-          " </p>"
+          " </p> </div>"
       );
       document.write(
-        "<p> <input type='radio' name='optionsof" +
-          mcqs[mcq][0].id +
-          "'class='option_two' value='B' id='"+mcqs[mcq][0].id+"B' onchange='handleChange(this.id)'/> B: " +
+        " <div class='option'> <input type='radio' name='optionsof" +
+        mcqs[mcq][0].id +
+        "'class='option_two' value='B' id='"+mcqs[mcq][0].id+"B' onchange='handleChange(this.id)'/>  <p>  B: " +
           mcqs[mcq][0].option_two +
-          "  </p>"
+          " </p> </div>"
       );
       document.write(
-        "<p> <input type='radio' name='optionsof" +
-          mcqs[mcq][0].id +
-          "'class='option_three' value='C' id='"+mcqs[mcq][0].id+"C' onchange='handleChange(this.id)'/> C: " +
+        " <div class='option'> <input type='radio' name='optionsof" +
+        mcqs[mcq][0].id +
+        "'class='option_three' value='C' id='"+mcqs[mcq][0].id+"C' onchange='handleChange(this.id)'/>  <p>  C: " +
           mcqs[mcq][0].option_three +
-          "  </p>"
+          " </p> </div>"
       );
       document.write(
-        "<p> <input type='radio' name='optionsof" +
-          mcqs[mcq][0].id +
-          "'class='option_four' value='D' id='"+mcqs[mcq][0].id+"D' onchange='handleChange(this.id)'/> D: " +
+        " <div class='option'> <input type='radio' name='optionsof" +
+        mcqs[mcq][0].id +
+        "'class='option_four' value='D' id='"+mcqs[mcq][0].id+"D' onchange='handleChange(this.id)'/>  <p>  D: " +
           mcqs[mcq][0].option_four +
-          " </p></div> "
+          " </p> </div>"
       );
       document.write(
-        "<button id='" +
+        "<button class='showbutton' id='" +
           mcqs[mcq][0].id +
           "' onclick='showAnswer(this.id)'> Show Answer </button>"
       );
@@ -132,7 +136,7 @@ const show_data = (mcqs, subject = "none", chapter = "none") => {
           mcqs[mcq][0].explaination +
           "</p>"
       );
-      document.write("</div></div>");
+      document.write("</div></div></div>");
       count++;
     } else {
       console.log("false");
