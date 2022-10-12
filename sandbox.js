@@ -1,9 +1,10 @@
 var My_marks=0;
+var count=1;
 
 function show_marks()
 {
 
-  alert(My_marks);
+  alert(My_marks +' out of ' + (count-1));
 }
 
 // This function toggle the answer button to show or hide answer.
@@ -72,7 +73,7 @@ else {
 // This function show mcqs
 
 const show_data = (mcqs, subject = "none", chapter = "none") => {
-  let count = 1;
+  // let count = 1;
   for (mcq in mcqs) {
     if (
       (mcqs[mcq][0].subject_name == subject &&
