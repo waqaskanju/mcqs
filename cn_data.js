@@ -1,6 +1,5 @@
 // Data for Links.
-
-const mcqs = {
+ MCQS = {
   mcq1: [
     {
       id: "1",
