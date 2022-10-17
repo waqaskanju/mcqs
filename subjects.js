@@ -42,5 +42,18 @@ const subjects = {
             }
         ]
 
+    },
+    DSA : {
+        chapters:[
+            {
+            id : '1',
+            name :'Introduction',
+            },
+            {
+            id : '2',
+            name :'Graph',
+            },
+        ]
+
     }
 };
