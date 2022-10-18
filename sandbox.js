@@ -73,7 +73,7 @@ function handleChange(id) {
 }
 
 // This function show mcqs
-const show_data = (mcqs, subject = "none", chapter = "none") => {
+const show_data = (mcqs, subject, chapter) => {
   // let count = 1;
   for (mcq in mcqs) {
     if (
