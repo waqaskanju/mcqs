@@ -5,13 +5,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
     <script src="subjects.js" />
     </script>
-    <title>Document</title>
+    <title>Chapter Selection</title>
 </head>
 
 <body>
+    <h1 class="glowing-text">Select Your Favorite Chapter</h1>
     <script>
         const abbrv = {
             PF: "Programming Fundamentals",
@@ -28,15 +31,19 @@
 
 
         let length = 0;
+        document.write('<div class="container">');
         for (subject in subjects) {
             for (chapter in subjects[subject]) {
                 length = subjects[subject].chapters.length;
-                document.write('<h2>' + abbrv[subject] + '</h2>');
+                document.write('<div class="subject">');
+                document.write('<h2 class="">' + abbrv[subject] + '</h2>');
                 for (let i = 0; i < length; i++) {
                     document.write('<p><a href="showmcqs.html?subject=' + subject + '&chapter=' + subjects[subject].chapters[i].name + '">' + subjects[subject].chapters[i].name + '</a></p>');
                 }
+            document.write('</div>')
             }
         }
+        document.write('</div>');
     </script>
 </body>
 
