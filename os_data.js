@@ -1,4 +1,4 @@
-const MCQS = {
+ const OS_MCQS = {
     mcq1: [
       {
         id: "1",
@@ -139,4 +139,132 @@ const MCQS = {
           explanation: ""
             },
       ],
-}
+      mcq100: [
+        {
+          id: "100",
+          subject_name: "OS",
+          chapter_name: "CPU Scheduling",
+          question: "Which module gives control of the CPU to the process selected by the short-term scheduler?",
+          option_one: "dispatcher",
+          option_two: "interrupt",
+          option_three: "scheduler",
+          option_four: "none of the mentioned",
+          answer: "A",
+          explanation: ""
+            },
+      ],
+      mcq101: [
+        {
+          id: "",
+          subject_name: "OS",
+          chapter_name: "CPU Scheduling",
+          question: "The processes that are residing in main memory and are ready and waiting to execute are kept on a list called _____________",
+          option_one: "job queue",
+          option_two: "ready queue",
+          option_three: "execution queue",
+          option_four: "process queue",
+          answer: "B",
+          explanation: ""
+            },
+      ],
+      mcq102: [
+        {
+          id: "102",
+          subject_name: "OS",
+          chapter_name: "CPU Scheduling",
+          question: "The processes that are residing in main memory and are ready and waiting to execute are kept on a list called _____________",
+          option_one: "job queue",
+          option_two: "ready queue",
+          option_three: "execution queue",
+          option_four: "process queue",
+          answer: "B",
+          explanation: ""
+            },
+      ],
+      mcq103: [
+        {
+          id: "",
+          subject_name: "OS",
+          chapter_name: "CPU Scheduling",
+          question: "The interval from the time of submission of a process to the time of completion is termed as ____________",
+          option_one: "waiting time",
+          option_two: "turnaround time",
+          option_three: "response time",
+          option_four: "throughput",
+          answer: "B",
+          explanation: ""
+            },
+      ],
+
+      mcq104: [
+        {
+          id: "",
+          subject_name: "OS",
+          chapter_name: "CPU Scheduling",
+          question: "Which scheduling algorithm allocates the CPU first to the process that requests the CPU first?",
+          option_one: "first-come, first-served scheduling",
+          option_two: "shortest job scheduling",
+          option_three: "priority scheduling",
+          option_four: "none of the mentioned",
+          answer: "A",
+          explanation: ""
+            },
+      ],
+      mcq105: [
+        {
+          id: "105",
+          subject_name: "OS",
+          chapter_name: "CPU Scheduling",
+          question: " In priority scheduling algorithm ____________",
+          option_one: "CPU is allocated to the process with highest priority",
+          option_two: "CPU is allocated to the process with lowest priority",
+          option_three: "Equal priority processes can not be scheduled",
+          option_four: "None of the mentioned",
+          answer: "A",
+          explanation: ""
+            },
+      ],
+      mcq106: [
+        {
+          id: "106",
+          subject_name: "OS",
+          chapter_name: "CPU Scheduling",
+          question: "In priority scheduling algorithm, when a process arrives at the ready queue, its priority is compared with the priority of ____________",
+          option_one: "currently running process",
+          option_two: "parent process",
+          option_three: "init process",
+          option_four: "all process",
+          answer: "A",
+          explanation: ""
+            },
+      ],
+      mcq107: [
+        {
+          id: "107",
+          subject_name: "OS",
+          chapter_name: "CPU Scheduling",
+          question: "Which algorithm is defined in Time quantum?",
+          option_one: "shortest job scheduling algorithm",
+          option_two: "round robin scheduling algorithm",
+          option_three: "priority scheduling algorithm",
+          option_four: "multilevel queue scheduling algorithm",
+          answer: "B",
+          explanation: ""
+            },
+      ],
+      mcq108: [
+        {
+          id: "108",
+          subject_name: "OS",
+          chapter_name: "CPU Scheduling",
+          question: "Process are classified into different groups in ____________",
+          option_one: "shortest job scheduling algorithm",
+          option_two: "round robin scheduling algorithm",
+          option_three: "priority scheduling algorithm",
+          option_four: "multilevel queue scheduling algorithm",
+          answer: "B",
+          explanation: ""
+            },
+      ],
+    }
+

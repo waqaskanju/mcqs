@@ -1,5 +1,5 @@
 // Data for Links.
- MCQS = {
+ var CN_MCQS = {
   mcq1: [
     {
       id: "1",
@@ -733,3 +733,5 @@
     },
   ],
 };
+
+
