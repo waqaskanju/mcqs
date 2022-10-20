@@ -86,7 +86,7 @@ const show_data = (mcqs, subject = "none", chapter = "none") => {
           mcqs[mcq][0].id +
           "'><div class='question_container'>  <p class='question'>  Question " +
           count +
-          ":" +
+          " : " +
           mcqs[mcq][0].question +
           " </p> </div>"
       );
