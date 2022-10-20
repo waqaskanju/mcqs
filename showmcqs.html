@@ -24,9 +24,11 @@
     <script>
        // Call to get url parameters.
        let url_params = get_url_values();
-       //  get subject.
+
+       //  get subject form url parameter.
        let subject = url_params.subject;
-       // get chapter
+       
+       // get chapter form url parameter.
        let chapter = url_params.chapter;
 
        if(subject=="CN")
@@ -40,7 +42,7 @@
        else if (subject=="CPP")
        show_data(OS_MCQS,subject,chapter);
        else
-       console.log('nothing mentioned');
+       console.log('no subject mentioned');
     </script>
     <br>
     <button id="showMarks" onclick="show_marks()"> Show Marks </button>

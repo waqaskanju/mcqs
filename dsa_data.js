@@ -54,7 +54,7 @@ const DSA_MCQS = {
           option_two: " (n*(n-1))/2",
           option_three: "n",
           option_four: "insufficient information",
-          answer: "",
+          answer: "B",
           explanation:
             "",
         },

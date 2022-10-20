@@ -1,18 +1,6 @@
-// Subject Names to use
-
-// Programming Fundamentals => PF
-// Object Oriented Programming =>OOP
-// Data Structures and Algorithms =>DSA
-// Discrete Structures =>DS
-// Operating Systems => OS
-// Database Systems =>DBS
-// Software Engineering=>SE
-// Computer Networks=>CN
-// Information Security=>IS
-
-// Data for Links.
-
+// This file contain subject and chapter names.
 const subjects = {
+    // Operating Systems
     OS : {
     chapters:[
         {
@@ -30,6 +18,7 @@ const subjects = {
     ]
 
     },
+    // Computer Networks.
     CN : {
         chapters:[
             {
@@ -47,6 +36,7 @@ const subjects = {
         ]
 
     },
+    // Data Structure and algorithums
     DSA : {
         chapters:[
             {
@@ -61,6 +51,8 @@ const subjects = {
 
     },
 
+    // C++
+
     CPP : {
        chapters: [
         {
@@ -70,6 +62,7 @@ const subjects = {
     }
        ]
     },
+    // C Programming.
     CP : {
         chapters: [
          {

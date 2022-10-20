@@ -4,7 +4,7 @@ var count = 1;
 // This function will show marks when the button is clicked
 const show_marks = () => alert(My_marks + " out of " + (count - 1));
 
-// This function toggle the answer button to show or hide answer.
+// This function toggle the answer button to show or hide answer and description.
 const showAnswer = (abc) => {
   let x = document.getElementById("description" + abc);
   if (x.style.display !== "block") {
@@ -32,14 +32,13 @@ function handleChange(id) {
   // for example 2A will return 2
   let matches = id.match(/(\d+)/);
 
-  //because it return an array we need
+  //because it return an array we need it 0 index value.
   let only_match = matches[0];
 
-  // create id to select the answer
   // Create an id for selection of answer.
   let new_id_ans = matches[0] + "ans";
 
-  // select div of full question
+  
   // create id for question
   let new_id_q = "q" + matches[0];
 
