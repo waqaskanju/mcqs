@@ -1,0 +1,19 @@
+mcqx: [
+        {
+          id: "",
+          subject_name: "CP",
+          chapter_name: "Programming with C",
+          question: "",
+          option_one: "",
+          option_two: "",
+          option_three: "",
+          option_four: "",
+          answer: "",
+          explanation: ""
+            },
+      ],
+
+
+      // Add subject and chapter in subjects.js file
+      // Add a file to store mcqs
+      // Add it in the header and if statment in showmcqs file.s

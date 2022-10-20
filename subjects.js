@@ -22,7 +22,11 @@ const subjects = {
         {
         id : '2',
         name :'Process',
-        }
+        },
+        {
+            id : '3',
+            name :'CPU Scheduling',
+            }
     ]
 
     },
@@ -55,5 +59,24 @@ const subjects = {
             },
         ]
 
+    },
+
+    CPP : {
+       chapters: [
+        {
+        id: "1",
+        name: 'Introduction'
+
     }
+       ]
+    },
+    CP : {
+        chapters: [
+         {
+         id: "1",
+         name: 'Programming with C'
+
+     }
+        ]
+     }
 };

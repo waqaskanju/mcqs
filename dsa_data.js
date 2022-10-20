@@ -1,4 +1,4 @@
-MCQS = {
+const DSA_MCQS = {
     mcq1: [
       {
         id: "1",

@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Permanent+Marker&display=swap');
+body {
+  background-image: linear-gradient(
+    to left top,
+    #06283d,
+    #0b344a,
+    #114158,
+    #174e65,
+    #1d5b73,
+    #1f6782,
+    #227392,
+    #247fa2,
+    #268db8,
+    #2d9ad0,
+    #38a8e7,
+    #47b5ff
+  );
+}
+
+.container{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+h1{
+  margin: 2rem;
+}
+h2 {
+  color: tomato;
+  font-size: 1.25rem;
+  font-family: 'Permanent Marker', cursive;
+}
+
+
+.glowing-text {
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glowing-text 1s ease-in-out infinite alternate;
+  -moz-animation: glowing-text 1s ease-in-out infinite alternate;
+  animation: glowing-text 1s ease-in-out infinite alternate;
+}
+
+
+.subject{
+  border-radius: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+  min-height: 30vh;
+  max-width: 33vw;
+}
+
+.subject p {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  position: relative;
+  z-index: 5;
+
+  overflow: hidden;
+}
+
+
+.subject p::after{
+  transition: all 0.5s;
+
+  content: "";
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 150%;
+  height: 150%;
+  z-index: -1;
+
+  transform:  skewX(45deg) translateX(50rem);
+
+  background-image: linear-gradient(to right, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+
+.subject p:hover::after{
+  transform:  skewX(0deg) translateX(0rem);
+}
+
+
+.subject p  a{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+}
+
+ h2
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #ff6a00 0%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 1.25rem;
+}
+
+
+@keyframes glowing-text{
+0% {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #2e00e6, 0 0 40px #6300e6, 0 0 50px #c300e6, 0 0 60px #e200e6, 0 0 70px #e600ca;
+}
+  
+  100% {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+@-webkit-keyframes glowing-text {
+  0% {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #2e00e6, 0 0 40px #6300e6, 0 0 50px #c300e6, 0 0 60px #e200e6, 0 0 70px #e600ca;
+}
+  
+  100% {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
