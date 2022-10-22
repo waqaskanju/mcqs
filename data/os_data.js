@@ -155,7 +155,7 @@
       ],
       mcq101: [
         {
-          id: "",
+          id: "101",
           subject_name: "OS",
           chapter_name: "CPU Scheduling",
           question: "The processes that are residing in main memory and are ready and waiting to execute are kept on a list called _____________",
@@ -167,23 +167,10 @@
           explanation: ""
             },
       ],
-      mcq102: [
-        {
-          id: "102",
-          subject_name: "OS",
-          chapter_name: "CPU Scheduling",
-          question: "The processes that are residing in main memory and are ready and waiting to execute are kept on a list called _____________",
-          option_one: "job queue",
-          option_two: "ready queue",
-          option_three: "execution queue",
-          option_four: "process queue",
-          answer: "B",
-          explanation: ""
-            },
-      ],
+    
       mcq103: [
         {
-          id: "",
+          id: "103",
           subject_name: "OS",
           chapter_name: "CPU Scheduling",
           question: "The interval from the time of submission of a process to the time of completion is termed as ____________",
@@ -198,7 +185,7 @@
 
       mcq104: [
         {
-          id: "",
+          id: "104",
           subject_name: "OS",
           chapter_name: "CPU Scheduling",
           question: "Which scheduling algorithm allocates the CPU first to the process that requests the CPU first?",
@@ -262,8 +249,8 @@
           option_two: "round robin scheduling algorithm",
           option_three: "priority scheduling algorithm",
           option_four: "multilevel queue scheduling algorithm",
-          answer: "B",
-          explanation: ""
+          answer: "D",
+          explanation: "The process is classified into different groups in a multilevel queue scheduling algorithm. The multilevel queue scheduling algorithm is not an independent scheduling algorithm. It makes use of executing algorithms, such as the Round Robin algorithm, FCFS, and so on to group and schedule the jobs with common characteristics."
             },
       ],
     }
