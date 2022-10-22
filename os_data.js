@@ -139,6 +139,544 @@
           explanation: ""
             },
       ],
+
+      mcq12: [
+        {
+          id: "12",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: "In operating system, each process has its own __________",
+          option_one: "Open files",
+          option_two: "pending alarms, signals, and signal handlers",
+          option_three: "address space and global variables",
+          option_four: " all of the mentioned",
+          answer: "D",
+          explanation: " each process has its own address space which contains code, data, stack, and heap segments or sections. Each process also has a list of files that is opened by the process as well as all pending alarms, signals, and various signal handlers."
+            },
+      ],
+
+      mcq13: [
+        {
+          id: "13",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: " In a timeshare operating system, when the time slot assigned to a process is completed, the process switches from the current state to?",
+          option_one: "Suspended State",
+          option_two: "Terminated state",
+          option_three: "Ready state",
+          option_four: "Blocked state",
+          answer: "C",
+          explanation: "In a time-sharing operating system, when the time slot given to a process is completed, the process goes from the running state to the Ready State. In a time-sharing operating system, unit time is defined for sharing CPU, it is called a time quantum or time slice. If a process takes less than 1 time quantum, then the process itself releases the CPU"
+            },
+      ],
+
+      mcq14: [
+        {
+          id: "14",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: "Cascading termination refers to the termination of all child processes if the parent process terminates ______",
+          option_one: "Normally",
+          option_two: "Abnormally",
+          option_three: "Normally or Abnormally",
+          option_four: "None of the mentioned",
+          answer: "C",
+          explanation: "Cascading termination refers to the termination of all child processes if the parent process terminates Normally or Abnormally. Some systems don’t allow child processes to exist if the parent process has terminated. Cascading termination is normally initiated by the operating system."
+            },
+      ],
+      mcq15: [
+        {
+          id: "15",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: "When a process is in a “Blocked” state waiting for some I/O service. When the service is completed, it goes to the __________",
+          option_one: "Terminated state",
+          option_two: "Suspended state",
+          option_three: "Running state",
+          option_four: "Ready State",
+          answer: "D",
+          explanation: " Suppose that a process is in “Blocked” state waiting for some I/O service. When the service is completed, it goes to the ready state. Process never goes directly to the running state from the waiting state. Only processes which are in ready state go to the running state whenever CPU allocated by operating system."
+            },
+      ],
+      mcq16: [
+        {
+          id: "16",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: "Transient operating system code is a code that ____________",
+          option_one: " stays in the memory always",
+          option_two: "never enters the memory space",
+          option_three: "comes and goes as needed",
+          option_four: "is not easily accessible",
+          answer: "C",
+          explanation: ""
+            },
+      ],
+      mcqx: [
+        {
+          id: "",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: "The portion of the process scheduler in an operating system that dispatches processes is concerned with ____________",
+          option_one: " assigning ready processes to waiting queue",
+          option_two: "assigning running processes to blocked queue",
+          option_three: "assigning ready processes to CPU",
+          option_four: "all of the mentioned",
+          answer: "",
+          explanation: ""
+            },
+      ],
+      mcqx: [
+        {
+          id: "",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: "",
+          option_one: "",
+          option_two: "",
+          option_three: "",
+          option_four: "",
+          answer: "",
+          explanation: ""
+            },
+      ],
+      mcqx: [
+        {
+          id: "",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: "",
+          option_one: "",
+          option_two: "",
+          option_three: "",
+          option_four: "",
+          answer: "",
+          explanation: ""
+            },
+      ],
+      mcqx: [
+        {
+          id: "",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: "",
+          option_one: "",
+          option_two: "",
+          option_three: "",
+          option_four: "",
+          answer: "",
+          explanation: ""
+            },
+      ],
+      mcqx: [
+        {
+          id: "",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: "",
+          option_one: "",
+          option_two: "",
+          option_three: "",
+          option_four: "",
+          answer: "",
+          explanation: ""
+            },
+      ],
+      mcqx: [
+        {
+          id: "",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: "",
+          option_one: "",
+          option_two: "",
+          option_three: "",
+          option_four: "",
+          answer: "",
+          explanation: ""
+            },
+      ],
+      mcqx: [
+        {
+          id: "",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: "",
+          option_one: "",
+          option_two: "",
+          option_three: "",
+          option_four: "",
+          answer: "",
+          explanation: ""
+            },
+      ],
+      mcqx: [
+        {
+          id: "",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: "",
+          option_one: "",
+          option_two: "",
+          option_three: "",
+          option_four: "",
+          answer: "",
+          explanation: ""
+            },
+      ],
+      mcqx: [
+        {
+          id: "",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: "",
+          option_one: "",
+          option_two: "",
+          option_three: "",
+          option_four: "",
+          answer: "",
+          explanation: ""
+            },
+      ],
+      mcqx: [
+        {
+          id: "",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: "",
+          option_one: "",
+          option_two: "",
+          option_three: "",
+          option_four: "",
+          answer: "",
+          explanation: ""
+            },
+      ],
+      mcqx: [
+        {
+          id: "",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: "",
+          option_one: "",
+          option_two: "",
+          option_three: "",
+          option_four: "",
+          answer: "",
+          explanation: ""
+            },
+      ],
+      mcqx: [
+        {
+          id: "",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: "",
+          option_one: "",
+          option_two: "",
+          option_three: "",
+          option_four: "",
+          answer: "",
+          explanation: ""
+            },
+      ],
+      mcqx: [
+        {
+          id: "",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: "",
+          option_one: "",
+          option_two: "",
+          option_three: "",
+          option_four: "",
+          answer: "",
+          explanation: ""
+            },
+      ],
+      mcqx: [
+        {
+          id: "",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: "",
+          option_one: "",
+          option_two: "",
+          option_three: "",
+          option_four: "",
+          answer: "",
+          explanation: ""
+            },
+      ],
+      mcqx: [
+        {
+          id: "",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: "",
+          option_one: "",
+          option_two: "",
+          option_three: "",
+          option_four: "",
+          answer: "",
+          explanation: ""
+            },
+      ],
+      mcqx: [
+        {
+          id: "",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: "",
+          option_one: "",
+          option_two: "",
+          option_three: "",
+          option_four: "",
+          answer: "",
+          explanation: ""
+            },
+      ],
+      mcqx: [
+        {
+          id: "",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: "",
+          option_one: "",
+          option_two: "",
+          option_three: "",
+          option_four: "",
+          answer: "",
+          explanation: ""
+            },
+      ],
+      mcqx: [
+        {
+          id: "",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: "",
+          option_one: "",
+          option_two: "",
+          option_three: "",
+          option_four: "",
+          answer: "",
+          explanation: ""
+            },
+      ],
+      mcqx: [
+        {
+          id: "",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: "",
+          option_one: "",
+          option_two: "",
+          option_three: "",
+          option_four: "",
+          answer: "",
+          explanation: ""
+            },
+      ],
+      mcqx: [
+        {
+          id: "",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: "",
+          option_one: "",
+          option_two: "",
+          option_three: "",
+          option_four: "",
+          answer: "",
+          explanation: ""
+            },
+      ],
+      mcqx: [
+        {
+          id: "",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: "",
+          option_one: "",
+          option_two: "",
+          option_three: "",
+          option_four: "",
+          answer: "",
+          explanation: ""
+            },
+      ],
+      mcqx: [
+        {
+          id: "",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: "",
+          option_one: "",
+          option_two: "",
+          option_three: "",
+          option_four: "",
+          answer: "",
+          explanation: ""
+            },
+      ],
+      mcqx: [
+        {
+          id: "",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: "",
+          option_one: "",
+          option_two: "",
+          option_three: "",
+          option_four: "",
+          answer: "",
+          explanation: ""
+            },
+      ],
+      mcqx: [
+        {
+          id: "",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: "",
+          option_one: "",
+          option_two: "",
+          option_three: "",
+          option_four: "",
+          answer: "",
+          explanation: ""
+            },
+      ],
+      mcqx: [
+        {
+          id: "",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: "",
+          option_one: "",
+          option_two: "",
+          option_three: "",
+          option_four: "",
+          answer: "",
+          explanation: ""
+            },
+      ],
+      mcqx: [
+        {
+          id: "",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: "",
+          option_one: "",
+          option_two: "",
+          option_three: "",
+          option_four: "",
+          answer: "",
+          explanation: ""
+            },
+      ],
+      mcqx: [
+        {
+          id: "",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: "",
+          option_one: "",
+          option_two: "",
+          option_three: "",
+          option_four: "",
+          answer: "",
+          explanation: ""
+            },
+      ],
+      mcqx: [
+        {
+          id: "",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: "",
+          option_one: "",
+          option_two: "",
+          option_three: "",
+          option_four: "",
+          answer: "",
+          explanation: ""
+            },
+      ],
+      mcqx: [
+        {
+          id: "",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: "",
+          option_one: "",
+          option_two: "",
+          option_three: "",
+          option_four: "",
+          answer: "",
+          explanation: ""
+            },
+      ],
+      mcqx: [
+        {
+          id: "",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: "",
+          option_one: "",
+          option_two: "",
+          option_three: "",
+          option_four: "",
+          answer: "",
+          explanation: ""
+            },
+      ],
+      mcqx: [
+        {
+          id: "",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: "",
+          option_one: "",
+          option_two: "",
+          option_three: "",
+          option_four: "",
+          answer: "",
+          explanation: ""
+            },
+      ],
+      mcqx: [
+        {
+          id: "",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: "",
+          option_one: "",
+          option_two: "",
+          option_three: "",
+          option_four: "",
+          answer: "",
+          explanation: ""
+            },
+      ],
+      mcqx: [
+        {
+          id: "",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: "",
+          option_one: "",
+          option_two: "",
+          option_three: "",
+          option_four: "",
+          answer: "",
+          explanation: ""
+            },
+      ],
+
+
+
       mcq100: [
         {
           id: "100",

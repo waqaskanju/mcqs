@@ -1,8 +1,8 @@
 mcqx: [
         {
           id: "",
-          subject_name: "CP",
-          chapter_name: "Programming with C",
+          subject_name: "OS",
+          chapter_name: "Introduction",
           question: "",
           option_one: "",
           option_two: "",
