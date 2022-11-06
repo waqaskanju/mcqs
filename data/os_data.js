@@ -139,7 +139,131 @@
           explanation: ""
             },
       ],
-      mcq100: [
+      mcq11: [
+        {
+          id: "11",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: "CPU scheduling is the basis of ___________",
+          option_one: "Multiprogramming operating systems",
+          option_two: "Larger memmory sized systems",
+          option_three: "Multiprocessing sytesms",
+          option_four: "none of the mentioned",
+          answer: "A",
+          explanation: ""
+            },
+      ],
+      mcq12: [
+        {
+          id: "12",
+          subject_name: "OS",
+          chapter_name: "Introduction",
+          question: "Where is the operating system placed in the memory?",
+          option_one: "either low or high memory (depending on the location of interrupt vector)",
+          option_two: "in the low memory",
+          option_three: "in high memory",
+          option_four: "none of the mentioned",
+          answer: "A",
+          explanation: ""
+            },
+          ],
+      mcq13: [{
+         id: '13',
+      subject_name: 'OS',
+      chapter_name: 'Introduction',
+      question: ' In operating system, each process has its own',
+      option_one: 'open files',
+      option_two: 'pending alarms, signals and signal handlers',
+      option_three: 'address space and global variables',
+      option_four: 'all of the mentioned',
+      answer: 'D',
+      explanation: ''
+      },],
+      mcq14: [{
+         id: '14',
+      subject_name: 'OS',
+      chapter_name: 'Introduction',
+      question: 'In a timeshare operating system, when the time slot assigned to a process is completed, the process switches from the current state to?',
+      option_one: 'Suspended state',
+      option_two: 'Terminated state',
+      option_three: 'Ready state',
+      option_four: 'Blocked state',
+      answer: 'C',
+      explanation: ''
+      },],
+      mcq15: [{
+         id: '15',
+      subject_name: 'OS',
+      chapter_name: 'Introduction',
+      question: 'Cascading termination refers to the termination of all child processes if the parent process terminates ______',
+      option_one: 'Normally or abnormally',
+      option_two: 'Abnormally',
+      option_three: 'Normally',
+      option_four: 'None of the mentioned',
+      answer: 'A',
+      explanation: 'Cascading termination refers to the termination of all child processes if the parent process terminates Normally or Abnormally. Some systems don’t allow child processes to exist if the parent process has terminated. Cascading termination is normally initiated by the operating system.'
+      },],
+      mcq16: [{
+         id: '16',
+      subject_name: 'OS',
+      chapter_name: 'Introduction',
+      question: 'When a process is in a “Blocked” state waiting for some I/O service. When the service is completed, it goes to then',
+      option_one: 'Terminated state',
+      option_two: 'Suspended state',
+      option_three: 'Running state',
+      option_four: 'Ready state',
+      answer: 'D',
+      explanation: ''
+      },],
+      mcq17: [{
+         id: '17',
+      subject_name: 'OS',
+      chapter_name: 'Introduction',
+      question: 'Transient operating system code is a code that',
+      option_one: 'always stays in memory',
+      option_two: 'never enter in memory space',
+      option_three: 'comes and goes as needed',
+      option_four: 'is not easily accessible',
+      answer: 'Answer',
+      explanation: 'C'
+      },],
+      mcq18: [{
+         id: '18',
+      subject_name: 'OS',
+      chapter_name: 'Introduction',
+      question: 'The portion of the process scheduler in an operating system that dispatches processes is concerned with',
+      option_one: 'assigning ready processes to waiting queue',
+      option_two: 'assigning running processes to blocked queue',
+      option_three: 'assigning ready processes to CPU',
+      option_four: 'None of the mentioned',
+      answer: 'C',
+      explanation: ''
+      },],
+      mcq19: [{
+         id: '19',
+      subject_name: 'OS',
+      chapter_name: 'Introduction',
+      question: 'The FCFS algorithm is particularly troublesome for ____________',
+      option_one: 'Operating sytem',
+      option_two: 'Multiprocessor systems',
+      option_three: 'Time sharing sytems',
+      option_four: 'Multiprogramming systems',
+      answer: 'C',
+      explanation: 'In a time sharing system, each user needs to get a share of the CPU at regular intervals.'
+      },],
+      mcq20: [{
+         id: '20',
+      subject_name: 'OS',
+      chapter_name: 'Introduction',
+      question: 'For an effective operating system, when to check for deadlock?',
+      option_one: ' every time a resource request is made at fixed time interval',
+      option_two: 'at fixed time intervals',
+      option_three: 'every time a resource request is made',
+      option_four: 'none of the mentioned',
+      answer: 'A',
+      explanation: ''
+      },],
+      mcq100: [,
         {
           id: "100",
           subject_name: "OS",

@@ -169,3 +169,15 @@ function get_url_values() {
   });
   return params;
 }
+mcq1: [{
+   id: '1',
+subject_name: 'OS',
+chapter_name: 'Introduction',
+question: '',
+option_one: '',
+option_two: '',
+option_three: '',
+option_four: '',
+answer: '',
+explanation: ''
+},]
