@@ -73,6 +73,7 @@ function handleChange(id) {
 
 // This function show mcqs
 const show_data = (mcqs, subject, chapter) => {
+  console.log(`in show data,  subject=${subject} chapter=${chapter}`)
   // let count = 1;
   for (mcq in mcqs) {
     if (
@@ -169,15 +170,3 @@ function get_url_values() {
   });
   return params;
 }
-mcq1: [{
-   id: '1',
-subject_name: 'OS',
-chapter_name: 'Introduction',
-question: '',
-option_one: '',
-option_two: '',
-option_three: '',
-option_four: '',
-answer: '',
-explanation: ''
-},]
