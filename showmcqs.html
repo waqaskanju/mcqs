@@ -27,10 +27,11 @@
 
        //  get subject form url parameter.
        let subject = url_params.subject;
+       console.log(subject);
        
        // get chapter form url parameter.
        let chapter = url_params.chapter;
-
+       console.log(chapter);
        if(subject=="CN")
        show_data(CN_MCQS,subject,chapter);
        else if (subject=="DSA")
@@ -40,7 +41,7 @@
        else if (subject=="CP")
        show_data(CP_MCQS,subject,chapter);
        else if (subject=="CPP")
-       show_data(OS_MCQS,subject,chapter);
+       show_data(CPP_MCQS,subject,chapter);
        else
        console.log('no subject mentioned');
     </script>
