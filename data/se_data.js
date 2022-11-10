@@ -1,0 +1,86 @@
+const SE_MCQS = {
+mcq1: [{
+   id: '2',
+subject_name: 'SE',
+chapter_name: 'Mcqs in CS',
+question: 'Software engineering primarily aims on developming',
+option_one: 'reliable software',
+option_two: 'cost effective software',
+option_three: 'reliable and cost effective software',
+option_four: 'None of the mentioned',
+answer: 'C',
+explanation: ''
+},],
+mcq2: [{
+   id: '2',
+subject_name: 'SE',
+chapter_name: 'Mcqs in CS',
+question: 'A good specification should be',
+option_one: 'unambiguous',
+option_two: 'distincly specific',
+option_three: 'functional',
+option_four: 'All of the mentioned',
+answer: 'D',
+explanation: ''
+},],
+mcq3: [{
+   id: '3',
+subject_name: 'SE',
+chapter_name: 'Mcqs in CS',
+question: 'Which of the following is a tool in design phase?',
+option_one: 'Abstraction',
+option_two: 'Refinement',
+option_three: 'Information hiding',
+option_four: 'All of the mentioned',
+answer: 'D',
+explanation: ''
+},],
+mcq4: [{
+   id: '4',
+subject_name: 'SE',
+chapter_name: 'Mcqs in CS',
+question: 'Information hiding is to hide from user, details',
+option_one: 'that are relevant to him',
+option_two: 'that are not relevant to him',
+option_three: 'thy may be maliciously handled by him',
+option_four: 'that are confidential',
+answer: 'C',
+explanation: ''
+},],
+mcq5: [{
+   id: '5',
+subject_name: 'SE',
+chapter_name: 'Mcqs in CS',
+question: 'Which of the following comments about object oriented design of software, is not true?',
+option_one: 'Objects inherit the properties of the class',
+option_two: 'Classes are defined based on the attributes of objects',
+option_three: 'An object can belong to two classes',
+option_four: 'Classes are always different',
+answer: 'C',
+explanation: ''
+},],
+mcq6: [{
+   id: '6',
+subject_name: 'SE',
+chapter_name: 'Mcqs in CS',
+question: 'Design phase includes',
+option_one: 'data, architectural and procedural desings only',
+option_two: 'architectural, procedural and interface desings only',
+option_three: 'data, architectural and interface desings only',
+option_four: 'data, architectural, interface and procedural designs',
+answer: 'D',
+explanation: ''
+},],
+mcq7 : [{
+   id: '7',
+subject_name: 'SE',
+chapter_name: 'Mcqs in CS',
+question: '<img src="./images/mcqsincsfig1.png"> <br> To completely write the program in FORTRON and rewrite the 1% code is assembly language, if a program team needs 13 days, the team consists of',
+option_one: '13 programmers',
+option_two: '10 programmers',
+option_three: '8 programmers',
+option_four: '100/13 programmers',
+answer: 'Answer',
+explanation: ''
+},],
+}

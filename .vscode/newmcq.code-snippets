@@ -1,9 +1,9 @@
 {
-	// Place your mcqs workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
-	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
-	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
-	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
-	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Place your mcqs workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders.
 	// Placeholders with the same ids are connected.
 	// Example:
 	 "Insert New Mcq": {
@@ -12,13 +12,13 @@
 	 	"body": [
 			"mcq${1:x}: [{",
 			"   id: '${1:x}',",
-			"subject_name: 'OS',",
-			"chapter_name: 'Process',",
+			"subject_name: 'SE',",
+			"chapter_name: 'Mcqs in CS',",
 			"question: '${3:Question}',",
-			"option_one: '${4:Option A}',",
-			"option_two: '${5:Option B}',",
-			"option_three: '${6:Option C}',",
-			"option_four: '${7:Option D}',",
+			"option_one: '${4:Option_A}',",
+			"option_two: '${5:Option_B}',",
+			"option_three: '${6:Option_C}',",
+			"option_four: '${7:Option_D}',",
 			"answer: '${8:Answer}',",
 			"explanation: ''",
 		"},],"

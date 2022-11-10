@@ -14,6 +14,8 @@
     <script src="data/cp_data.js"></script>
     <!-- C Plus Plus Programming  -->
     <script src="data/cpp_data.js"></script>
+    <!-- software engineering -->
+    <script src="data/se_data.js"></script>
 
     <script src="sandbox.js"></script>
     <title>Show Mcqs</title>
@@ -28,7 +30,7 @@
        //  get subject form url parameter.
        let subject = url_params.subject;
        console.log(subject);
-       
+
        // get chapter form url parameter.
        let chapter = url_params.chapter;
        console.log(chapter);
@@ -42,6 +44,8 @@
        show_data(CP_MCQS,subject,chapter);
        else if (subject=="CPP")
        show_data(CPP_MCQS,subject,chapter);
+       else if (subject=="SE")
+       show_data(SE_MCQS,subject,chapter);
        else
        console.log('no subject mentioned');
     </script>
