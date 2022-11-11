@@ -73,7 +73,6 @@ function handleChange(id) {
 
 // This function show mcqs
 const show_data = (mcqs, subject, chapter) => {
-  console.log(`in show data,  subject=${subject} chapter=${chapter}`)
   // let count = 1;
   for (mcq in mcqs) {
     if (
