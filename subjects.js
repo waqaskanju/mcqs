@@ -81,5 +81,14 @@ const subjects = {
 
      }
         ]
+     },
+     SE : {
+        chapters: [
+         {
+         id: "1",
+         name: 'Mcqs in CS'
+
+     }
+        ]
      }
 };
