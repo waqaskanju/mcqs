@@ -1641,9 +1641,9 @@ const OS_MCQS = {
         "Bounded capacity and Unbounded capacity queues are referred to as Automatic buffering. Buffer capacity of the Bounded capacity queue is finite length and buffer capacity of the Unbounded queue is infinite",
     },
   ],
-  mcq130: [
+  mcq109: [
     {
-      id: "130",
+      id: "109",
       subject_name: "OS",
       chapter_name: "CPU Scheduling",
       question:
@@ -1657,9 +1657,9 @@ const OS_MCQS = {
     },
   ],
 
-  mcq131: [
+  mcq110: [
     {
-      id: "131",
+      id: "110",
       subject_name: "OS",
       chapter_name: "CPU Scheduling",
       question:
@@ -1673,9 +1673,9 @@ const OS_MCQS = {
     },
   ],
 
-  mcq132: [
+  mcq111: [
     {
-      id: "132",
+      id: "111",
       subject_name: "OS",
       chapter_name: "CPU Scheduling",
       question:
@@ -1689,9 +1689,9 @@ const OS_MCQS = {
     },
   ],
 
-  mcq133: [
+  mcq112: [
     {
-      id: "133",
+      id: "112",
       subject_name: "OS",
       chapter_name: "CPU Scheduling",
       question:
@@ -1704,9 +1704,9 @@ const OS_MCQS = {
       explanation: "",
     },
   ],
-  mcq134: [
+  mcq113: [
     {
-      id: "134",
+      id: "113",
       subject_name: "OS",
       chapter_name: "CPU Scheduling",
       question: " In priority scheduling algorithm ____________",
@@ -1718,9 +1718,9 @@ const OS_MCQS = {
       explanation: "",
     },
   ],
-  mcq135: [
+  mcq114: [
     {
-      id: "135",
+      id: "114",
       subject_name: "OS",
       chapter_name: "CPU Scheduling",
       question:
@@ -1733,9 +1733,9 @@ const OS_MCQS = {
       explanation: "",
     },
   ],
-  mcq136: [
+  mcq115: [
     {
-      id: "136",
+      id: "115",
       subject_name: "OS",
       chapter_name: "CPU Scheduling",
       question: "Which algorithm is defined in Time quantum?",
@@ -1747,9 +1747,9 @@ const OS_MCQS = {
       explanation: "",
     },
   ],
-  mcq137: [
+  mcq116: [
     {
-      id: "137",
+      id: "116",
       subject_name: "OS",
       chapter_name: "CPU Scheduling",
       question: "Process are classified into different groups in ____________",

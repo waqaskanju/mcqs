@@ -12,7 +12,7 @@
 	 	"body": [
 			"mcq${1:x}: [{",
 			"   id: '${1:x}',",
-			"subject_name: 'SE',",
+			"subject_name: 'CN',",
 			"chapter_name: 'Mcqs in CS',",
 			"question: '${3:Question}',",
 			"option_one: '${4:Option_A}',",

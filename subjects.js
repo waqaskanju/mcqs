@@ -11,12 +11,12 @@ const subjects = {
         {
         id : '2',
         name :'Process',
-        totat: '0'
+        totat: '58'
         },
         {
             id : '3',
             name :'CPU Scheduling',
-            totat: '0'
+            totat: '8'
             }
     ]
 
@@ -27,7 +27,7 @@ const subjects = {
             {
             id : '1',
             name :'Introduction',
-            totat: '0'
+            totat: '50'
             },
             {
             id : '2',
@@ -38,7 +38,12 @@ const subjects = {
             id : '3',
             name :'Security and Physical Layer',
             totat: '0'
-            }
+            },
+            {
+                id : '4',
+                name :'Mcqs in CS',
+                totat: '10'
+                }
         ]
 
     },
@@ -53,7 +58,7 @@ const subjects = {
             {
             id : '2',
             name :'Graph',
-            totat: '0'
+            totat: '15'
             },
         ]
 
@@ -76,8 +81,8 @@ const subjects = {
         chapters: [
          {
          id: "1",
-         name: 'Programming with C',
-         totat: '0'
+         name: 'Mcqs in CS',
+         totat: '10'
 
      }
         ]

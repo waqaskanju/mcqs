@@ -3,7 +3,7 @@ const CP_MCQS = {
         {
           id: "1",
           subject_name: "CP",
-          chapter_name: "Programming with C",
+          chapter_name: "Mcqs in CS",
           question: "Choose the correct statment",
           option_one: "Use of <i> goto</i> enhances the logical clarity of a code",
           option_two: "Use of <i> goto</i> makes the debugging task easier",
@@ -17,7 +17,7 @@ const CP_MCQS = {
         {
           id: "2",
           subject_name: "CP",
-          chapter_name: "Programming with C",
+          chapter_name: "Mcqs in CS",
           question: "Which is true of conditional compliation?",
           option_one: "It is compiling a program based on a condition",
           option_two: "It is taken care of by the pre-processor",
@@ -31,7 +31,7 @@ const CP_MCQS = {
         {
           id: "3",
           subject_name: "CP",
-          chapter_name: "Programming with C",
+          chapter_name: "Mcqs in CS",
           question: "C was primarly developed as a",
           option_one: "systems programming language",
           option_two: "general purpose language",
@@ -45,7 +45,7 @@ const CP_MCQS = {
         {
           id: "4",
           subject_name: "CP",
-          chapter_name: "Programming with C",
+          chapter_name: "Mcqs in CS",
           question: "C is a",
           option_one: "high level language",
           option_two: "low level language",
@@ -59,7 +59,7 @@ const CP_MCQS = {
         {
           id: "5",
           subject_name: "CP",
-          chapter_name: "Programming with C",
+          chapter_name: "Mcqs in CS",
           question: "Even if a particular implementation does not limit the number of characters in an identifier, it is advisable to be consie because",
           option_one: "chances of typographic errors are less",
           option_two: "it may be processed by assembler, loader etc which may have their own rules that may contradict the language rules",
@@ -74,7 +74,7 @@ const CP_MCQS = {
         {
           id: "6",
           subject_name: "CP",
-          chapter_name: "Programming with C",
+          chapter_name: "Mcqs in CS",
           question: "The minimum number of temporary variables needed to swap the contents of two variables is",
           option_one: "1",
           option_two: "2",
@@ -88,7 +88,7 @@ const CP_MCQS = {
         {
           id: "7",
           subject_name: "CP",
-          chapter_name: "Programming with C",
+          chapter_name: "Mcqs in CS",
           question: "The purpose of the following program fragement <br> <img src='images/cp2.webp'> <br> where s,b are ingeters ",
           option_one: "transfer the content of s to b",
           option_two: "transfer the content of b to s",
@@ -102,7 +102,7 @@ const CP_MCQS = {
         {
           id: "8",
           subject_name: "CP",
-          chapter_name: "Programming with C",
+          chapter_name: "Mcqs in CS",
           question: "Let a,b be two non-negative integers. The call to find(a, find(a, b)) can be used to find. <img src='images/cp1.webp'>",
           option_one: "maximum of a, b",
           option_two: "positive difference of a, b",
@@ -116,7 +116,7 @@ const CP_MCQS = {
         {
           id: "9",
           subject_name: "CP",
-          chapter_name: "Programming with C",
+          chapter_name: "Mcqs in CS",
           question: "Let a,b be two non-negative integers. which of the following calls, finds the positive differernce of a and b",
           option_one: "find(a,b) + find(b,a)",
           option_two: "find(a, find(a,b))",
@@ -130,7 +130,7 @@ const CP_MCQS = {
         {
           id: "10",
           subject_name: "CP",
-          chapter_name: "Programming with C",
+          chapter_name: "Mcqs in CS",
           question: "If integer needs two bytes of storage, then maximum value of an unsigned integer is",
           option_one: "2<sup> 16</sup> - 1",
           option_two: "2<sup> 15</sup> - 1",
