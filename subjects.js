@@ -86,7 +86,8 @@ const subjects = {
         chapters: [
          {
          id: "1",
-         name: 'Mcqs in CS'
+         name: 'Mcqs in CS',
+         totat: '61'
 
      }
         ]
