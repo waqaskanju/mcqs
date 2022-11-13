@@ -31,8 +31,8 @@ const subjects = {
             },
             {
             id : '2',
-            name :'OSI MOdel',
-            totat: '0'
+            name :'OSI Model',
+            totat: '10'
             },
             {
             id : '3',
