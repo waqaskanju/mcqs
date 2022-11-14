@@ -686,7 +686,7 @@
       option_three: "Session layer",
       option_four: "Data link layer",
       answer: "A",
-      explanation: "The role of Transport layer (Layer 4) is to establish a logical end to end connection between two systems in a network. The protocols used in Transport layer is TCP and UDP. The transport layer is responsible for segmentation of the data. It uses ports for the implementation of process-to-process delivery",
+      explanation: "The role of Transport layer Layer 4 is to establish a logical end to end connection between two systems in a network. The protocols used in Transport layer is TCP and UDP. The transport layer is responsible for segmentation of the data. It uses ports for the implementation of process-to-process delivery",
     },
   ],
   mcq48: [
@@ -849,8 +849,550 @@
   option_three: 'Priority, non priority types come under master/slave protocol',
   option_four: 'TDM is a primary/secondary non priority system',
   answer: 'B',
+  explanation: 'Time-division multiplexing (TDM) is a method of putting multiple data streams in a single signal by separating the signal into many segments, each having a very short duration. Each individual data stream is reassembled at the receiving end based on the timing.'
+  },],
+  mcq61: [{
+     id: '61',
+  subject_name: 'CN',
+  chapter_name: 'Mcqs in CS',
+  question: 'Pick the correct statement',
+  option_one: 'A switched circuit is a dial-up circuit that may encounter blockage(busy signal)',
+  option_two: 'Non switched leased line supports higher data volume and quality than switch lines.',
+  option_three: 'Non swtiched lines are expensive for high volume data.',
+  option_four: 'Both A and B.',
+  answer: 'D',
   explanation: ''
   },],
+
+mcq62: [{
+   id: '62',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: 'Pick the incorrect statements that pertain to error retransmission used in countinuouus ARQ method',
+option_one: 'Go-back-N method requires more storage at the receiving site.',
+option_two: 'Selective Repeat involves complex login than Go-back-N and Selective Repeat has better line utilisation',
+option_three: 'Go-back-N has better line utilisation',
+option_four: 'Both A and C',
+answer: 'D',
+explanation: 'In Go-Back-N Protocol, if the sent frame are find suspected then all the frames are re-transmitted from the lost packet to the last packet transmitted. In selective Repeat protocol, only those frames are re-transmitted which are found suspected.'
+},],
+mcq63: [{
+   id: '63',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: 'In the carrier sense network if the prevailing condition is a channel busy then which of the following are correct? ',
+option_one: ' If the technique used is non-persistent then it results in randomised wait and sense. ',
+option_two: 'If the technique used is 1-persistent then the channel is continually sensed.',
+option_three: 'If the technique used is p-persistent then randomised retransmission is done. ',
+option_four: 'Both A and B',
+answer: 'D',
+explanation: 'Carrier sense network:This method was developed to decrease the chances of collisions when two or more stations start sending their signals over the data link layer. Carrier Sense multiple access requires that each station first check the state of the medium before sending.<br> <img src="images/persistent.png"> '
+},],
+mcq64: [{
+   id: '64',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: 'Which of the following are non-polling systems? ',
+option_one: 'TDMA',
+option_two: 'Stop and Wait, Continuous ARQ',
+option_three: 'Xon/Xoff',
+option_four: 'Both A and C',
+answer: 'D',
+explanation: 'pooling:A technique that continually interrogates a peripheral device to see if it has data to transfer.'
+},],
+mcq65: [{
+   id: '65',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: '.Pick the systems that can be used in both priority and non-priority modes. ',
+option_one: 'TDM,Register insertion ',
+option_two: ' Both C and D',
+option_three: 'Carrier sense systems ',
+option_four: 'Token passing',
+answer: 'B',
+explanation: ''
+},],
+mcq66: [{
+   id: '66',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: 'How many characters per sec (7 bits + 1 parity) can be transmitted over a 2400 bps line if the transfer is synchronous (1 start and 1 stop bit)? ',
+option_one: '300',
+option_two: '240',
+option_three: '250',
+option_four: '275',
+answer: 'A',
+explanation: 'Start and stop bit are not needed in synchronization mode. so 2400/8 =300'
+},],
+mcq67: [{
+   id: '67',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: 'Which one of the following network uses dynamic or adaptive routing? ',
+option_one: 'TYMNET',
+option_two: 'ARPANET',
+option_three: 'SNA (IBM system Network Architecture',
+option_four: 'None of the above',
+answer: 'B',
+explanation: ''
+},],
+mcq68: [{
+   id: '68',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: 'The number of cross point needed for 10 lines in a cross point switch which is full duplex in nature and there are no self connection is ',
+option_one: '100',
+option_two: '45',
+option_three: '50',
+option_four: '90',
+answer: 'B',
+explanation: 'The number of cross points required for n lines in cross point switch which is full duplex in nature is n*(n-1) / 2 for 10 lines it is (10 * 9)/2 = 45 cross points.'
+},],
+mcq69: [{
+   id: '69',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: 'A terminal multiplexer has six 1200 bps terminals and M’ 300 bps terminals connected to it. The outgoing line is 9600 bps. What is the maximum value of n? ',
+option_one: '4',
+option_two: '16',
+option_three: '8',
+option_four: '28',
+answer: 'C',
+explanation: 'Since there are six 1200bps terminals, 6*1200 + n*300 =9600 by solving this, n=8.'
+},],
+mcq70: [{
+   id: '70',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: 'The difference between a multiplexer and a statistical multiplexer is:',
+option_one: 'Multiplexers use TDM (time division multiplexing). while statistical multiplexer uses EOM (frequency division multiplexing).',
+option_two: 'Multiplexers often waste the output link capacity, while statistical multiplexers optimize its use. ',
+option_three: 'Statistical multiplexers need buffers while multiplexers do not need buffers. ',
+option_four: 'Multiplexers use the X.25 protocol, while statistical multiplexers use the ALOHA protium!.',
+answer: 'C',
+explanation: ''
+},],
+mcq71: [{
+   id: '71',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: 'A modem constellation diagram has data points at (0, 1) and (0, 2). What type of modulation does the modem use? ',
+option_one: 'Phase modulation ',
+option_two: ' Amplitude modulation ',
+option_three: 'Both A and B ',
+option_four: 'None of the above',
+answer: 'B',
+explanation: ''
+},],
+mcq72: [{
+   id: '72',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: 'Write the differential Manchester code for the given sketch <br> <img src="images/manchester_code.png">',
+option_one: '111100101',
+option_two: '1000010111',
+option_three: '101001111',
+option_four: '101001101',
+answer: 'Answer',
+explanation: ''
+},],
+mcq73: [{
+   id: '73',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: 'Maximum data rate of a channel for a noiseless 3-kHz binary channel is ',
+option_one: '3000 bps',
+option_two: '6000 bps',
+option_three: '1500 bps',
+option_four: 'none of the mentioned',
+answer: 'Answer',
+explanation: ''
+},],
+mcq74: [{
+   id: '74',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: 'The maximum data rate of a channel of 3000•Hz bandwidth and SNR of 30 dB is ',
+option_one: '15.000 bps ',
+option_two: '60,000 bps ',
+option_three: '30.000 bps ',
+option_four: '3.000 bps',
+answer: 'Answer',
+explanation: ''
+},],
+mcq75: [{
+   id: '75',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: 'In time division switches if each memory access takes 100 ns and one frame period is 125 micro second. then the maximum number of lines that can be supported is ',
+option_one: '625 lines',
+option_two: '1250 lines',
+option_three: '2300 lines',
+option_four: '318 lines',
+answer: 'Answer',
+explanation: ''
+},],
+mcq76: [{
+   id: '76',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: 'If the bit string 01 1 1 1 01 1 1 1 1 0 1 1 1 11 1 0 is subjected to bit stuffing for the flag string 0 1 1 1 1 11 0. the output string is ',
+option_one: '011110111110011111010',
+option_two: '01111011111011111100',
+option_three: '01111011111011111010',
+option_four: '0111101111101111110',
+answer: 'Answer',
+explanation: ''
+},],
+mcq77: [{
+   id: '77',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: 'Question',
+option_one: 'Option_A',
+option_two: 'Option_B',
+option_three: 'Option_C',
+option_four: 'Option_D',
+answer: 'Answer',
+explanation: ''
+},],
+mcq78: [{
+  id: '78',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: 'Question',
+option_one: 'Option_A',
+option_two: 'Option_B',
+option_three: 'Option_C',
+option_four: 'Option_D',
+answer: 'Answer',
+explanation: ''
+},],
+mcq79: [{
+  id: '79',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: 'Question',
+option_one: 'Option_A',
+option_two: 'Option_B',
+option_three: 'Option_C',
+option_four: 'Option_D',
+answer: 'Answer',
+explanation: ''
+},],
+mcq80: [{
+  id: '80',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: 'Question',
+option_one: 'Option_A',
+option_two: 'Option_B',
+option_three: 'Option_C',
+option_four: 'Option_D',
+answer: 'Answer',
+explanation: ''
+},],
+mcq81: [{
+  id: '81',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: 'Question',
+option_one: 'Option_A',
+option_two: 'Option_B',
+option_three: 'Option_C',
+option_four: 'Option_D',
+answer: 'Answer',
+explanation: ''
+},],
+mcq82: [{
+  id: '82',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: 'Question',
+option_one: 'Option_A',
+option_two: 'Option_B',
+option_three: 'Option_C',
+option_four: 'Option_D',
+answer: 'Answer',
+explanation: ''
+},],
+mcq83: [{
+  id: '83',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: 'Question',
+option_one: 'Option_A',
+option_two: 'Option_B',
+option_three: 'Option_C',
+option_four: 'Option_D',
+answer: 'Answer',
+explanation: ''
+},],
+mcq84: [{
+  id: '84',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: 'The measures the number of lost or garbled messages as a fraction of the total sent in the sampling period.',
+option_one: 'Residual Error rate',
+option_two: 'Transfer failure probability ',
+option_three: 'Connection release failure probability ',
+option_four: 'Connection establishment failure probability',
+answer: 'Answer',
+explanation: ''
+},],
+mcq85: [{
+   id: '85',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: 'In session layer, during data transfer, the data stream responsible for the control purpose (i.e. control of the session layer itself) is ',
+option_one: 'regular data',
+option_two: 'typed data',
+option_three: 'capability data',
+option_four: 'expedited data',
+answer: 'Answer',
+explanation: ''
+},],
+mcq86: [{
+   id: '86',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: 'The minimum number of bits required to represent B is',
+option_one: 'regular data',
+option_two: 'typed data',
+option_three: 'capability data',
+option_four: 'expedited data',
+answer: 'Answer',
+explanation: ''
+},],
+mcq87: [{
+   id: '87',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: 'The minimum number of bits required to represent all the symbols together is ',
+option_one: '14',
+option_two: '11',
+option_three: '12',
+option_four: '15',
+answer: 'Answer',
+explanation: ''
+},],
+mcq88: [{
+   id: '88',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: 'The average code length of the given problem is ',
+option_one: '2',
+option_two: '2.25',
+option_three: '2.45',
+option_four: '3',
+answer: 'Answer',
+explanation: ''
+},],
+mcq89: [{
+   id: '89',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: '.In cryptography. the following uses transposition ciphers and the keyword is LAYER. En-crypt the following message. (Spaces are omitted during encryption) WELCOME TO NETWORK SECURITY! ',
+option_one: 'WHEKREETS I LTWETCOOCYONRU I ',
+option_two: 'EETS /COOCYWMEKRONRU !LTWET ',
+option_three: 'LTWETONRU ! WMEKRCOOCYEETSI ',
+option_four: 'ONRU ! COOCYLTWETEETS IWMEKR',
+answer: 'Answer',
+explanation: ''
+},],
+mcq90: [{
+   id: '90',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: 'Encrypt NEKEWNINRROGTTI using the above keyword in Transposition cipher method. ',
+option_one: 'INTERWORKINGNET ',
+option_two: 'INTERNETWORKING ',
+option_three: 'WORKINGINTERNET ',
+option_four: 'None of the above',
+answer: 'Answer',
+explanation: ''
+},],
+mcq91: [{
+   id: '91',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: 'Assuming that for a given network layer implementation. connection establishment overhead is 100 bytes and disconnection overhead is 28 bytes. What would be the minimum size of a packet the transport layer needs to keep up. if it wishes to implement a datagram service above the network layer and needs to keep its overhead to a maximum of 12.5%. (Ignore transport layer overhead.) ',
+option_one: '512 bytes',
+option_two: '768 bytes',
+option_three: '1152 bytes',
+option_four: '1024 bytes',
+answer: 'Answer',
+explanation: ''
+},],
+mcq92: [{
+   id: '92',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: 'Which of the following is not a standard RS-232C signal? ',
+option_one: 'RTS',
+option_two: 'CTS',
+option_three: 'DSR',
+option_four: 'VDR',
+answer: 'Answer',
+explanation: ''
+},],
+mcq93: [{
+   id: '93',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: 'A high speed communication equipment typically would not be needed for',
+option_one: 'Email',
+option_two: 'transferring large volume of data ',
+option_three: 'supporting communication between nodes in a LAN ',
+option_four: 'all of the above',
+answer: 'Answer',
+explanation: ''
+},],
+mcq94: [{
+   id: '94',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: 'Which of the following ISO level is more closely related to the physical communications facilities? ',
+option_one: 'Application',
+option_two: 'Session',
+option_three: 'Network',
+option_four: 'Data Link',
+answer: 'Answer',
+explanation: ''
+},],
+mcq95: [{
+   id: '95',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: 'Which of the following is not a field in the Ethernet message packet? ',
+option_one: 'Type',
+option_two: 'Data',
+option_three: 'Pin-code',
+option_four: 'Address',
+answer: 'Answer',
+explanation: ''
+},],
+mcq96: [{
+   id: '96',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: 'QuestThe network topology that supports bi-directional links between each possible node is ion',
+option_one: 'ring',
+option_two: 'star',
+option_three: 'tree',
+option_four: 'mesh',
+answer: 'Answer',
+explanation: ''
+},],
+mcq97: [{
+   id: '97',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: 'In a broad sense, a railway track is an example of ',
+option_one: 'simplex',
+option_two: 'half duplex',
+option_three: 'kill-duplex',
+option_four: 'None of the above',
+answer: 'Answer',
+explanation: ''
+},],
+mcq98: [{
+   id: '98',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: 'The frequency range at which the land coaxial cables will be used is ',
+option_one: '106 to 108 Hz ',
+option_two: '1010 to 10″ Hz ',
+option_three: '103 to le Hz ',
+option_four: '10″ to 1013 Hz',
+answer: 'Answer',
+explanation: ''
+},],
+mcq99: [{
+   id: '99',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: 'If the data rate of ring is 20 Mbps, signal propagation speed is 200 mists, then the number of bits that can be placed on the channel of 200 km is ',
+option_one: '2000 bits',
+option_two: '20000 bits',
+option_three: '1000 bits',
+option_four: 'none of the above',
+answer: 'Answer',
+explanation: ''
+},],
+mcq100: [{
+   id: '100',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: 'ICI (interface control information) is ',
+option_one: 'used to transfer user data from layer to layer ',
+option_two: 'used to exchange information by peer entities at different sites on the network to instruct an entity to perform a service function ',
+option_three: 'ICI (interface control information) is ',
+option_four: 'between two layers',
+answer: 'Answer',
+explanation: ''
+},],
+mcq101: [{
+   id: '101',
+subject_name: 'CN',
+chapter_name: 'Mcqs in CS',
+question: 'Match the following',
+option_one: 'Option_A',
+option_two: 'Option_B',
+option_three: 'Option_C',
+option_four: 'Option_D',
+answer: 'Answer',
+explanation: ''
+},],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   mcq120: [{
      id: '120',
   subject_name: 'CN',

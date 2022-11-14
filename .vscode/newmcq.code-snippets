@@ -13,7 +13,7 @@
 			"mcq${1:x}: [{",
 			"   id: '${1:x}',",
 			"subject_name: 'CN',",
-			"chapter_name: 'OSI Model',",
+			"chapter_name: 'Mcqs in CS',",
 			"question: '${3:Question}',",
 			"option_one: '${4:Option_A}',",
 			"option_two: '${5:Option_B}',",
