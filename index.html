@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/index.css">
     <script src="subjects.js" />
     </script>
     <title>Chapter Selection</title>
@@ -39,7 +39,7 @@
                 document.write('<div class="subject">');
                 document.write('<h2 class="">' + abbrv[subject] + '</h2>');
                 for (let i = 0; i < length; i++) {
-                    document.write('<p class="white"><a href="showmcqs.html?subject=' + subject + '&chapter=' + subjects[subject].chapters[i].name + '">' + subjects[subject].chapters[i].name + '</a> - '+  (subjects[subject].chapters[i]['totat']) +'</p>');
+                    document.write('<p class="white"><a href="showmcqs.html?subject=' + subject + '&chapter=' + subjects[subject].chapters[i].name + '">' + subjects[subject].chapters[i].name + '</a> - '+  (subjects[subject].chapters[i]['total']) +'</p>');
                 }
             document.write('</div>')
             }
