@@ -15,9 +15,14 @@ const subjects = {
         },
         {
             id : '3',
+            name :'Distributed Communication',
+            total: '20'
+        },
+        {
+            id : '4',
             name :'CPU Scheduling',
             total: '8'
-            }
+        }
     ]
 
     },

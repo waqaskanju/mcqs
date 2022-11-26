@@ -834,7 +834,7 @@ const OS_MCQS = {
       option_three: "Local variables",
       option_four: "Return addresses",
       answer: "B",
-      explanation: "",
+      explanation: "Process stack contains Function parameters, Local variables and Return address. It does not contain the PID of child process",
     },
   ],
   mcq57: [
@@ -1158,7 +1158,7 @@ const OS_MCQS = {
       question: "Which of the following does not interrupt a running process?",
       option_one: " A device",
       option_two: "Timer",
-      option_three: "Schedulaer Process",
+      option_three: "Scheduler Process",
       option_four: "Power failure",
       answer: "C",
       explanation:
@@ -1236,7 +1236,7 @@ const OS_MCQS = {
         "When several processes access the same data concurrently and the outcome of the execution depends on the particular order in which the access takes place is called ________",
       option_one: "dynamic condition",
       option_two: "race condition",
-      option_three: "ssential condition",
+      option_three: "essential condition",
       option_four: "critical condition",
       answer: "B",
       explanation: "B",
@@ -1281,7 +1281,7 @@ const OS_MCQS = {
       option_one: "that can not drop below zero",
       option_two: "that can not be more than zero",
       option_three: "that can not drop below one",
-      option_four: "that can not be more than zero",
+      option_four: "that can not be more than one",
       answer: "A",
       explanation:
         "A semaphore is a shared integer variable that can not drop below zero. In binary semaphore, if the value of the semaphore variable is zero that means there is a process that uses a critical resource and no other process can access the same critical resource until it is released. In Counting semaphore, if the value of the semaphore variable is zero that means there is no resource available.",
@@ -1429,8 +1429,8 @@ const OS_MCQS = {
         "In UNIX, the return value for the fork system call is _____ for the child process and _____ for the parent process.",
       option_one: "A Negative integer, Zero",
       option_two: "Zero, A Negative integer",
-      option_three: "Zero, A nonzero integer",
-      option_four: "A nonzero integer, Zero",
+      option_three: "Zero, A non-zero integer",
+      option_four: "A non-zero integer, Zero",
       answer: "C",
       explanation:
         " A fork system call returns the PID of a newly created (child) process to the parent and returns Zero to that newly created (child) process.",
@@ -1541,7 +1541,7 @@ const OS_MCQS = {
       option_three: "synchronization link",
       option_four: "All of the mentioned",
       answer: "A",
-      explanation: "",
+      explanation: "The link between two processes P and Q to send and receive messages is called communication link.",
     },
   ],
   mcq103: [
@@ -1641,9 +1641,251 @@ const OS_MCQS = {
         "Bounded capacity and Unbounded capacity queues are referred to as Automatic buffering. Buffer capacity of the Bounded capacity queue is finite length and buffer capacity of the Unbounded queue is infinite",
     },
   ],
-  mcq109: [
+  mcq109: [{
+     id: '109',
+  subject_name: 'OS',
+  chapter_name: 'Distributed Communication',
+  question: 'Remote Procedure Calls are used ____________',
+  option_one: 'for communication between two processes remotely different from each other on the same system',
+  option_two: 'for communication between two processes on the same system',
+  option_three: 'for communication between two processes on separate systems',
+  option_four: 'None of the mentioned',
+  answer: 'C',
+  explanation: ''
+  },],
+  mcq110: [{
+     id: '110',
+  subject_name: 'OS',
+  chapter_name: 'Distributed Communication',
+  question: 'To differentiate the many network servies, a system supports ________ are',
+  option_one: 'Variables',
+  option_two: 'Sockets',
+  option_three: 'Ports',
+  option_four: 'Service names',
+  answer: 'C',
+  explanation: ''
+  },],
+  mcq111: [{
+     id: '111',
+  subject_name: 'OS',
+  chapter_name: 'Distributed Communication',
+  question: 'RPC provides a(an) _____ on the client-side, a separate one for each remote procedure.',
+  option_one: 'stub',
+  option_two: 'identified',
+  option_three: 'name',
+  option_four: 'process identifier',
+  answer: 'A',
+  explanation: ''
+  },],
+  mcq112: [{
+     id: '112',
+  subject_name: 'OS',
+  chapter_name: 'Distributed Communication',
+  question: 'What is stub',
+  option_one: 'transmits the message to the server where the server side stub receives the message and invokes procedure on the server side',
+  option_two: 'packs the parameters into a form transmittable over the network',
+  option_three: 'locates the port on the server',
+  option_four: 'all of the mentioned',
+  answer: 'D',
+  explanation: ''
+  },],
+  mcq113: [{
+     id: '113',
+  subject_name: 'OS',
+  chapter_name: 'Distributed Communication',
+  question: 'To resolve the problem of data representation on different systems RPCs define _____________',
+  option_one: 'machine dependent representation of data',
+  option_two: 'machine representation of data',
+  option_three: 'machine-independent representation of data',
+  option_four: 'None of the mentioned',
+  answer: 'C',
+  explanation: ''
+  },],
+  mcq114: [{
+     id: '114',
+  subject_name: 'OS',
+  chapter_name: 'Distributed Communication',
+  question: 'What is the full form of RMI?',
+  option_one: 'Remote Memory installation',
+  option_two: 'Remote Memory Invocation',
+  option_three: 'Remote Method Installation',
+  option_four: 'Remote Method Invocation',
+  answer: 'D',
+  explanation: ''
+  },],
+  mcq115: [{
+     id: '115',
+  subject_name: 'OS',
+  chapter_name: 'Distributed Communication',
+  question: 'The remote method invocation __________',
+  option_one: 'allows a process to invoke memory on a remote object',
+  option_two: 'allows a thread to invoke a method on a remote object',
+  option_three: 'allows a thread to invoke memory on a remote object',
+  option_four: 'allows a process to invoke a method on a remote object',
+  answer: 'B',
+  explanation: ''
+  },],
+  mcq116: [{
+     id: '116',
+  subject_name: 'OS',
+  chapter_name: 'Distributed Communication',
+  question: 'A process that is based on IPC mechanism which executes on different systems and can communicate with other processes using message based communication, is called ________',
+  option_one: 'Local Procedure call',
+  option_two: 'Inter process communication',
+  option_three: 'Remote procedure call',
+  option_four: 'Remote Machine invocation',
+  answer: 'C',
+  explanation: ''
+  },],
+  mcq117: [{
+     id: '117',
+  subject_name: 'OS',
+  chapter_name: 'Distributed Communication',
+  question: 'The initial program that is run when the computer is powered up is called __________',
+  option_one: 'boot program',
+  option_two: 'bootloader',
+  option_three: 'intializer',
+  option_four: 'bootstrap program',
+  answer: 'D',
+  explanation: ''
+  },],
+  mcq118: [{
+    id: '118',
+ subject_name: 'OS',
+ chapter_name: 'Distributed Communication',
+ question: 'How does the software trigger an interrupt?',
+ option_one: 'Sending signals to CPU through bus',
+ option_two: 'Executing a special operation called system call',
+ option_three: 'Executing a special program called system program',
+ option_four: 'Executing a special program called interrupt trigger program',
+ answer: 'B',
+ explanation: ''
+ },],
+ mcq119: [{
+  id: '119',
+subject_name: 'OS',
+chapter_name: 'Distributed Communication',
+question: 'What is a trap/exception?',
+option_one: 'hardware generated interrupt caused by an error',
+option_two: ' software generated interrupt caused by an error',
+option_three: 'user generated interrupt caused by an error',
+option_four: 'none of the mentioned',
+answer: 'B',
+explanation: ''
+},],
+mcq120: [{
+  id: '120',
+subject_name: 'OS',
+chapter_name: 'Distributed Communication',
+question: 'What is an ISR?',
+option_one: 'Information Service Request',
+option_two: 'Interrupt Service Request',
+option_three: 'Interrupt Service Routine',
+option_four: 'Information Service Routine',
+answer: 'C',
+explanation: ''
+},],
+mcq121: [{
+  id: '121',
+subject_name: 'OS',
+chapter_name: 'Distributed Communication',
+question: 'What is an interrupt vector?',
+option_one: 'It is an address that is indexed to an interrupt handler',
+option_two: 'It is a unique device number that is indexed by an address',
+option_three: 'It is a unique identity given to an interrupt',
+option_four: 'None of the mentioned',
+answer: 'A',
+explanation: ''
+},],
+mcq122: [{
+  id: '122',
+subject_name: 'OS',
+chapter_name: 'Distributed Communication',
+question: 'DMA is used for __________',
+option_one: 'High speed devices(disks and communications network)',
+option_two: 'Low speed devices',
+option_three: 'Utilizing CPU cycles',
+option_four: 'All of the mentioned',
+answer: 'A',
+explanation: ''
+},],
+mcq123: [{
+  id: '123',
+subject_name: 'OS',
+chapter_name: 'Distributed Communication',
+question: 'In a memory mapped input/output __________',
+option_one: ' the CPU uses polling to watch the control bit constantly, looping to see if a device is ready',
+option_two: 'the CPU writes one data byte to the data register and sets a bit in control register to show that a byte is available',
+option_three: 'the CPU receives an interrupt when the device is ready for the next byte',
+option_four: 'the CPU runs a user written code and does accordingly',
+answer: 'B',
+explanation: ''
+},],
+mcq124: [{
+  id: '124',
+subject_name: 'OS',
+chapter_name: 'Distributed Communication',
+question: 'In a programmed input/output(PIO) __________',
+option_one: 'the CPU uses polling to watch the control bit constantly, looping to see if a device is ready',
+option_two: 'the CPU writes one data byte to the data register and sets a bit in control register to show that a byte is available',
+option_three: 'the CPU receives an interrupt when the device is ready for the next byte',
+option_four: ' the CPU runs a user written code and does accordingly',
+answer: 'A',
+explanation: ''
+},],
+mcq125: [{
+  id: '125',
+subject_name: 'OS',
+chapter_name: 'Distributed Communication',
+question: 'In an interrupt driven input/output __________',
+option_one: 'the CPU uses polling to watch the control bit constantly, looping to see if a device is ready_A',
+option_two: 'the CPU writes one data byte to the data register and sets a bit in control register to show that a byte is available',
+option_three: 'the CPU receives an interrupt when the device is ready for the next byte',
+option_four: ' the CPU runs a user written code and does accordingly',
+answer: 'C',
+explanation: ''
+},],
+mcq126: [{
+  id: '126',
+subject_name: 'OS',
+chapter_name: 'Distributed Communication',
+question: ' In the layered approach of Operating Systems __________',
+option_one: 'Bottom Layer(0) is the User interface',
+option_two: 'Highest Layer(N) is the User interface',
+option_three: 'Bottom Layer(N) is the hardware',
+option_four: 'Highest Layer(N) is the hardware',
+answer: 'B',
+explanation: ''
+},],
+mcq127: [{
+  id: '127',
+subject_name: 'OS',
+chapter_name: 'Distributed Communication',
+question: 'How does the Hardware trigger an interrupt?ion',
+option_one: 'Sending signals to CPU through a system bus',
+option_two: 'Executing a special program called interrupt program',
+option_three: 'Executing a special program called system program',
+option_four: 'Executing a special operation called system call',
+answer: 'A',
+explanation: ''
+},],
+mcq128: [{
+  id: '128',
+subject_name: 'OS',
+chapter_name: 'Distributed Communication',
+question: 'Which operation is performed by an interrupt handler?',
+option_one: 'Saving the current state of the system',
+option_two: 'Loading the interrupt handling code and executing it',
+option_three: 'Once done handling, bringing back the system to the original state it was before the interrupt occurred',
+option_four: 'All of the mentioned',
+answer: 'D',
+explanation: ''
+},],
+  
+
+  mcq129: [
     {
-      id: "109",
+      id: "129",
       subject_name: "OS",
       chapter_name: "CPU Scheduling",
       question:
@@ -1657,9 +1899,9 @@ const OS_MCQS = {
     },
   ],
 
-  mcq110: [
+  mcq130: [
     {
-      id: "110",
+      id: "130",
       subject_name: "OS",
       chapter_name: "CPU Scheduling",
       question:
@@ -1673,9 +1915,9 @@ const OS_MCQS = {
     },
   ],
 
-  mcq111: [
+  mcq131: [
     {
-      id: "111",
+      id: "131",
       subject_name: "OS",
       chapter_name: "CPU Scheduling",
       question:
@@ -1689,9 +1931,9 @@ const OS_MCQS = {
     },
   ],
 
-  mcq112: [
+  mcq132: [
     {
-      id: "112",
+      id: "132",
       subject_name: "OS",
       chapter_name: "CPU Scheduling",
       question:
@@ -1704,9 +1946,9 @@ const OS_MCQS = {
       explanation: "",
     },
   ],
-  mcq113: [
+  mcq133: [
     {
-      id: "113",
+      id: "133",
       subject_name: "OS",
       chapter_name: "CPU Scheduling",
       question: " In priority scheduling algorithm ____________",
@@ -1718,9 +1960,9 @@ const OS_MCQS = {
       explanation: "",
     },
   ],
-  mcq114: [
+  mcq134: [
     {
-      id: "114",
+      id: "134",
       subject_name: "OS",
       chapter_name: "CPU Scheduling",
       question:
@@ -1733,9 +1975,9 @@ const OS_MCQS = {
       explanation: "",
     },
   ],
-  mcq115: [
+  mcq135: [
     {
-      id: "115",
+      id: "135",
       subject_name: "OS",
       chapter_name: "CPU Scheduling",
       question: "Which algorithm is defined in Time quantum?",
@@ -1747,9 +1989,9 @@ const OS_MCQS = {
       explanation: "",
     },
   ],
-  mcq116: [
+  mcq136: [
     {
-      id: "116",
+      id: "136",
       subject_name: "OS",
       chapter_name: "CPU Scheduling",
       question: "Process are classified into different groups in ____________",
