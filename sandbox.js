@@ -1,6 +1,10 @@
 var My_marks = 0;
+
+// It counts the number of question in a page, initially it is one becuase the first mcq number will be 1.
 var count = 1;
 
+// Add the id of mcqs for marks and check if this id is there or not.
+let mcqs = [];
 // This function will show marks when the button is clicked
 const show_marks = () => alert(My_marks + " out of " + (count - 1));
 
@@ -16,13 +20,16 @@ const showAnswer = (abc) => {
 
 // This function will calculate marks based on each click.
 const calculateMarks = (currentelement, increment_value) => {
-  // mcqs will be added to this arry when the person click on it.
-  let mcqs = [];
+  // mcqs will be added to this array when the person click on it.
+  
+  console.log(mcqs);
   // donot count an mcq if its marks are already added.
   if (mcqs.includes(currentelement)) {
+    console.log('already included');
   } else {
     mcqs.push(currentelement);
     My_marks = My_marks + increment_value;
+    console.log('Not there, so added.'+ currentelement);
   }
 };
 

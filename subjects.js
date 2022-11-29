@@ -21,7 +21,12 @@ const subjects = {
         {
             id : '4',
             name :'CPU Scheduling',
-            total: '8'
+            total: '45'
+        },
+        {
+            id : '5',
+            name :'Process Synchronization',
+            total: '0'
         }
     ]
 
