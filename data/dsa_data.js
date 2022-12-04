@@ -101,7 +101,7 @@ const DSA_MCQS = {
           option_four: "15",
           answer: "B",
           explanation:
-            "By euler’s formula the relation between vertices(n), edges(q) and regions(r) is given by n-q+r=2",
+            "By euler's formula the relation between vertices(n), edges(q) and regions(r) is given by n-q+r=2",
         },
       ],
 
@@ -117,7 +117,7 @@ const DSA_MCQS = {
           option_four: "(n*n-n+2*m)/2",
           answer: "A",
           explanation:
-            "The union of G and G’ would be a complete graph so, the number of edges in G’= number of edges in the complete form of G(nC2)-edges in G(m",
+            "The union of G and G' would be a complete graph so, the number of edges in G'= number of edges in the complete form of G(nC2)-edges in G(m",
         },
       ],
       mcq9: [

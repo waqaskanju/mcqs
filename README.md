@@ -11,7 +11,11 @@
 
 ### MCQS portion.
 #### OS
-- 1 - 50  - introduction
-- 51 - 108 - process
-- 109 - 128 - distributed communication
-- 129 - 173 - CPU scheduling
+- 1 - 50  - Introduction
+- 51 - 108 - Process
+- 109 - 128 - Distributed Communication
+- 129 - 172 - CPU scheduling
+- 173 - 234 - Process Synchronization
+
+
+# add 'importance' for previous exam "NTS,FTS,GATE,KPPSC

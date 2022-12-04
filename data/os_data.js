@@ -2453,7 +2453,7 @@ option_one: 'data consistency',
 option_two: 'data insecurity',
 option_three: 'data inconsistency',
 option_four: 'none of the mentioned',
-answer: 'Answer',
+answer: 'C',
 explanation: ''
 },],
 
@@ -2466,7 +2466,7 @@ option_one: 'data consistency',
 option_two: 'race condition',
 option_three: 'aging',
 option_four: 'starvation',
-answer: 'Answer',
+answer: 'B',
 explanation: ''
 },],
 
@@ -2477,9 +2477,9 @@ chapter_name: 'Process Synchronization',
 question: 'The segment of code in which the process may change common variables, update tables, write into files is known as ____________',
 option_one: 'program',
 option_two: 'critical section',
-option_three: 'non – critical section',
+option_three: 'non - critical section',
 option_four: 'synchronizing',
-answer: 'Answer',
+answer: 'B',
 explanation: ''
 },],
 
@@ -2492,7 +2492,7 @@ option_one: 'Mutual Exclusion',
 option_two: 'Progress',
 option_three: 'Bounded Waiting',
 option_four: 'All of the mentioned',
-answer: 'Answer',
+answer: 'D',
 explanation: ''
 },],
 
@@ -2505,7 +2505,7 @@ option_one: 'if a process is executing in its critical section, then no other pr
 option_two: ' if a process is executing in its critical section, then other processes must be executing in their critical sections',
 option_three: 'if a process is executing in its critical section, then all the resources of the system must be blocked until it finishes execution',
 option_four: 'none of the mentioned',
-answer: 'Answer',
+answer: 'A',
 explanation: ''
 },],
 
@@ -2518,7 +2518,7 @@ option_one: 'after a process has made a request to enter its critical section an
 option_two: 'when another process is in its critical section',
 option_three: 'before a process has made a request to enter its critical section',
 option_four: 'none of the mentioned',
-answer: 'Answer',
+answer: 'A',
 explanation: ''
 },],
 mcq179: [{
@@ -2530,8 +2530,8 @@ option_one: 'one',
 option_two: 'two',
 option_three: 'three',
 option_four: 'four',
-answer: 'Answer',
-explanation: ''
+answer: 'B',
+explanation: 'It uses semaphore which worked on 2 variables.'
 },],
 mcqx180: [{
    id: '180',
@@ -2542,7 +2542,7 @@ option_one: 'each process is put into a queue and picked up in an ordered manner
 option_two: 'each process receives a number (may or may not be unique) and the one with the lowest number is served next',
 option_three: 'each process gets a unique number and the one with the highest number is served next',
 option_four: 'each process gets a unique number and the one with the lowest number is served next',
-answer: 'Answer',
+answer: 'B',
 explanation: ''
 },],
 
@@ -2555,7 +2555,7 @@ option_one: 'single',
 option_two: 'atomic',
 option_three: 'static',
 option_four: 'None of the mentioned',
-answer: 'Answer',
+answer: 'B',
 explanation: ''
 },],
 mcq182: [{
@@ -2567,8 +2567,8 @@ option_one: 'after a particular process',
 option_two: 'periodically',
 option_three: 'atomically',
 option_four: 'none of the mentioned',
-answer: 'Answer',
-explanation: ''
+answer: 'C',
+explanation: 'the test-and-set instruction is an instruction used to write (set) 1 to a memory location and return its old value as a single atomic (i.e., non-interruptible) operation. The caller can then "test" the result to see if the state was changed by the call.'
 },],
 
 mcq183: [{
@@ -2580,7 +2580,7 @@ option_one: 'hardware for a system',
 option_two: 'special program for a system',
 option_three: 'integer variable',
 option_four: 'none of the mentioned',
-answer: 'Answer',
+answer: 'C',
 explanation: ''
 },],
 
@@ -2593,8 +2593,8 @@ option_one: 'wait',
 option_two: 'stop',
 option_three: 'hold',
 option_four: 'None of the mentioned',
-answer: 'Answer',
-explanation: ''
+answer: 'A',
+explanation: 'Wait and signal are the atomic operation possible on semaphore.'
 },],
 
 mcq185: [{
@@ -2606,7 +2606,7 @@ option_one: 'CPU cycles wasting locks over critical sections of programs',
 option_two: 'Locks that avoid time wastage in context switches',
 option_three: 'Locks that work better on multiprocessor systems',
 option_four: 'All of the mentioned',
-answer: 'Answer',
+answer: 'D',
 explanation: ''
 },],
 mcq186: [{
@@ -2618,7 +2618,7 @@ option_one: 'they are not sufficient for many process',
 option_two: ' they require busy waiting',
 option_three: 'they are unreliable sometimes',
 option_four: 'they are too complex for programmers',
-answer: 'Answer',
+answer: 'B',
 explanation: ''
 },],
 
@@ -2631,7 +2631,7 @@ option_one: 'stop()',
 option_two: 'block()',
 option_three: 'hold()',
 option_four: 'wait()',
-answer: 'Answer',
+answer: 'B',
 explanation: ''
 },],
 
@@ -2644,7 +2644,7 @@ option_one: 'continue()',
 option_two: 'wakeup()',
 option_three: 'getup()',
 option_four: 'start()',
-answer: 'Answer',
+answer: 'B',
 explanation: ''
 },],
 mcq189: [{
@@ -2656,7 +2656,7 @@ option_one: 'its magnitude is the number of processes waiting on that semaphore'
 option_two: 'it is invalid',
 option_three: ' no operation can be further performed on it until the signal operation is performed on it',
 option_four: 'none of the mentioned',
-answer: 'Answer',
+answer: 'B',
 explanation: ''
 },],
 mcq190: [{
@@ -2665,10 +2665,10 @@ subject_name: 'OS',
 chapter_name: 'Process Synchronization',
 question: ' The code that changes the value of the semaphore is ____________',
 option_one: 'remainder section code',
-option_two: 'non – critical section code',
+option_two: 'non - critical section code',
 option_three: 'critical section code',
 option_four: 'none of the mentioned',
-answer: 'Answer',
+answer: 'C',
 explanation: ''
 },],
 mcq191: [{
@@ -2680,8 +2680,8 @@ option_one: 'At least twice',
 option_two: 'Exactly twice',
 option_three: 'Exactly thrice',
 option_four: 'Exactly once',
-answer: 'Answer',
-explanation: ''
+answer: 'A',
+explanation: '<img src="images/atleast_two.png">'
 },],
 mcq192: [{
    id: '192',
@@ -2692,8 +2692,8 @@ option_one: '1',
 option_two: '2',
 option_three: '3',
 option_four: 'None of the mentioned',
-answer: 'Answer',
-explanation: ''
+answer: 'C',
+explanation: 'Any one of the 9 processes can get into critical section after executing P(mutex) which decrements the mutex value to 0. At this time P10 can enter critical section by incrementing the value to 1. Now any of the 9 processes can enter the critical section by again decrementing the mutex value to 0. None of the remaining processes can get into their critical sections.'
 },],
 mcq193: [{
    id: '193',
@@ -2704,7 +2704,7 @@ option_one: 'It does not ensure mutual exclusion',
 option_two: 'It does not ensure bounded waiting',
 option_three: 'It requires that processes enter the critical section in strict alternation',
 option_four: 'It does not prevent deadlocks but ensures mutual exclusion',
-answer: 'Answer',
+answer: 'D',
 explanation: ''
 },],
 mcq194: [{
@@ -2716,7 +2716,7 @@ option_one: 'starvation',
 option_two: 'Deadlock',
 option_three: 'Aging',
 option_four: 'Signaling',
-answer: 'Answer',
+answer: 'B',
 explanation: 'If a thread which had already locked a mutex, tries to lock the mutex again, it will enter into the waiting list of that mutex, which results in a deadlock. It is because no other thread can unlock the mutex.'
 },],
 mcq195: [{
@@ -2728,7 +2728,7 @@ option_one: 'is a binary mutex',
 option_two: 'must be accessed from only one process',
 option_three: 'can be accessed from multiple processes',
 option_four: 'none of the mentioned',
-answer: 'Answer',
+answer: 'C',
 explanation: ''
 },],
 mcq196: [{
@@ -2740,7 +2740,7 @@ option_one: 'mutex & counting',
 option_two: 'binary & counting',
 option_three: 'counting & decimal',
 option_four: 'decimal & binary',
-answer: 'Answer',
+answer: 'B',
 explanation: ''
 },],
 mcq197: [{
@@ -2752,7 +2752,7 @@ option_one: 'is a binary mutex',
 option_two: 'must be accessed from only one process',
 option_three: 'can be accessed from multiple processes',
 option_four: 'none of the mentioned',
-answer: 'Answer',
+answer: 'B',
 explanation: ''
 },],
 mcq198: [{
@@ -2764,8 +2764,8 @@ option_one: '42',
 option_two: '2',
 option_three: '7',
 option_four: '12',
-answer: 'Answer',
-explanation: ''
+answer: 'B',
+explanation: 'P represents Wait and V represents Signal. P operation will decrease the value by 1 every time and V operation will increase the value by 1 every time.7-20+15=2'
 },],
 mcq199: [{
    id: '199',
@@ -2776,7 +2776,7 @@ option_one: '1',
 option_two: '-1',
 option_three: '0.8',
 option_four: '0.5',
-answer: 'Answer',
+answer: 'A',
 explanation: ''
 },],
 mcq200: [{
@@ -2788,8 +2788,8 @@ option_one: 'two',
 option_two: 'three',
 option_three: 'four',
 option_four: 'eight',
-answer: 'Answer',
-explanation: ''
+answer: 'C',
+explanation: 'Here are the possible ways in which statements from A and B can be interleaved. A1 A2 B1 B2: X = 11, A1 B1 A2 B2: X = 6, A1 B1 B2 A2: X = 10, B1 A1 B2 A2: X = 10,B1 A1 A2 B2: X = 6,B1 B2 A1 A2: X = 12.'
 },],
 mcq201: [{
    id: '201',
@@ -2800,8 +2800,8 @@ option_one: 'one',
 option_two: 'two',
 option_three: 'three',
 option_four: 'four',
-answer: 'Answer',
-explanation: ''
+answer: 'A',
+explanation: 'The semaphore T ensures that all the statements from A finish execution before B begins. So now there is only one way in which statements from A and B can be interleaved: A1 A2 B1 B2: X = 11.'
 },],
 mcq202: [{
    id: '202',
@@ -2812,7 +2812,7 @@ option_one: 'System calls',
 option_two: 'IPC mechanisms',
 option_three: 'System protection',
 option_four: 'None of the mentioned',
-answer: 'Answer',
+answer: 'B',
 explanation: ''
 },],
 mcq203: [{
@@ -2824,23 +2824,23 @@ option_one: 'Mutual Exclusion',
 option_two: 'Bounded Waiting',
 option_three: 'Aging',
 option_four: 'Progress',
-answer: 'Answer',
+answer: 'B',
 explanation: ''
 },],
-mcq20: [{
-   id: '20',
+mcq204: [{
+   id: '204',
 subject_name: 'OS',
 chapter_name: 'Process Synchronization',
 question: ' The bounded buffer problem is also known as ____________',
-option_one: 'Readers – Writers problem',
-option_two: 'Dining – Philosophers problem',
-option_three: 'Producer – Consumer problem',
+option_one: 'Readers - Writers problem',
+option_two: 'Dining - Philosophers problem',
+option_three: 'Producer - Consumer problem',
 option_four: 'None of the mentioned',
-answer: 'Answer',
+answer: 'C',
 explanation: ''
 },],
-mcq20: [{
-  id: '20',
+mcq205: [{
+  id: '205',
 subject_name: 'OS',
 chapter_name: 'Process Synchronization',
 question: 'In the bounded buffer problem, there are the empty and full semaphores that ____________',
@@ -2848,11 +2848,11 @@ option_one: 'count the number of empty and full buffers',
 option_two: 'count the number of empty and full memory spaces',
 option_three: 'count the number of empty and full queues',
 option_four: 'none of the mentioned',
-answer: 'Answer',
+answer: 'A',
 explanation: ''
 },],
-mcq20: [{
-  id: '20',
+mcq206: [{
+  id: '206',
 subject_name: 'OS',
 chapter_name: 'Process Synchronization',
 question: 'In the bounded buffer problem ____________',
@@ -2860,11 +2860,11 @@ option_one: ' there is only one buffer',
 option_two: 'there are n buffers ( n being greater than one but finite)',
 option_three: 'there are infinite buffers',
 option_four: 'the buffer size is bounded',
-answer: 'Answer',
+answer: 'B',
 explanation: ''
 },],
-mcq20: [{
-  id: '20',
+mcq207: [{
+  id: '207',
 subject_name: 'OS',
 chapter_name: 'Process Synchronization',
 question: 'To ensure difficulties do not arise in the readers – writers problem _______ are given exclusive access to the shared object.',
@@ -2872,23 +2872,23 @@ option_one: 'readers',
 option_two: 'writers',
 option_three: 'readers and writers',
 option_four: 'none of the mentioned',
-answer: 'Answer',
+answer: 'B',
 explanation: ''
 },],
-mcq20: [{
-  id: '20',
+mcq208: [{
+  id: '208',
 subject_name: 'OS',
 chapter_name: 'Process Synchronization',
-question: 'The dining – philosophers problem will occur in case of ____________',
+question: 'The dining - philosophers problem will occur in case of ____________',
 option_one: '5 philosophers and 5 chopsticks',
 option_two: '4 philosophers and 5 chopsticks',
 option_three: '3 philosophers and 5 chopsticks',
 option_four: '6 philosophers and 5 chopsticks',
-answer: 'Answer',
+answer: 'A',
 explanation: ''
 },],
-mcq20: [{
-  id: '20',
+mcq209: [{
+  id: '209',
 subject_name: 'OS',
 chapter_name: 'Process Synchronization',
 question: 'A deadlock free solution to the dining philosophers problem ____________',
@@ -2896,11 +2896,11 @@ option_one: 'necessarily eliminates the possibility of starvation',
 option_two: 'does not necessarily eliminate the possibility of starvation',
 option_three: 'eliminates any possibility of any kind of problem further',
 option_four: 'none of the mentioned',
-answer: 'Answer',
+answer: 'B',
 explanation: ''
 },],
-mcq20: [{
-  id: '20',
+mcq210: [{
+  id: '210',
 subject_name: 'OS',
 chapter_name: 'Process Synchronization',
 question: 'All processes share a semaphore variable mutex, initialized to 1. Each process must execute wait(mutex) before entering the critical section and signal(mutex) afterward. <br>Suppose a process executes in the following manner.<br><img src="images/signal_mutux.png"> <br> In this situation',
@@ -2908,11 +2908,11 @@ option_one: 'a deadlock will occur',
 option_two: 'processes will starve to enter critical section',
 option_three: 'several processes maybe executing in their critical section',
 option_four: 'all of the mentioned',
-answer: 'Answer',
+answer: 'C',
 explanation: ''
 },],
-mcq20: [{
-  id: '20',
+mcq211: [{
+  id: '211',
 subject_name: 'OS',
 chapter_name: 'Process Synchronization',
 question: 'All processes share a semaphore variable mutex, initialized to 1. Each process must execute wait(mutex) before entering the critical section and signal(mutex) afterward.Suppose a process executes in the following manner.<br> <img src="images/wait_mutux.png">',
@@ -2920,11 +2920,11 @@ option_one: 'a deadlock will occur',
 option_two: 'processes will starve to enter critical section',
 option_three: 'several processes maybe executing in their critical section',
 option_four: 'all of the mentioned',
-answer: 'Answer',
+answer: 'A',
 explanation: ''
 },],
-mcq20: [{
-  id: '20',
+mcq212: [{
+  id: '212',
 subject_name: 'OS',
 chapter_name: 'Process Synchronization',
 question: 'Consider the methods used by processes P1 and P2 for accessing their critical sections whenever needed, as given below. The initial values of shared boolean variables S1 and S2 are randomly assigned. (GATE 2010) <br> <img src="images/mutual_progress.png"> <br>Which of the following statements describes properties achieved?',
@@ -2932,11 +2932,11 @@ option_one: 'Mutual exclusion but not progress',
 option_two: 'Progress but not mutual exclusion',
 option_three: 'Neither mutual exclusion nor progress',
 option_four: 'Both mutual exclusion and progress',
-answer: 'Answer',
+answer: 'D',
 explanation: ''
 },],
-mcqx: [{
-   id: 'x',
+mcq213: [{
+   id: '213',
 subject_name: 'OS',
 chapter_name: 'Process Synchronization',
 question: 'A monitor is a type of ____________',
@@ -2944,23 +2944,11 @@ option_one: 'semaphore',
 option_two: 'low level synchronization construct',
 option_three: 'high level synchronization construct',
 option_four: 'none of the mentioned',
-answer: 'Answer',
+answer: 'C',
 explanation: ''
 },],
-mcqx: [{
-  id: 'x',
-subject_name: 'OS',
-chapter_name: 'Process Synchronization',
-question: 'Question',
-option_one: 'Option_A',
-option_two: 'Option_B',
-option_three: 'Option_C',
-option_four: 'Option_D',
-answer: 'Answer',
-explanation: ''
-},],
-mcqx: [{
-  id: 'x',
+mcq214: [{
+  id: '214',
 subject_name: 'OS',
 chapter_name: 'Process Synchronization',
 question: 'A monitor is characterized by ____________',
@@ -2968,11 +2956,11 @@ option_one: 'set of programmer defined operators',
 option_two: 'an identifier',
 option_three: 'the number of variables in it',
 option_four: 'all of the mentioned',
-answer: 'Answer',
+answer: 'A',
 explanation: ''
 },],
-mcqx: [{
-  id: 'x',
+mcq215: [{
+  id: '215',
 subject_name: 'OS',
 chapter_name: 'Process Synchronization',
 question: 'A procedure defined within a ________ can access only those variables declared locally within the _______ and its formal parameters.',
@@ -2980,11 +2968,11 @@ option_one: 'process, semaphore',
 option_two: 'process, monitor',
 option_three: 'semaphore, semaphore',
 option_four: 'monitor, monitor',
-answer: 'Answer',
+answer: 'D',
 explanation: ''
 },],
-mcqx: [{
-  id: 'x',
+mcq216: [{
+  id: '216',
 subject_name: 'OS',
 chapter_name: 'Process Synchronization',
 question: 'The monitor construct ensures that ____________',
@@ -2992,11 +2980,11 @@ option_one: 'only one process can be active at a time within the monitor',
 option_two: 'n number of processes can be active at a time within the monitor (n being greater than 1)',
 option_three: 'the queue has only one process in it at a time',
 option_four: 'all of the mentioned',
-answer: 'Answer',
+answer: 'A',
 explanation: ''
 },],
-mcqx: [{
-  id: 'x',
+mcq217: [{
+  id: '217',
 subject_name: 'OS',
 chapter_name: 'Process Synchronization',
 question: 'What are the operations that can be invoked on a condition variable?',
@@ -3004,11 +2992,11 @@ option_one: 'wait & signal',
 option_two: 'hold & wait',
 option_three: 'signal & hold',
 option_four: 'continue & signal',
-answer: 'Answer',
+answer: 'A',
 explanation: ''
 },],
-mcqx: [{
-  id: 'x',
+mcq218: [{
+  id: '218',
 subject_name: 'OS',
 chapter_name: 'Process Synchronization',
 question: ' Which is the process of invoking the wait operation?',
@@ -3016,11 +3004,11 @@ option_one: 'suspended until another process invokes the signal operation',
 option_two: ' waiting for another process to complete before it can itself call the signal operation',
 option_three: 'stopped until the next process in the queue finishes execution',
 option_four: 'none of the mentioned',
-answer: 'Answer',
+answer: 'A',
 explanation: ''
 },],
-mcqx: [{
-  id: 'x',
+mcq219: [{
+  id: '219',
 subject_name: 'OS',
 chapter_name: 'Process Synchronization',
 question: 'If no process is suspended, the signal operation ____________',
@@ -3028,11 +3016,11 @@ option_one: 'puts the system into a deadlock state',
 option_two: 'suspends some default process execution',
 option_three: 'nothing happens',
 option_four: 'the output is unpredictable',
-answer: 'Answer',
+answer: 'C',
 explanation: ''
 },],
-mcqx: [{
-   id: 'x',
+mcq220: [{
+   id: '220',
 subject_name: 'OS',
 chapter_name: 'Process Synchronization',
 question: 'A collection of instructions that performs a single logical function is called ____________',
@@ -3040,11 +3028,11 @@ option_one: 'transaction',
 option_two: 'operation',
 option_three: 'function',
 option_four: 'all of the mentioned',
-answer: 'Answer',
+answer: 'A',
 explanation: ''
 },],
-mcqx: [{
-   id: 'x',
+mcq221: [{
+   id: '221',
 subject_name: 'OS',
 chapter_name: 'Process Synchronization',
 question: 'A terminated transaction that has completed its execution successfully is ____________ otherwise it is __________',
@@ -3052,23 +3040,23 @@ option_one: 'committed, destroyed',
 option_two: 'aborted, destroyed',
 option_three: 'committed, aborted',
 option_four: 'none of the mentioned',
-answer: 'Answer',
+answer: 'C',
 explanation: ''
 },],
-mcqx: [{
-  id: 'x',
+mcq222: [{
+  id: '222',
 subject_name: 'OS',
 chapter_name: 'Process Synchronization',
 question: 'The state of the data accessed by an aborted transaction must be restored to what it was just before the transaction started executing. This restoration is known as ________ of transaction.',
 option_one: 'safety',
 option_two: 'protection',
-option_three: 'roll – back',
-option_four: 'revert – back',
-answer: 'Answer',
+option_three: 'roll - back',
+option_four: 'revert - back',
+answer: 'C',
 explanation: ''
 },],
-mcqx: [{
-  id: 'x',
+mcq223: [{
+  id: '223',
 subject_name: 'OS',
 chapter_name: 'Process Synchronization',
 question: 'Write ahead logging is a way ___________',
@@ -3076,11 +3064,11 @@ option_one: 'to ensure atomicity',
 option_two: 'to keep data consistent',
 option_three: 'that records data on stable storage',
 option_four: 'all of the mentioned',
-answer: 'Answer',
+answer: 'D',
 explanation: ''
 },],
-mcqx: [{
-  id: 'x',
+mcq224: [{
+  id: '224',
 subject_name: 'OS',
 chapter_name: 'Process Synchronization',
 question: 'In the write ahead logging a _____________ is maintained.',
@@ -3088,11 +3076,11 @@ option_one: 'a memory',
 option_two: 'a system',
 option_three: 'a disk',
 option_four: 'a log record',
-answer: 'Answer',
+answer: 'D',
 explanation: ''
 },],
-mcqx: [{
-  id: 'x',
+mcq225: [{
+  id: '225',
 subject_name: 'OS',
 chapter_name: 'Process Synchronization',
 question: 'An actual update is not allowed to a data item ____________',
@@ -3100,11 +3088,11 @@ option_one: 'before the corresponding log record is written out to stable storag
 option_two: 'after the corresponding log record is written out to stable storage',
 option_three: 'until the whole log record has been checked for inconsistencies',
 option_four: 'all of the mentioned',
-answer: 'Answer',
+answer: 'A',
 explanation: ''
 },],
-mcqx: [{
-  id: 'x',
+mcq226: [{
+  id: '226',
 subject_name: 'OS',
 chapter_name: 'Process Synchronization',
 question: 'The undo and redo operations must be _________ to guarantee correct behaviour, even if a failure occurs during recovery process.',
@@ -3112,11 +3100,11 @@ option_one: 'idempotent',
 option_two: 'easy',
 option_three: 'protected',
 option_four: 'protected',
-answer: 'all of the mentioned',
-explanation: ''
+answer: 'A',
+explanation: 'Idempotence, in programming and mathematics, is a property of some operations such that no matter how many times you execute them, you achieve the same result'
 },],
-mcqx: [{
-  id: 'x',
+mcq227: [{
+  id: '227',
 subject_name: 'OS',
 chapter_name: 'Process Synchronization',
 question: 'The system periodically performs checkpoints that consists of the following operation(s) ____________',
@@ -3124,11 +3112,11 @@ option_one: 'Putting all the log records currently in main memory onto stable st
 option_two: 'putting all modified data residing in main memory onto stable storage',
 option_three: 'putting a log record onto stable storage',
 option_four: 'all of the mentioned',
-answer: 'Answer',
+answer: 'D',
 explanation: ''
 },],
-mcqx: [{
-  id: 'x',
+mcq228: [{
+  id: '228',
 subject_name: 'OS',
 chapter_name: 'Process Synchronization',
 question: 'Consider a transaction T1 that committed prior to checkpoint. The <T1 commits> record appears in the log before the <checkpoint> record. Any modifications made by T1 must have been written to the stable storage either with the checkpoint or prior to it. Thus at recovery time ____________',
@@ -3136,11 +3124,11 @@ option_one: 'There is a need to perform an undo operation on T1',
 option_two: 'There is a need to perform a redo operation on T1',
 option_three: 'There is no need to perform an undo and redo operation on T1',
 option_four: 'All of the mentioned',
-answer: 'Answer',
+answer: 'C',
 explanation: ''
 },],
-mcqx: [{
-  id: 'x',
+mcq229: [{
+  id: '229',
 subject_name: 'OS',
 chapter_name: 'Process Synchronization',
 question: 'Serializable schedules are ones where ____________',
@@ -3148,11 +3136,11 @@ option_one: 'concurrent execution of transactions is equivalent to the transacti
 option_two: 'the transactions can be carried out one after the other',
 option_three: 'a valid result occurs after execution transactions',
 option_four: 'none of the mentioned',
-answer: 'Answer',
+answer: 'A',
 explanation: ''
 },],
-mcqx: [{
-  id: 'x',
+mcq230: [{
+  id: '230',
 subject_name: 'OS',
 chapter_name: 'Process Synchronization',
 question: 'A locking protocol is one that ____________',
@@ -3160,11 +3148,11 @@ option_one: 'governs how locks are acquired',
 option_two: 'governs how locks are released',
 option_three: 'governs how locks are acquired and released',
 option_four: 'none of the mentioned',
-answer: 'Answer',
+answer: 'C',
 explanation: ''
 },],
-mcqx: [{
-  id: 'x',
+mcq231: [{
+  id: '231',
 subject_name: 'OS',
 chapter_name: 'Process Synchronization',
 question: 'The two phase locking protocol consists of ____________',
@@ -3172,11 +3160,11 @@ option_one: 'growing & shrinking phase',
 option_two: 'shrinking & creation phase',
 option_three: 'creation & growing phase',
 option_four: 'destruction & creation phase',
-answer: 'Answer',
+answer: 'A',
 explanation: ''
 },],
-mcqx: [{
-  id: 'x',
+mcq232: [{
+  id: '232',
 subject_name: 'OS',
 chapter_name: 'Process Synchronization',
 question: 'The growing phase is a phase in which?',
@@ -3184,11 +3172,11 @@ option_one: 'A transaction may obtain locks, but does not release any',
 option_two: 'A transaction may obtain locks, and releases a few or all of them',
 option_three: 'A transaction may release locks, but does not obtain any new locks',
 option_four: 'A transaction may release locks, and does obtain new locks',
-answer: 'Answer',
+answer: 'A',
 explanation: ''
 },],
-mcqx: [{
-  id: 'x',
+mcq233: [{
+  id: '233',
 subject_name: 'OS',
 chapter_name: 'Process Synchronization',
 question: 'The shrinking phase is a phase in which?',
@@ -3196,11 +3184,11 @@ option_one: 'A transaction may obtain locks, but does not release any',
 option_two: 'A transaction may obtain locks, and releases a few or all of them',
 option_three: 'A transaction may release locks, but does not obtain any new locks',
 option_four: 'A transaction may release locks, and does obtain new locks',
-answer: 'Answer',
+answer: 'C',
 explanation: ''
 },],
-mcqx: [{
-  id: 'x',
+mcq234: [{
+  id: '234',
 subject_name: 'OS',
 chapter_name: 'Process Synchronization',
 question: 'Which of the following concurrency control protocols ensure both conflict serializability and freedom from deadlock? <ol> <li>2-phase locking <li> Timestamp ordering',
@@ -3208,7 +3196,7 @@ option_one: '! only',
 option_two: 'II only',
 option_three: 'Both A and B',
 option_four: 'None of the mentioned',
-answer: 'Answer',
+answer: 'B',
 explanation: ''
 },],
 };
