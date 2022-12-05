@@ -13,7 +13,7 @@
 			"mcq${1:x}: [{",
 			"   id: '${1:x}',",
 			"subject_name: 'OS',",
-			"chapter_name: 'Process Synchronization',",
+			"chapter_name: 'Deadlock',",
 			"question: '${3:Question}',",
 			"option_one: '${4:Option_A}',",
 			"option_two: '${5:Option_B}',",
