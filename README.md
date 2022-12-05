@@ -11,11 +11,12 @@
 
 ### MCQS portion.
 #### OS
-- 1 - 50  - Introduction
-- 51 - 108 - Process
-- 109 - 128 - Distributed Communication
-- 129 - 172 - CPU scheduling
-- 173 - 234 - Process Synchronization
+- 01 - 50  - Introduction -> Confirmed 50
+- 51 - 108 - Process -> Confirmed 58
+- 109 - 128 - Distributed Communication -> Confiremd 20
+- 129 - 172 - CPU scheduling -> Confirmed 44
+- 173 - 234 - Process Synchronization -> 62
+- 235 - 288 - Deadlock -> 54
 
 
 # add 'importance' for previous exam "NTS,FTS,GATE,KPPSC

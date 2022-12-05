@@ -27,6 +27,11 @@ const subjects = {
             id : '5',
             name :'Process Synchronization',
             total: '62'
+        },
+        {
+            id : '6',
+            name :'Deadlock',
+            total: '54'
         }
     ]
 
