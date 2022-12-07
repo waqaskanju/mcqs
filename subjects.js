@@ -32,7 +32,13 @@ const subjects = {
             id : '6',
             name :'Deadlock',
             total: '54'
-        }
+        },
+        {
+            id : '7',
+            name :'Memory Management',
+            total: '84'
+        },
+
     ]
 
     },

@@ -15,8 +15,9 @@
 - 51 - 108 - Process -> Confirmed 58
 - 109 - 128 - Distributed Communication -> Confiremd 20
 - 129 - 172 - CPU scheduling -> Confirmed 44
-- 173 - 234 - Process Synchronization -> 62
-- 235 - 288 - Deadlock -> 54
+- 173 - 234 - Process Synchronization -> Confirmed 62
+- 235 - 288 - Deadlock -> Confirmed 54
+- 289 - 372 - Memory Management -> confirm 84
 
 
 # add 'importance' for previous exam "NTS,FTS,GATE,KPPSC
