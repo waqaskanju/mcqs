@@ -1572,6 +1572,31 @@ explanation: ''
   answer: 'D',
   explanation: ''
   },],
+  mcq130: [{
+     id: '130',
+  subject_name: 'CN',
+  chapter_name: 'OSI Model',
+  question: 'The data link layer takes the packets from _________ and encapsulates them into frames for transmission.',
+  option_one: 'network layer',
+  option_two: 'physical layer',
+  option_three: 'transport layer',
+  option_four: 'application layer',
+  answer: 'A',
+  explanation: ' In computer networks, the data from application layer is sent to transport layer and is converted to segments. These segments are then transferred to the network layer and these are called packets. These packets are then sent to data link layer where they are encapsulated into frames. These frames are then transferred to physical layer where the frames are converted to bits. Error control and flow control data is inserted in the frames at the data link layer.'
+  },],
+
+  mcq131: [{
+     id: '131',
+  subject_name: 'CN',
+  chapter_name: 'OSI Model',
+  question: 'Question',
+  option_one: 'Option_A',
+  option_two: 'Option_B',
+  option_three: 'Option_C',
+  option_four: 'Option_D',
+  answer: 'Answer',
+  explanation: ''
+  },],
 };
 
 

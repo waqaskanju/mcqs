@@ -4857,4 +4857,16 @@ option_four: 'it helps to reduce the number of page faults in page replacement a
 answer: 'B',
 explanation: ''
 },],
+mcq373: [{
+   id: '373',
+subject_name: 'OS',
+chapter_name: 'I/O System ',
+question: ' If one or more devices use a common set of wires to communicate with the computer system, the connection is called ______',
+option_one: 'Option_A',
+option_two: 'Option_B',
+option_three: 'Option_C',
+option_four: 'Option_D',
+answer: 'Answer',
+explanation: ''
+},],
 };
