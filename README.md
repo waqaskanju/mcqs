@@ -18,6 +18,8 @@
 - 173 - 234 - Process Synchronization -> Confirmed 62
 - 235 - 288 - Deadlock -> Confirmed 54
 - 289 - 372 - Memory Management -> confirm 84
+- 373 - 406 - I/O System -> 34
+- 407 - 443 - Real Time Operating system -> 37
 
 
 # add 'importance' for previous exam "NTS,FTS,GATE,KPPSC

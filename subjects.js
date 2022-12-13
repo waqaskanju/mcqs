@@ -41,7 +41,12 @@ const subjects = {
         {
             id : '8',
             name :'I/O System',
-            total: 'x'
+            total: '34'
+        },
+        {
+            id : '9',
+            name :'Real Time Operating Systems',
+            total: '36'
         },
 
     ]
