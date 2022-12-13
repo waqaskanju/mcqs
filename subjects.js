@@ -48,7 +48,11 @@ const subjects = {
             name :'Real Time Operating Systems',
             total: '36'
         },
-
+        {
+            id : '10',
+            name :'Multimedia Systems',
+            total: 'x'
+        },
     ]
 
     },
