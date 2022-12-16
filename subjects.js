@@ -51,6 +51,11 @@ const subjects = {
         {
             id : '10',
             name :'Multimedia Systems',
+            total: '62'
+        },
+        {
+            id : '11',
+            name :'Security',
             total: 'x'
         },
     ]
