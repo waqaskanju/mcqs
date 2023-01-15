@@ -56,6 +56,21 @@ const subjects = {
         {
             id : '11',
             name :'Security',
+            total: '62'
+        },
+        {
+            id : '12',
+            name :'Secondary Storage',
+            total: '9'
+        },
+        {
+            id : '13',
+            name :'Linux OS',
+            total: '9'
+        },
+        {
+            id : '14',
+            name :'Umair',
             total: 'x'
         },
     ]

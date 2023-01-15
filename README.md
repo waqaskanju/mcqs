@@ -21,6 +21,8 @@
 - 373 - 406 - I/O System -> 34
 - 407 - 442 - Real Time Operating system -> 37
 - 443 - 504 - Multimedia Systems ->62
+- 505 - 566 - Security -> 62
+- 567 - 575 - Secondary Storage -> 9
 
 
 # add 'importance' for previous exam "NTS,FTS,GATE,KPPSC
