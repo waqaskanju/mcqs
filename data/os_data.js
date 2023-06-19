@@ -452,7 +452,7 @@ const OS_MCQS = {
       option_three: "less",
       option_four: "None of the mentioned",
       answer: "C",
-      explanation: "",
+      explanation: "<img src='./images/jitter.png'  alt='What is jitter'>",
     },
   ],
   mcq31: [
@@ -467,7 +467,7 @@ const OS_MCQS = {
       option_three: "maximum",
       option_four: "dependent on the scheduling",
       answer: "B",
-      explanation: "",
+      explanation: "<p> Interrupt latency is the time duration between the generation of interrupt and execution of its service.</p>",
     },
   ],
   mcq32: [
@@ -733,7 +733,7 @@ const OS_MCQS = {
       option_three: "Network OS",
       option_four: "All of the mentioned",
       answer: "C",
-      explanation: "",
+      explanation: "<p>There is no such thing as zone base or level base. Types of Network OS are:</p><ul>  <li>Client-Server Systems </li>  <li>Peer-to-Peer Systems </li>  <li>Middleware</li> <li>3-tier</li> <li>N-tier </li></ul>",
     },
   ],
   mcq50: [
