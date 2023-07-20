@@ -70,7 +70,7 @@ const subjects = {
         },
         {
             id : '14',
-            name :'Umair',
+            name :'Empty',
             total: 'x'
         },
     ]

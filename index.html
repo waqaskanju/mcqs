@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link rel="icon" type="image/ico" sizes="32x32" href="./images/favicon.ico">
     <link rel="stylesheet" href="stylesheets/style.css">
     <link rel="stylesheet" href="stylesheets/index.css">
     <script src="subjects.js" />
@@ -14,6 +13,7 @@
 </head>
 
 <body>
+  <!-- It is not subject because we select chapter in a subject in main page. -->
     <h1 class="glowing-text">Select Your Favorite Chapter</h1>
     <script>
         const abbrv = {
@@ -39,7 +39,9 @@
                 document.write('<div class="subject">');
                 document.write('<h2 class="">' + abbrv[subject] + '</h2>');
                 for (let i = 0; i < length; i++) {
-                    document.write('<p class="white"><a href="showmcqs.html?subject=' + subject + '&chapter=' + subjects[subject].chapters[i].name + '">' + subjects[subject].chapters[i].name + '</a> - '+  (subjects[subject].chapters[i]['total']) +'</p>');
+                  // serial show 1,2,3 infront of each chapter.
+                    serial=i+1;
+                    document.write('<p class="white"><span>'+ serial +' - <span><a href="showmcqs.html?subject=' + subject + '&chapter=' + subjects[subject].chapters[i].name + '">' + subjects[subject].chapters[i].name + '</a> - '+  (subjects[subject].chapters[i]['total']) +'</p>');
                 }
             document.write('</div>')
             }

@@ -138,7 +138,7 @@ const show_data = (mcqs, subject, chapter) => {
           " </p> </div>"
       );
       document.write(
-        "<button class='showbutton' id='" +
+        "<button class='showbutton noprint' id='" +
           mcqs[mcq][0].id +
           "' onclick='showAnswer(this.id)'> Show Answer </button>"
       );
@@ -153,7 +153,7 @@ const show_data = (mcqs, subject, chapter) => {
           "</p>"
       );
       document.write(
-        "<p class='description'> Description: " +
+        "<p class='description'> <b>Description:</b> " +
           mcqs[mcq][0].explanation +
           "</p>"
       );
