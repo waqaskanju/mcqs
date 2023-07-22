@@ -19,7 +19,9 @@
     <script src="data/se_data.js"></script>
 
     <script src="sandbox.js"></script>
-    <title>Show Mcqs</title>
+    <title id="page_title">
+      
+    </title>
     <link rel="stylesheet" href="stylesheets/style.css">
 </head>
 <p class="noprint">Note: Only your first selection count towards marks. changes not allowed. once an mcq is selected it is final.</p>
@@ -33,6 +35,8 @@
 
        // get chapter form url parameter.
        let chapter = url_params.chapter;
+      document.getElementById('page_title').innerText = subject +' - '+ chapter;
+
        if(subject=="CN")
        show_data(CN_MCQS,subject,chapter);
        else if (subject=="DSA")

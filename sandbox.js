@@ -148,7 +148,7 @@ const show_data = (mcqs, subject, chapter) => {
       document.write(
         "<p class='answer' id='" +
           mcqs[mcq][0].id +
-          "ans'> Answer:" +
+          "ans'>Answer: " +
           mcqs[mcq][0].answer +
           "</p>"
       );
