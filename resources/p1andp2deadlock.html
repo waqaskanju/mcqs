@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<!-- saved from url=(0088)https://edurev.in/question/491593/Two-processes-%2DP1-and-P2-%2Dneed-to-access-a-critica -->
+<html lang="en">
+<head>
+  <title>Two processes, P1 and P2, need to access a critical section of code. Consider the following synchronization
+    construct used by the processes:Here, wants1 and wants2 are shared variables, which are initialized to false. Which
+    one of the following statements is TRUE about the above construct?v /* P1 */while (true) { wants1 = true; while
+    (wants2 == true); /* Critical Section */ wants1=false;}/* Remainder section *//* P2 */while (true) { wants2 = true;
+    while (wants1==true); /* Critical Section */ wants2 = false;}/* Remainder section */a)It does not ensure mutual
+    exclusion.b)It does not ensure bounded waiting.c)It requires that processes enter the critical section in strict
+    alternation.d)It does not prevent deadlocks, but ensures mutual exclusion.Correct answer is option 'D'. Can you
+    explain this answer? | EduRev Computer Science Engineering (CSE) Question</title>
+
+</head>
+<style>
+  .line_1 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    /* number of lines to show */
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+
+
+  .breadcrumrightpartdivmob {
+    display: none;
+  }
+
+  .questionmaindata {
+    padding-left: 0px;
+    padding-right: 25px;
+  }
+
+
+  .qstn_mn_2 {
+    font-size: 18px !important;
+    font-weight: 700;
+  }
+
+  .qstn_mn_2 * {
+    font-size: 18px !important;
+    font-weight: 700;
+  }
+
+  .lgot_ans_header {
+    font-size: 16px;
+    font-weight: 800;
+  }
+
+
+  .lgot_ans_txt {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+
+  .lgot_ans_box {
+    margin-bottom: 20px;
+    clear: both;
+    display: flow-root;
+  }
+
+  .lgot_ans_boxsigle {
+    margin-bottom: 10px;
+    clear: both;
+    display: flow-root;
+  }
+
+  .lgot_ans_box_under {
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 20px;
+  }
+
+  .lgot_mainquesarea {
+    border: 2px solid #F3F4F4;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 18px;
+  }
+
+
+
+  .appdownloadaftersignupbox {
+    display: none;
+  }
+
+
+  .frm_ftr_nav_bar {
+    display: none;
+    background: #FFFFFF;
+    box-shadow: 0px -1px 15px rgba(0, 0, 0, 0.15);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 0;
+    z-index: 1000;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+</style>
+
+<body>
+
+  <input type="hidden" id="uid" value="0">
+  <div class="ed_main">
+    <div class="ed_main_1" style="max-width: 1500px; margin: 0 auto;">
+      <div class="inf_mem_mn sidemenuboxHtml">
+
+      </div>
+
+      <div class="centeredDiv">
+
+        <div class="ed_container" style="min-height: 85vh;">
+
+          <div class="ed_container_inr" style="min-height: 100vh;">
+
+            <div class="container questionmaincont">
+
+            
+
+              <div class="removeSidePadding paddingbtm_20">
+                <div class="removeSidePadding col-sm-9 col-md-9 questionmaindata">
+                  <div class="ed_mid_box">
+                    <div class="box_block questionBox">
+
+
+                      <div style="padding-bottom:20px;font-size:16px;" class="line_1">
+                        <div style=" display: inline-block; width: 100%;" class="brdcrmb_cntnr">
+
+
+                        </div>
+
+                      </div>
+
+                      <div>
+                        <div class="lgot_mainquesarea">
+                          <div itemprop="mainEntityOfPage name" class="questionHeader forumQuestion qstn_mn_2 qstn_mn">
+                            <!--forumsepratorstart-->
+                            <div class="forumDiscuss discussQuestion" style="line-height: 1.55;">
+                              <div style="text-align: justify;">Two processes, P1 and P2, need to access a critical
+                                section of code. Consider the following synchronization construct used by the
+                                processes:Here, wants1 and wants2 are shared variables, which are initialized to false.
+                                Which one of the following statements is TRUE about the above construct?v</div>
+                              <div style="text-align: justify;">&nbsp; &nbsp;/* P1 */<br>while (true) {<br>&nbsp; &nbsp;
+                                &nbsp;wants1 = true;<br>&nbsp; &nbsp; &nbsp;while (wants2 == true);<br>&nbsp; &nbsp;
+                                &nbsp;/* Critical<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Section */<br>&nbsp; &nbsp;
+                                wants1=false;<br>}<br>/* Remainder section */</div>
+                              <div>/* P2 */<br>while (true) {<br>&nbsp; &nbsp; wants2 = true;<br>&nbsp; &nbsp; while
+                                (wants1==true);<br>&nbsp; &nbsp; &nbsp;/* Critical<br>&nbsp; &nbsp; &nbsp; &nbsp;
+                                Section */<br>&nbsp; &nbsp; &nbsp;wants2 = false;<br>}<br>/* Remainder section */</div>
+                            </div><!--forumsepratorend-->
+                            <ul class="forumDiscuss discussOptionsul" style="line-height: 1.55;list-style: none;">
+                              <li style="clear: both;" class="discussOptionsli">
+                                <div style="float: left;display: inline;width: 25px;" class="discussOptionsliDiv">a)
+                                </div>
+                                <div style="float: left;display: inline;width: calc(100% - 25px);"
+                                  class="discussOptionsliDivText">
+                                  <div>It does not ensure mutual exclusion.</div>
+                                </div>
+                              </li>
+                              <li style="clear: both;" class="discussOptionsli">
+                                <div style="float: left;display: inline;width: 25px;" class="discussOptionsliDiv">b)
+                                </div>
+                                <div style="float: left;display: inline;width: calc(100% - 25px);"
+                                  class="discussOptionsliDivText">
+                                  <div>It does not ensure bounded waiting.</div>
+                                </div>
+                              </li>
+                              <li style="clear: both;" class="discussOptionsli">
+                                <div style="float: left;display: inline;width: 25px;" class="discussOptionsliDiv">c)
+                                </div>
+                                <div style="float: left;display: inline;width: calc(100% - 25px);"
+                                  class="discussOptionsliDivText">
+                                  <div>It requires that processes enter the critical section in strict alternation.
+                                  </div>
+                                </div>
+                              </li>
+                              <li style="clear: both;" class="discussOptionsli">
+                                <div style="float: left;display: inline;width: 25px;" class="discussOptionsliDiv">d)
+                                </div>
+                                <div style="float: left;display: inline;width: calc(100% - 25px);"
+                                  class="discussOptionsliDivText">
+                                  <div>It does not prevent deadlocks, but ensures mutual exclusion.</div>
+                                </div>
+                              </li>
+                            </ul>
+                            <div class="forumDiscuss discussAnswer" style="line-height: 1.55;clear: both;">Correct
+                              answer is option 'D'. Can you explain this answer?</div>
+                          </div>
+
+                          <div class="lgot_ans_box lgot_ans_box_under">
+
+                            <div class="lgot_ans_txt"></div>
+                          </div>
+
+                          <div class="lgot_ans_boxsigle ">
+                            <div class="lgot_ans_header">Most Upvoted Answer</div>
+
+                            <div class="lgot_ans_txt">Explanation:<br><br>The given synchronization construct has two
+                              shared variables, wants1 and wants2, which are initialized to false. The processes P1 and
+                              P2 use these variables to enter their critical sections in a mutually exclusive manner.
+                              However, this construct has some limitations and does not provide complete
+                              synchronization. Let's discuss each option and why it is true or false.<br><br>a) It does
+                              not ensure mutual exclusion:<br>The mutual exclusion property ensures that only one
+                              process can execute its critical section at a time. In the given construct, mutual
+                              exclusion is achieved because a process can enter its critical section only if the other
+                              process is not interested in entering its critical section. This is ensured by the while
+                              loop, which checks the value of the other process's wants variable. Therefore, option (a)
+                              is false.<br><br>b) It does not ensure bounded waiting:<br>The bounded waiting property
+                              ensures that there is a limit on the number of times a process can be prevented from
+                              entering its critical section. In the given construct, there is no such limit on the
+                              waiting time of a process. A process can be prevented from entering its critical section
+                              indefinitely if the other process keeps setting its wants variable to true. Therefore,
+                              option (b) is true.<br><br>c) It requires that processes enter the critical section in
+                              strict alternation:<br>Strict alternation means that the processes take turns entering
+                              their critical sections in a fixed order. In the given construct, there is no such fixed
+                              order of entering the critical section. A process can enter its critical section multiple
+                              times in a row if the other process does not want to enter its critical section.
+                              Therefore, option (c) is false.<br><br>d) It does not prevent deadlocks, but ensures
+                              mutual exclusion:<br>A deadlock is a situation where two or more processes are blocked and
+                              cannot proceed because they are waiting for each other to release a resource. The given
+                              construct can lead to a deadlock if both processes set their wants variables to true at
+                              the same time. In this case, both processes will wait indefinitely in their while loops,
+                              and the system will be deadlocked. However, mutual exclusion is still ensured because only
+                              one process can execute its critical section at a time. Therefore, option (d) is
+                              true.<br><br>In summary, the given synchronization construct provides mutual exclusion but
+                              has a limitation in ensuring bounded waiting and may lead to deadlocks in certain
+                              scenarios.</div>
+                          </div>
+
+                        </div>
+                        <div style="display: block;width: 100%;text-align: center;"></div>
+                      </div>
+
+                      <div class="appdownloadaftersignupbox" style="padding-top: 20px;">
+                        <div>
+                          <div
+                            style="width: 100%; border-radius: 4px; border: 1px solid rgba(0, 0, 0, 0.2) !important; padding: 10px; display: inline-block; padding-left: 15px; padding-right: 15px; text-align: center;">
+                            <div
+                              style="color: black !important; font-size: 16px !important; float: left; font-weight: bold; text-align: center; line-height: 24px; margin-top: 15px; ">
+                              1 Crore+ students have signed up on EduRev. Have you?
+                            </div>
+                            <div>
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div style=" padding-top: 10px;">
+
+                      </div>
+                      <div class="nlg_sbhdng_blk" style="margin-bottom: 30px; clear: both;">
+
+
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+
+
+              </div>
+
+            </div>
+
+
+            <div class="frm_ftr_nav_bar">
+              <table style="width: calc(100% - 90px); float: left;">
+                <tbody>
+                  <tr>
+                    <td style="width:33.33%;">
+
+                    </td>
+                    <td style="width:33.33%;">
+
+                    </td>
+                    <td style="width:33.33%;">
+
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <table style=" width: 88px; float: left;">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a class="btn btn-blue frm_ftr_nav_bar_applnk" href="javascript: void(0)"
+                        datasource="question_pg_frt_navbar"
+                        style=" margin: 0px; width: 88px; display: inline-block;">Get App</a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

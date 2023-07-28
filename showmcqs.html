@@ -24,8 +24,11 @@
     </title>
     <link rel="stylesheet" href="stylesheets/style.css">
 </head>
-<p class="noprint">Note: Only your first selection count towards marks. changes not allowed. once an mcq is selected it is final.</p>
-    <a class="top_header noprint" href="index.html"> chapter selection </a>
+<div >
+  <p class="noprint note">Note: Only your first selection count towards marks. changes not allowed. once an mcq is selected it is final.</p>
+   <p> <a class="top_header noprint note" href="index.html"> chapter selection </a> </p>
+</div>
+
     <script>
        // Call to get url parameters.
        let url_params = get_url_values();
@@ -53,6 +56,6 @@
        console.log('no subject mentioned');
     </script>
     <br>
-    <button class="noprint" id="showMarks" onclick="show_marks()"> Show Marks </button>
+    <button class="noprint btn-marks" id="showMarks" onclick="show_marks()"> Show Marks </button>
 </body>
 </html>

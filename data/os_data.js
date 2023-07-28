@@ -1063,7 +1063,7 @@ const OS_MCQS = {
       option_four: "None of the mentioned",
       answer: "A",
       explanation:
-        "A long-term scheduler selects processes which have to be brought into the ready queue. When processes enter the system, they are put in the job queue. Long-term scheduler selects processes from the job queue and puts them in the ready queue. It is also known as Job Scheduler",
+        "The long-term scheduler (also known as the admission scheduler or job scheduler) is a component of the operating system responsible for selecting processes from the pool of incoming processes (usually residing in a job queue) and bringing them into the ready queue for further processing. ",
     },
   ],
   mcq72: [
@@ -1097,7 +1097,7 @@ const OS_MCQS = {
       option_four: "None of the mentioned",
       answer: "C",
       explanation:
-        "A medium-term scheduler selects which process to remove from memory by swapping. The medium-term scheduler swapped out the process and later swapped in. Swapping helps to free up memory.",
+        "The medium-term scheduler (also known as the mid-term scheduler) is responsible for selecting processes that are currently in main memory (RAM) and deciding which processes should be temporarily removed from memory and placed into the suspended state. This process is commonly known as 'swapping' or 'paging out.'",
     },
   ],
   mcq74: [
@@ -1115,7 +1115,7 @@ const OS_MCQS = {
       option_four: "None of the mentioned",
       answer: "B",
       explanation:
-        " Short-term scheduler selects a process from the ready queue.",
+        "The short-term scheduler (also known as the CPU scheduler) is responsible for selecting a process from the pool of ready-to-run processes in the ready queue and allocating the CPU to that process for execution. Its primary function is to determine which process should be given the CPU next from the pool of processes that are in the ready state and waiting to be executed.",
     },
   ],
   mcq75: [
@@ -1280,7 +1280,7 @@ const OS_MCQS = {
       question: "A semaphore is a shared integer variable __________ ",
       option_one: "that cannot drop below zero",
       option_two: "that cannot be more than zero",
-      option_three: "that can ot drop below one",
+      option_three: "that cannot drop below one",
       option_four: "that cannot be more than one",
       answer: "A",
       explanation:
@@ -1657,7 +1657,7 @@ const OS_MCQS = {
      id: '110',
   subject_name: 'OS',
   chapter_name: 'Distributed Communication',
-  question: 'To differentiate the many network servcies, a system supports ________ are',
+  question: 'To differentiate the many network services, a system supports ________ are',
   option_one: 'Variables',
   option_two: 'Sockets',
   option_three: 'Ports',
@@ -1744,7 +1744,7 @@ const OS_MCQS = {
   question: 'The initial program that is run when the computer is powered up is called __________',
   option_one: 'boot program',
   option_two: 'bootloader',
-  option_three: 'intializer',
+  option_three: 'initializer',
   option_four: 'bootstrap program',
   answer: 'D',
   explanation: ''
@@ -1807,7 +1807,7 @@ option_two: 'Low speed devices',
 option_three: 'Utilizing CPU cycles',
 option_four: 'All of the mentioned',
 answer: 'A',
-explanation: 'Direct Memmory Access is an approach of performing data transfers in bulk between memory and the external device without the intervention of the processor'
+explanation: 'Direct Memory Access is an approach of performing data transfers in bulk between memory and the external device without the intervention of the processor'
 },],
 mcq123: [{
   id: '123',
@@ -1825,7 +1825,7 @@ mcq124: [{
   id: '124',
 subject_name: 'OS',
 chapter_name: 'Distributed Communication',
-question: 'In a programmed input/output s(PIO) __________',
+question: 'In a programmed input/output (PIO) __________',
 option_one: 'the CPU uses polling to watch the control bit constantly, looping to see if a device is ready',
 option_two: 'the CPU writes one data byte to the data register and sets a bit in control register to show that a byte is available',
 option_three: 'the CPU receives an interrupt when the device is ready for the next byte',
@@ -1895,7 +1895,7 @@ explanation: ''
       option_three: "scheduler",
       option_four: "none of the mentioned",
       answer: "A",
-      explanation: "",
+      explanation: "the dispatcher is responsible for actually switching the CPU from one process to another, thus giving control of the CPU to the selected process.",
     },
   ],
 
@@ -2028,7 +2028,7 @@ explanation: ''
   option_three: 'process',
   option_four: 'none of the mentioned',
   answer: 'B',
-  explanation: ''
+  explanation: 'User-level threads are managed by the user-level thread library or the runtime environment and do not require kernel intervention for their management. The kernel is unaware of the existence of user-level threads and schedules processes instead.'
   },],
 
   mcq139: [{
@@ -2048,7 +2048,7 @@ explanation: ''
   subject_name: 'OS',
   chapter_name: 'CPU Scheduling',
   question: 'What are the two steps of a process execution?',
-  option_one: 'I/o and OS Burst',
+  option_one: 'I/O and OS Burst',
   option_two: 'CPU and I/O Burst',
   option_three: 'Memory and I/O Burst',
   option_four: 'OS & Memory Burst',
@@ -2077,19 +2077,19 @@ explanation: ''
   option_three: 'ready, short term',
   option_four: 'ready, long term',
   answer: 'C',
-  explanation: ''
+  explanation: 'Short-term scheduler (also known as CPU scheduler): This scheduler selects a process from the ready queue and allocates the CPU to that process for execution. Its primary objective is to provide fair and efficient CPU utilization by quickly determining which process should run next.'
   },],
   mcq143: [{
      id: '143',
   subject_name: 'OS',
   chapter_name: 'CPU Scheduling',
-  question: ' In the following cases non–preemptive scheduling occurs?',
+  question: ' In the following cases non-preemptive scheduling occurs?',
   option_one: 'When a process switches from the running state to the ready state',
   option_two: 'When a process goes from the running state to the waiting state',
   option_three: 'When a process switches from the waiting state to the ready state',
   option_four: 'All of the mentioned',
   answer: 'B',
-  explanation: ''
+  explanation: 'Non-preemptive Scheduling is used when a process terminates, or a process switches from running to the waiting state. In this scheduling, once the resources (CPU cycles) are allocated to a process, the process holds the CPU till it gets terminated or reaches a waiting state. '
   },],
   mcq144: [{
      id: '144',
@@ -2282,7 +2282,7 @@ explanation: ''
   option_three: 'tQ = 45ms',
   option_four: 'tQ = 50ms',
   answer: 'A',
-  explanation: ''
+  explanation: 'For processes with short runtimes (less than 10ms) and the goal of achieving small response times, a smaller quantum time (tQ) is generally preferred in Round-Robin time-sharing scheduling. The reason for this is that a smaller quantum allows the processes to be given CPU time more frequently, resulting in faster context switches and improved responsiveness.Out of the options provided, the best value for small response times would be 15 ms'
   },],
   mcq160: [{
      id: '160',
@@ -2324,22 +2324,22 @@ explanation: ''
      id: '163',
   subject_name: 'OS',
   chapter_name: 'CPU Scheduling',
-  question: 'Which of the following statements are true? <br> <ol> <li> Shortest remaining time first scheduling may cause starvation <li> Premptive scheduling may cause staration <li> Round robin is better then FCFS in terms of response time',
+  question: 'Which of the following statements are true? <br> <ol> <li> Shortest remaining time first scheduling may cause starvation <li> Premptive scheduling may cause starvation <li> Round robin is better then FCFS in terms of response time',
   option_one: 'I',
   option_two: 'I and III only',
   option_three: 'II and III only',
   option_four: 'I, II and III',
   answer: 'D',
-  explanation: ' I) Shortest remaining time first scheduling is a preemptive version of shortest job scheduling. It may cause starvation as shorter processes may keep coming and a long CPU burst process never gets CPU. II) Preemption may cause starvation. If priority based scheduling with preemption is used, then a low priority process may never get CPU. III) Round Robin Scheduling improves response time as all processes get CPU after a specified time.'
+  explanation: '1 is true as If there are always processes with smaller burst times arriving in the ready queue, processes with longer burst times might never get a chance to execute, leading to starvation. <br> II is true as  If the preempted process never gets a chance to complete its execution due to other processes continuously preemptions, it can suffer from starvation. <br>III is true as Round Robin  each process gets a fair share of the CPU time, and no process monopolizes the CPU for too long as First come and first serve can lead to this if long cpu burst jobs arrive.  '
   },],
   mcq164: [{
      id: '164',
   subject_name: 'OS',
   chapter_name: 'CPU Scheduling',
   question: 'Which is the most optimal scheduling algorithm?',
-  option_one: 'FCFS - First comse First served',
-  option_two: ' SJF – Shortest Job First',
-  option_three: 'RR – Round Robin',
+  option_one: 'FCFS - First comes First served',
+  option_two: ' SJF - Shortest Job First',
+  option_three: 'RR - Round Robin',
   option_four: 'Non-premptive scheduling',
   answer: 'B',
   explanation: ''
@@ -2362,13 +2362,13 @@ explanation: ''
     id: '166',
  subject_name: 'OS',
  chapter_name: 'CPU Scheduling',
- question: 'Consider the following set of processes, the length of the CPU burst time given in milliseconds. Assuming the above process being scheduled with the SJF scheduling algorithm. The waiting time for p1 is 3ms<table> <tr> <td>Process</td><td>Burst time</td><tr> <td>p1</td><td>6</td> </tr> <tr> <td>p2</td><td>8</td> </tr><tr> <td>p3</td><td>7</td> </tr><tr> <td>p4</td><td>3</td> </tr></tr> </table>',
+ question: 'Consider the following set of processes, the length of the CPU burst time given in milliseconds. Assuming the above process being scheduled with the SJF scheduling algorithm. The waiting time for p1 is _______<table> <tr> <td>Process </td><td>Burst time</td><tr> <td>p1</td><td>6</td> </tr> <tr> <td>p2</td><td>8</td> </tr><tr> <td>p3</td><td>7</td> </tr><tr> <td>p4</td><td>3</td> </tr></tr> </table>',
  option_one: '3 ms',
  option_two: '0 ms',
  option_three: '16 ms',
  option_four: '9 ms',
  answer: 'A',
- explanation: ''
+ explanation: 'First p4 will execute as it is minimium 3ms and then the turn of p1 will come.'
  },],
 
  mcq167: [{
@@ -2418,7 +2418,7 @@ option_two: 'keeping track of what pages are currently residing in memory',
 option_three: ' keeping track of how many times a given page is referenced',
 option_four: ' increasing the priority of jobs to ensure termination in a finite time',
 answer: 'D',
-explanation: ''
+explanation: 'Aging in OS is a scheduling technique used to prevent starvation in operating systems. It involves gradually increasing the priority of processes that have been waiting for a long time. It increases the chance of them getting the necessary resources to execute.'
 },],
 mcq171: [{
   id: '171',
@@ -2493,7 +2493,7 @@ option_two: 'Progress',
 option_three: 'Bounded Waiting',
 option_four: 'All of the mentioned',
 answer: 'D',
-explanation: ''
+explanation: '<b>Mutual Exclution</b> ensuring that conflicting operations are not executed simultaneously <br><b> Progress </b>The selection of process should not be postponed indefinitely to enter critical section. <br><b>Bounded Waiting </b>This condition ensures that there exists a bound on the number of times other processes are allowed to enter their critical sections.<br> All these conditions are necessary.'
 },],
 
 mcq177: [{
@@ -2568,7 +2568,7 @@ option_two: 'periodically',
 option_three: 'atomically',
 option_four: 'none of the mentioned',
 answer: 'C',
-explanation: 'the test-and-set instruction is an instruction used to write (set) 1 to a memory location and return its old value as a single atomic (i.e., non-interruptible) operation. The caller can then "test" the result to see if the state was changed by the call.'
+explanation: 'TestAndSet is hardware based solution to synchronization problem. There is shared lock.<br>the test-and-set instruction is an instruction used to write (set) 1 to a memory location and return its old value as a single atomic (i.e., non-interruptible) operation. The caller can then "test" the result to see if the state was changed by the call.<br> <img src="./images/testandset.png"'
 },],
 
 mcq183: [{
@@ -2632,7 +2632,7 @@ option_two: 'block()',
 option_three: 'hold()',
 option_four: 'wait()',
 answer: 'B',
-explanation: ''
+explanation: 'When a process/thread performs the wait operation on a semaphore, and if the semaphore value is currently zero, the process/thread is blocked, which means it is suspended and put into a waiting state. The block() system call is responsible for suspending the process/thread until the semaphore value becomes greater than zero (or until it is signaled by another process/thread).'
 },],
 
 mcq188: [{
@@ -2645,7 +2645,7 @@ option_two: 'wakeup()',
 option_three: 'getup()',
 option_four: 'start()',
 answer: 'B',
-explanation: ''
+explanation: 'When a process/thread performs the signal operation on a semaphore, it increments the semaphore value. If there are other processes/threads waiting in the semaphore queue (due to a previous wait operation), the signal operation is responsible for "waking up" one of those waiting processes/threads. The "wakeup()" system call is used to bring a waiting process/thread out of the waiting state and make it ready to run.'
 },],
 mcq189: [{
    id: '189',
@@ -2656,7 +2656,7 @@ option_one: 'its magnitude is the number of processes waiting on that semaphore'
 option_two: 'it is invalid',
 option_three: ' no operation can be further performed on it until the signal operation is performed on it',
 option_four: 'none of the mentioned',
-answer: 'B',
+answer: 'A',
 explanation: ''
 },],
 mcq190: [{
@@ -2681,7 +2681,7 @@ option_two: 'Exactly twice',
 option_three: 'Exactly thrice',
 option_four: 'Exactly once',
 answer: 'A',
-explanation: '<img src="images/atleast_two.png">'
+explanation: '<img src="images/atleast_two.png"><br> <a href="./resources/print0.html"> Detail Explanation </a>'
 },],
 mcq192: [{
    id: '192',
@@ -2692,8 +2692,8 @@ option_one: '1',
 option_two: '2',
 option_three: '3',
 option_four: 'None of the mentioned',
-answer: 'C',
-explanation: 'Any one of the 9 processes can get into critical section after executing P(mutex) which decrements the mutex value to 0. At this time P10 can enter critical section by incrementing the value to 1. Now any of the 9 processes can enter the critical section by again decrementing the mutex value to 0. None of the remaining processes can get into their critical sections.'
+answer: 'D',
+explanation: '<img src="images/PandVmutex.png"> <br> Some people assume in p10 one lock is V and other is P. In that case the answer will be 3.  <br> One process and p10  are inside, as p10 increment the value other process will also enter. '
 },],
 mcq193: [{
    id: '193',
@@ -2705,7 +2705,7 @@ option_two: 'It does not ensure bounded waiting',
 option_three: 'It requires that processes enter the critical section in strict alternation',
 option_four: 'It does not prevent deadlocks but ensures mutual exclusion',
 answer: 'D',
-explanation: ''
+explanation: '<a href="./resources/p1andp2deadlock.html"> Full Detail </a>'
 },],
 mcq194: [{
    id: '194',
@@ -2717,7 +2717,7 @@ option_two: 'Deadlock',
 option_three: 'Aging',
 option_four: 'Signaling',
 answer: 'B',
-explanation: 'If a thread which had already locked a mutex, tries to lock the mutex again, it will enter into the waiting list of that mutex, which results in a deadlock. It is because no other thread can unlock the mutex.'
+explanation: 'If a thread which had already locked a mutex, tries to lock the mutex again, it will enter into the waiting list of that mutex, which results in a deadlock. It is because no other thread can unlock the mutex.<br>recursive mutex has a sense of ownership, the thread that grabs the mutex must be the same thread that releases the mutex. In the case of non-recursive mutexes, there is no sense of ownership and any thread can usually release the mutex'
 },],
 mcq195: [{
    id: '195',
@@ -2729,7 +2729,7 @@ option_two: 'must be accessed from only one process',
 option_three: 'can be accessed from multiple processes',
 option_four: 'none of the mentioned',
 answer: 'C',
-explanation: ''
+explanation: 'A semaphore allows a limited number of processes or threads to access a shared resource simultaneously, ensuring that only one process/thread can enter a critical section of code (a section of code that accesses the shared resource) at a time. By using semaphores, processes/threads can coordinate with each other to avoid race conditions and maintain data consistency when accessing shared resources.'
 },],
 mcq196: [{
    id: '196',
@@ -2777,7 +2777,7 @@ option_two: '-1',
 option_three: '0.8',
 option_four: '0.5',
 answer: 'A',
-explanation: ''
+explanation: 'Binary Semaphore: A binary semaphore is a special type of semaphore that can only take two values, typically represented as 0 and 1'
 },],
 mcq200: [{
    id: '200',
@@ -2789,7 +2789,7 @@ option_two: 'three',
 option_three: 'four',
 option_four: 'eight',
 answer: 'C',
-explanation: 'Here are the possible ways in which statements from A and B can be interleaved. A1 A2 B1 B2: X = 11, A1 B1 A2 B2: X = 6, A1 B1 B2 A2: X = 10, B1 A1 B2 A2: X = 10,B1 A1 A2 B2: X = 6,B1 B2 A1 A2: X = 12.'
+explanation: 'Here are the possible ways in which statements from A and B can be interleaved. <ul> <li> A1 A2 B1 B2: X = 11 </li> <li>  A1 B1 A2 B2: X = 6 </li> <li> A1 B1 B2 A2: X = 10 </li> <li> B1 A1 B2 A2: X = 10  </li> <li>B1 A1 A2 B2: X = 6  </li> <li> B1 B2 A1 A2: X = 12. </li></ul>'
 },],
 mcq201: [{
    id: '201',
@@ -2813,7 +2813,7 @@ option_two: 'IPC mechanisms',
 option_three: 'System protection',
 option_four: 'None of the mentioned',
 answer: 'B',
-explanation: ''
+explanation: 'Semaphores are primarily used to implement Inter-Process Communication (IPC) mechanisms.'
 },],
 mcq203: [{
    id: '203',
@@ -2915,7 +2915,7 @@ mcq211: [{
   id: '211',
 subject_name: 'OS',
 chapter_name: 'Process Synchronization',
-question: 'All processes share a semaphore variable mutex, initialized to 1. Each process must execute wait(mutex) before entering the critical section and signal(mutex) afterward.Suppose a process executes in the following manner.<br> <img src="images/wait_mutux.png">',
+question: 'All processes share a semaphore variable mutex, initialized to 1. Each process must execute wait(mutex) before entering the critical section and wait(mutex) afterward.Suppose a process executes in the following manner.<br> <img src="images/wait_mutux.png">',
 option_one: 'a deadlock will occur',
 option_two: 'processes will starve to enter critical section',
 option_three: 'several processes maybe executing in their critical section',
@@ -2933,7 +2933,7 @@ option_two: 'Progress but not mutual exclusion',
 option_three: 'Neither mutual exclusion nor progress',
 option_four: 'Both mutual exclusion and progress',
 answer: 'D',
-explanation: ''
+explanation: '<b>Mutual exclusion:</b> The condition while(S1 == S2); in P1s method ensures that P1 will wait in a busy-wait loop until S1 and S2 have the same value (i.e., they are equal). This means that P1 will only enter the critical section when S1 and S2 are equal, preventing both processes from being in their critical sections simultaneously. So, mutual exclusion is achieved.</br><b>Progress:</b> P2s method has the condition while(S1 != S2);, which ensures that P2 will wait in a busy-wait loop until S1 and S2 have different values (i.e., they are not equal). This implies that P2 will only enter the critical section when S1 and S2 are not equal, meaning that one of the processes has already left its critical section. This guarantees progress because if P1 is in its critical section, P2 will keep looping until it can enter its critical section, and vice versa.'
 },],
 mcq213: [{
    id: '213',
@@ -3017,7 +3017,7 @@ option_two: 'suspends some default process execution',
 option_three: 'nothing happens',
 option_four: 'the output is unpredictable',
 answer: 'C',
-explanation: ''
+explanation: 'If no process is suspended, the signal operation (also known as the V operation) simply increments the semaphore value and allows the value to become positive if it was zero or negative. This means that the semaphore becomes available, and any waiting process that subsequently performs the wait operation (P operation) can proceed immediately without being blocked.'
 },],
 mcq220: [{
    id: '220',
@@ -3053,7 +3053,7 @@ option_two: 'protection',
 option_three: 'roll - back',
 option_four: 'revert - back',
 answer: 'C',
-explanation: ''
+explanation: '"roll back" is a standard term used to describe the action of undoing changes and returning to a previous state, while "revert back" is a less common term that adds unnecessary redundancy. In technical discussions, it is more appropriate to use "roll back" when referring to the process of reverting changes to a previous state in databases, version control systems, or other software systems.'
 },],
 mcq223: [{
   id: '223',
@@ -3089,7 +3089,7 @@ option_two: 'after the corresponding log record is written out to stable storage
 option_three: 'until the whole log record has been checked for inconsistencies',
 option_four: 'all of the mentioned',
 answer: 'A',
-explanation: ''
+explanation: 'An actual update is not allowed to a data item before the corresponding log record is written out to stable storage. This principle is known as the Write-Ahead Logging (WAL) protocol, commonly used in database management systems to ensure data consistency and durability.'
 },],
 mcq226: [{
   id: '226',
@@ -3099,7 +3099,7 @@ question: 'The undo and redo operations must be _________ to guarantee correct b
 option_one: 'idempotent',
 option_two: 'easy',
 option_three: 'protected',
-option_four: 'protected',
+option_four: 'All of the mentioned',
 answer: 'A',
 explanation: 'Idempotence, in programming and mathematics, is a property of some operations such that no matter how many times you execute them, you achieve the same result'
 },],
@@ -3605,7 +3605,7 @@ option_two: 'Max - Available',
 option_three: 'Max - Allocation',
 option_four: 'Allocation - Max',
 answer: 'C',
-explanation: '<img src="images/banker_allocation.png"> <br> <a href="https://www.cs.csustan.edu/~john/classes/previous_semesters/cs3750_operatingsys_i/2018_02_Spr/Examples/bankersAlgEg.html"> See Full Explaination </a>'
+explanation: 'The content of the matrix Need is calculated as the difference between the Max matrix and the Allocation matrix. It represents the maximum resources needed by each process to complete its execution. Mathematically, for each element (i, j) in the Need matrix:<br><img src="images/banker_allocation.png"> <br> <a href="https://www.cs.csustan.edu/~john/classes/previous_semesters/cs3750_operatingsys_i/2018_02_Spr/Examples/bankersAlgEg.html"> See Full Explaination </a>'
 },],
 mcq269: [{
    id: '269',
@@ -3761,7 +3761,7 @@ option_two: 'Abort all processes',
 option_three: 'Abort one process at a time until the deadlock cycle is eliminated',
 option_four: 'All of the mentioned',
 answer: 'C',
-explanation: ''
+explanation: 'ways to recovery from dead lock <ul> <li> Resource pre-emption </li>  <li> Process termination </li> <li> Roll back </li></ul>'
 },],
 mcq282: [{
    id: '282',
@@ -3917,7 +3917,7 @@ option_two: 'enable a process to be larger than the amount of memory allocated t
 option_three: 'keep in memory only those instructions',
 option_four: 'all of the mentioned',
 answer: 'D',
-explanation: ''
+explanation: 'The idea of overlay  is to allow a program to be larger than the available physical memory by dividing it into smaller parts called overlays. only the overlays that are currently needed are loaded into memory this techniue used in early computers but has largely been replaced by virtual memory,'
 },],
 mcq295: [{
    id: '295',

@@ -24,6 +24,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 
   position: relative;
+  overflow-x: hidden;
 }
 
 .mcq {
@@ -140,6 +141,15 @@ body {
 .description{
   line-height: 2.0;
 }
+
+.note {
+  margin-left: 1rem;
+}
+
+.btn-marks {
+  margin-top: 3rem;
+}
+
 
 @media print {
   .noprint {

@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<!-- saved from url=(0115)https://testbook.com/question-answer/the-following-program-consists-of-3-concurrent-pro-%2D60b7113802405ba747c90946 -->
+<html en-us="">
+  <head>
+    <title>The following program consists of 3 concurrent processes and</title>
+
+    <style type="text/css">
+      html {
+        line-height: 1.15;
+        -webkit-text-size-adjust: 100%;
+      }
+      body {
+        margin: 0;
+      }
+      h1 {
+        font-size: 2em;
+        margin: 0.67em 0;
+      }
+     
+      b,
+      strong {
+        font-weight: bolder;
+      }
+     
+      html {
+        font-family: sans-serif;
+      }
+    
+      .pure-g {
+        text-rendering: optimizespeed;
+        font-family: RobotoRegular, FreeSans, Arimo, "Droid Sans", Helvetica,
+          Arial, sans-serif;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        -ms-flex-line-pack: start;
+        align-content: flex-start;
+      }
+    
+
+ 
+      .pure-u-1,
+      .pure-u-1-1,
+      .pure-u-24-24,
+      .pure-u-5-5 {
+        width: 100%;
+      }
+   
+    
+    
+      h1,
+      h2,
+      h3,
+      h4,
+      strong,
+      .main-heading,
+      .pure-button,
+      .resp-sharing-button,
+      .section__free-tests .card__heading,
+      .users-count .highlight,
+      .pyp-buttons a {
+        font-family: RobotoMedium, FreeSans, Arimo, "Droid Sans", Helvetica,
+          Arial, sans-serif;
+        line-height: 20px;
+      }
+      h1 {
+        font-size: 18px;
+      }
+      h2,
+      .h2 {
+        font-size: medium;
+      }
+     
+      .center {
+        justify-content: center;
+        margin-left: 2rem;
+      }
+   
+      body {
+        background-color: #f5f8f9;
+        font-family: RobotoRegular, acumin-pro, -apple-system,
+          BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, Noto Sans,
+          sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+          Noto Color Emoji;
+        font-size: 16px;
+        overflow-x: hidden;
+      }
+     
+    
+
+      h1,
+      h2,
+      h3,
+      h4,
+      strong,
+      .main-heading,
+      .pure-button,
+      .resp-sharing-button,
+      .section__free-tests .card__heading,
+      .users-count .highlight,
+      .pyp-buttons a {
+        font-family: RobotoMedium, FreeSans, Arimo, "Droid Sans", Helvetica,
+          Arial, sans-serif;
+        line-height: 20px;
+      }
+    
+      .main-container {
+        margin-top: 4em;
+      }
+    
+     
+      .questionBody {
+        overflow-x: auto;
+      }
+      .questionBody p {
+        margin: 0;
+      }
+      .answer-card h2 {
+        margin-top: 0;
+      }
+      .answer-card {
+        line-height: 1.6;
+        word-break: break-word;
+      }
+      .solution-card .card__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        padding-bottom: 0;
+      }
+      .solution-card .solution-heading {
+        margin-bottom: 14px;
+      }
+      .solution-card .solution,
+      h1.questionBody,
+      .tag-h1 .answer-card > div {
+        color: #1e2b33;
+        word-break: break-word;
+      }
+      .answer-card > div {
+        word-break: break-word;
+        line-height: 1.6;
+      }
+      .tag-h1 {
+        display: block;
+        font-size: 18px;
+        line-height: 26px;
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0;
+        margin-inline-end: 0;
+        font-weight: 700;
+        margin: 0.67em 0;
+      }
+      .tag-h2 {
+        display: block;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0;
+        margin-inline-end: 0;
+        font-weight: 700;
+        margin-top: 0;
+        font-size: medium;
+      }
+    
+      h1.questionBody,
+      tag-h1 {
+        line-height: 26px;
+      }
+    
+      .main-container > div {
+        margin: auto;
+      }
+   
+    
+      .underline {
+        position: relative;
+        padding-bottom: 10px;
+      }
+      .underline:after {
+        content: "";
+        height: 1px;
+        margin: 10px 0;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -10px;
+        background: #f0f2f7;
+      }
+      .solution-card {
+        padding: 9px 14px 16px;
+        overflow: auto;
+      }
+      .question__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 14px;
+      }
+     
+      .questionBody .options-list {
+        padding-inline-start: 30px;
+      }
+    
+      .options-list .option::marker {
+        color: #89959b;
+      }
+      .options-list .option {
+        position: relative;
+        z-index: 1;
+        padding: 12px 10px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+        color: #1e2022;
+        word-break: break-word;
+      }
+      .options-list .option::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -30px;
+        right: 0;
+        height: 100%;
+        border-radius: 4px;
+        background: #f9f9f9;
+        z-index: -1;
+      }
+   
+      .ques-container {
+        margin-top: 15px;
+      }
+    
+      div.solution {
+        position: relative;
+      }
+      div.solution-card .solution-heading {
+        margin-top: 2px;
+      }
+    
+
+    </style>
+
+  </head>
+  <body>
+   
+  
+      <div
+        class="pure-g center pure-u-1 pure-u-md-19-24 pure-u-lg-19-24 pure-u-xl-16-24"
+        style="margin: 1em auto 0"
+        id="main-container" >
+        <div class="container pure-u-lg-16-24 pure-u-xl-16-24 ques-container">
+          <div class="card">
+            <div class="questionBody">
+              <div class="question__header underline">
+                <h2 class="question_heading">Question</h2>
+              </div>
+              <h1 class="questionBody tag-h1">
+                <p>
+                  The following program consists of 3 concurrent processes and 3
+                  binary semaphores. The semaphores are initialized as S0=1,
+                  S1=0, S2=0.
+                </p>
+                <table
+                  border="1"
+                  cellpadding="0"
+                  cellspacing="0"
+                  style="width: 399px"
+                  width="399"
+                >
+                  <tbody>
+                    <tr>
+                      <td style="height: 18px">
+                        <p align="center">Process P0</p>
+                      </td>
+                      <td style="height: 18px">
+                        <p align="center">Process P1</p>
+                      </td>
+                      <td style="height: 18px">
+                        <p align="center">Process P2</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="height: 118px">
+                        <p align="center">While (true) {</p>
+                        <p align="center">Wait (S0);</p>
+                        <p align="center">Print ‘0’</p>
+                        <p align="center">Release (S1);</p>
+                        <p align="center">Release (S2);</p>
+                        <p align="center">}</p>
+                      </td>
+                      <td style="height: 118px">
+                        <p align="center">Wait (S1);</p>
+                        <p align="center">Release (S0);</p>
+                      </td>
+                      <td style="height: 118px">
+                        <p align="center">Wait (S2);</p>
+                        <p align="center">Release (S0);</p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p>&nbsp;</p>
+                <p>How many times will process P0 print ‘0’?&nbsp;</p>
+              </h1>
+              <div class="options">
+                <ol class="options-list">
+                  <li class="option">At least twice</li>
+                  <li class="option">Exactly twice</li>
+                  <li class="option">Exactly thrice</li>
+                  <li class="option">Exactly once</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <div class="card answer-card">
+            <h2 class="underline tag-h2">Answer</h2>
+            <div>Option 1 : At least twice</div>
+          </div>
+
+          <div class="card solution-card">
+            <div class="card__header underline">
+              <h2 class="solution-heading">Detailed Solution</h2>
+            </div>
+            <div class="solution">
+              <p>The correct answer is <strong>option 1</strong></p>
+              <p>
+                <u><strong>Concept:</strong></u>
+              </p>
+              <p>
+                <span
+                  style="
+                    color: rgb(39, 50, 57);
+                    letter-spacing: 0.162px;
+                    white-space: normal;
+                  "
+                  >Binary semaphore which can take only two values 0 and 1 and
+                  ensure mutual exclusion.</span
+                >
+              </p>
+              <p>
+                <span
+                  style="
+                    color: rgb(39, 50, 57);
+                    letter-spacing: 0.162px;
+                    white-space: normal;
+                  "
+                  >A process is entered into the critical section only when
+                  <strong>the value of semaphore(s) = 1</strong></span
+                >
+              </p>
+              <p>
+                <span
+                  style="
+                    color: rgb(39, 50, 57);
+                    letter-spacing: 0.162px;
+                    white-space: normal;
+                  "
+                  >Otherwise, it will wait until
+                  <strong>semaphore(s) &gt;0</strong></span
+                >
+              </p>
+              <p>
+                <u
+                  ><span
+                    style="
+                      color: rgb(39, 50, 57);
+                      letter-spacing: 0.162px;
+                      white-space: normal;
+                    "
+                    ><strong>Explanation:</strong></span
+                  ></u
+                >
+              </p>
+              <p> <strong>Assume</strong>  P0 is responsible for S0, P1 for S1 and P2 for S2 </p>
+              <p>The semaphores are initialized as S0=1, S1=0, S2=0.</p>
+              <p>
+                Because S0 =1 then P0 enter into the critical section and other
+                processes will wait until either S1=1 or S2 =1
+              </p>
+              <p><strong>The minimum number of times 0 printed:</strong></p>
+              <ul>
+                <li>S0=1 then P0 enter into the critical section</li>
+                <li><strong>print '0'</strong></li>
+                <li>then release S1 and S2 means S1 =1 and s2 =1</li>
+                <li>now either P1 or P2 can enter into the critical section</li>
+                <li>if P1 enter into the critical section</li>
+                <li>release S0</li>
+                <li>then P2 enter into the critical section</li>
+                <li>release S0</li>
+                <li>P1 enter into the critical section</li>
+                <li><strong>print '0'</strong></li>
+              </ul>
+              <p>
+                <span
+                  style="
+                    color: rgb(39, 50, 57);
+                    letter-spacing: 0.162px;
+                    white-space: normal;
+                  "
+                  >The minimum number&nbsp;of time<strong> 0 printed</strong> is
+                  <strong>twice</strong> when executing in this order<strong>
+                    (p0 -&gt; p1 -&gt; p2 -&gt; p0)</strong
+                  ></span
+                >
+              </p>
+              <p> <strong>NOTE:</strong> S0 is released 2 times, one time  is igonred. when p1 release it, p2 said release  it again, no need already released.</p>
+              <p>
+                <span style="font-weight: 700"
+                  >The Maximum number of times 0 printed:
+                </span>
+              </p>
+              <ul>
+                <li>S0 =1 then P0 enter into the critical section</li>
+                <li><span style="font-weight: 700">print '0'</span></li>
+                <li>Then release S1 and S2 means S1 =1 and s2 =1</li>
+                <li>Now either P1 or P2 can enter into the critical section</li>
+                <li>If P1 enter into the critical section</li>
+                <li>Release S0 means S0 =1</li>
+                <li>S0 =1 then P0 enter into the critical section</li>
+                <li><span style="font-weight: 700">print '0'</span></li>
+                <li>Then P2 enter into the critical section</li>
+                <li>Release S0 means S0 =1</li>
+                <li>S0 =1 then P0 enter into the critical section</li>
+                <li><span style="font-weight: 700">print '0'</span></li>
+              </ul>
+              <p>
+                <span
+                  style="
+                    color: rgb(39, 50, 57);
+                    letter-spacing: 0.162px;
+                    white-space: normal;
+                  "
+                  >Maximum no. of time<strong> 0 printed </strong>is<strong>
+                    thrice</strong
+                  >
+                  when execute in this order
+                  <strong
+                    >(p0 -&gt; p1 -&gt; p0 -&gt; p2 -&gt; p0)</strong
+                  ></span
+                >
+              </p>
+              <p>
+                So, <strong>At least twice</strong> will process P0
+                <strong>print ‘0’</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+ 
+  </body>
+
+</html>
