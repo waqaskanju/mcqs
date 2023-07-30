@@ -3917,7 +3917,7 @@ option_two: 'enable a process to be larger than the amount of memory allocated t
 option_three: 'keep in memory only those instructions',
 option_four: 'all of the mentioned',
 answer: 'D',
-explanation: 'The idea of overlay  is to allow a program to be larger than the available physical memory by dividing it into smaller parts called overlays. only the overlays that are currently needed are loaded into memory this techniue used in early computers but has largely been replaced by virtual memory,'
+explanation: 'The idea of overlay  is to allow a program to be larger than the available physical memory by dividing it into smaller parts called overlays. only the overlays that are currently needed are loaded into memory this technique used in early computers but has largely been replaced by virtual memory,'
 },],
 mcq295: [{
    id: '295',
@@ -4061,7 +4061,7 @@ option_two: 'external storage',
 option_three: 'secondary storage',
 option_four: 'none of the mentioned',
 answer: 'A',
-explanation: ''
+explanation: 'The size of a process is limited to the size of physical memory (RAM) available in the system. When a program is executed, it is loaded into the physical memory so that the CPU can access and execute its instructions. If the process size exceeds the available physical memory, it may lead to memory overflow or out-of-memory errors.'
 },],
 mcq307: [{
    id: '307',
@@ -4106,7 +4106,7 @@ chapter_name: 'Memory Management',
 question: 'The ________ consists of all processes whose memory images are in the backing store or in memory and are ready to run.',
 option_one: 'wait queue',
 option_two: 'ready queue',
-option_three: 'cpu',
+option_three: 'CPU',
 option_four: 'secondary storage',
 answer: 'B',
 explanation: ''
@@ -4251,7 +4251,7 @@ subject_name: 'OS',
 chapter_name: 'Memory Management',
 question: 'The main memory accommodates ____________',
 option_one: 'operating system',
-option_two: 'cpu',
+option_two: 'CPU',
 option_three: 'user processes',
 option_four: 'all of the mentioned',
 answer: 'A',
@@ -4495,7 +4495,7 @@ option_two: 'power of 2',
 option_three: 'power of 4',
 option_four: 'None of the mentioned',
 answer: 'B',
-explanation: ''
+explanation: 'Using a power of 2 for page size simplifies memory addressing and management because it aligns well with the binary representation of memory addresses. '
 },],
 mcq343: [{
    id: '343',
@@ -4507,7 +4507,7 @@ option_two: 'n,m',
 option_three: 'm-n,m',
 option_four: 'm-n,n',
 answer: 'D',
-explanation: ''
+explanation: 'If the size of the logical address space is 2 to the power of m, and a page size is 2 to the power of n addressing units, then:<br>The high-order (m - n) bits of a logical address designate the page number.<br>The low-order n bits of a logical address designate the page offset.<br>In other words, the logical address is divided into two parts: the higher (leftmost) bits represent the page number, and the lower (rightmost) bits represent the offset within the page. This division allows the operating system to efficiently map logical addresses to physical addresses and perform memory management using page-based techniques like paging.<br> <img src="images/mn_example.png">'
 },],
 mcq344: [{
    id: '344',
@@ -4555,7 +4555,7 @@ option_two: 'very high speed logic',
 option_three: 'a large memory space',
 option_four: 'none of the mentioned',
 answer: 'B',
-explanation: ''
+explanation: 'The page table registers should be built with very high-speed logic. Page table registers are a crucial component of the memory management unit (MMU) in a computer system, responsible for translating virtual addresses to physical addresses during memory access. Since address translation is a fundamental operation that occurs with every memory access, it is essential for the page table registers to be built with high-speed logic to minimize the overhead and latency associated with address translation.'
 },],
 mcq348: [{
    id: '348',
@@ -4585,13 +4585,13 @@ mcq350: [{
    id: '350',
 subject_name: 'OS',
 chapter_name: 'Memory Management',
-question: 'Time taken in memory access through PTBR is ____________',
+question: 'Time taken in memory access through (Page Table Base Register) PTBR is ____________',
 option_one: 'extended by a factor of 3',
 option_two: 'extended by a factor of 2',
 option_three: 'slowed by a factor of 3',
 option_four: 'slowed by a factor of 2',
 answer: 'D',
-explanation: 'A page table base register (PTBR) holds the base address for the page table of the current process'
+explanation: 'The Page Table Base Register (PTBR) is a hardware register used in memory management units (MMUs) to store the starting address of the page table. When a virtual address needs to be translated into a physical address, the MMU uses the PTBR to locate the appropriate page table entry and perform the address translation.<br>The process of memory access through PTBR involves an additional step of accessing the page table, which introduces some overhead compared to a direct memory access. This additional step can slow down the overall memory access time. However, modern computer systems are designed to minimize this overhead and ensure efficient address translation.'
 },],
 mcq351: [{
    id: '351',
@@ -4603,7 +4603,7 @@ option_two: 'value',
 option_three: 'bit value',
 option_four: 'constant',
 answer: 'A',
-explanation: ''
+explanation: 'Each entry in a translation lookaside buffer (TLB) consists of a "key".<br> A Translation Lookaside Buffer (TLB) is a cache that stores recently used virtual-to-physical address translations. It is a hardware component of the memory management unit (MMU) in a computer system. When a program accesses memory, the MMU first checks the TLB to see if the virtual-to-physical address translation for that memory location is already present. If it is, the TLB provides the physical address directly, which is faster than performing a complete address translation through the page table.'
 },],
 mcq352: [{
    id: '352',
@@ -4699,7 +4699,7 @@ option_two: '68.0 ns',
 option_three: '68.5 ns',
 option_four: '78.5 ns',
 answer: 'C',
-explanation: ''
+explanation: '<img src="page_hit.png" alt="page hit ratio">'
 },],
 mcq360: [{
    id: '360',
@@ -4759,7 +4759,7 @@ option_two: 'starting physical address of the segment in memory',
 option_three: 'segment length',
 option_four: 'none of the mentioned',
 answer: 'B',
-explanation: ''
+explanation: 'The segment base contains the starting physical address of the segment in memory.'
 },],
 mcq365: [{
    id: '365',
@@ -4831,7 +4831,7 @@ option_two: '14 bits',
 option_three: '15 bits',
 option_four: '16 bits',
 answer: 'C',
-explanation: 'To specify a particular segment, 5 bits are required. To select a particular byte after selecting a page, 10 more bits are required. Hence 15 bits are required.'
+explanation: 'To specify a particular segment, 5 bits are required. To select a particular byte after selecting a page, 10 more bits are required. Hence 15 bits are required.<br> If there are 32 segments , each of size 1Kb, then the logical address should have 14 bits. This is because the segment number is represented using log2(32) = 5 bits ((since 2^5 = 32).), and the offset within the segment is represented using log2(1024) ( (since 2^10 = 1024).)= 10 bits. Therefore, the total number of bits required to represent the logical address is 5 + 10 = 15 bits.'
 },],
 mcq371: [{
    id: '371',
