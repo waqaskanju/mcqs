@@ -12,8 +12,8 @@
 	 	"body": [
 			"mcq${1:x}: [{",
 			"   id: '${1:x}',",
-			"subject_name: 'OS',",
-			"chapter_name: 'Linux OS',",
+			"subject_name: 'ITC',",
+			"chapter_name: 'Introduction',",
 			"question: '${3:}',",
 			"option_one: '${4:}',",
 			"option_two: '${5:}',",
