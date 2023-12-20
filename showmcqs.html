@@ -1,69 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/ico" sizes="32x32" href="./images/favicon.ico">
-    <!-- computer Networks -->
-   <script src="data/cn_data.js"></script>
-     <!-- Operating System -->
-      <script src="data/os_data.js"></script>
-    <!-- Datastructure and algorithum  -->
-    <script src="data/dsa_data.js"></script>
-    <!-- C Programming  -->
-    <script src="data/cp_data.js"></script>
-    <!-- C Plus Plus Programming  -->
-    <script src="data/cpp_data.js"></script>
-    <!-- Software engineering -->
-    <script src="data/se_data.js"></script>
-    <!-- Database Systems -->
-    <script src="data/dbs_data.js"></script>
-        <!-- Introduction to Computers -->
-    <script src="data/itc_data.js"></script>
 
-    <script src="sandbox.js"></script>
-    <title id="page_title">
-      
-    </title>
-    <link rel="stylesheet" href="stylesheets/style.css">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/ico" sizes="32x32" href="./images/favicon.ico">
+  <!-- computer Networks -->
+  <script src="data/cn_data.js"></script>
+  <!-- Operating System -->
+  <script src="data/os_data.js"></script>
+  <!-- Datastructure and algorithum  -->
+  <script src="data/dsa_data.js"></script>
+  <!-- C Programming  -->
+  <script src="data/cp_data.js"></script>
+  <!-- C Plus Plus Programming  -->
+  <script src="data/cpp_data.js"></script>
+  <!-- Software engineering -->
+  <script src="data/se_data.js"></script>
+  <!-- Database Systems -->
+  <script src="data/dbs_data.js"></script>
+  <!-- Artificial Intelligence -->
+  <script src="data/ai_data.js"></script>
+  <!-- Introduction to Computers -->
+  <script src="data/itc_data.js"></script>
+
+  <!-- Programming Fundaments -->
+  <script src="data/pf_data.js"></script>
+
+  <script src="sandbox.js"></script>
+  <title id="page_title">
+
+  </title>
+  <link rel="stylesheet" href="stylesheets/style.css">
 </head>
-<div >
-  <p class="noprint note">Note: Only your first selection count towards marks. changes not allowed. once an mcq is selected it is final.</p>
-   <p> <a class="top_header noprint note" href="index.html"> chapter selection </a> </p>
+<div>
+  <p class="noprint note">Note: Only your first selection count towards marks. changes not allowed. once an mcq is
+    selected it is final.</p>
+  <p> <a class="top_header noprint note" href="index.html"> chapter selection </a> </p>
 </div>
 
-    <script>
-       // Call to get url parameters.
-       let url_params = get_url_values();
+<script>
+  // Call to get url parameters.
+  let url_params = get_url_values();
 
-       //  get subject form url parameter.
-       let subject = url_params.subject;
+  //  get subject form url parameter.
+  let subject = url_params.subject;
 
-       // get chapter form url parameter.
-       let chapter = url_params.chapter;
-      document.getElementById('page_title').innerText = subject +' - '+ chapter;
+  // get chapter form url parameter.
+  let chapter = url_params.chapter;
+  document.getElementById('page_title').innerText = subject + ' - ' + chapter;
 
-       if(subject=="CN")
-       show_data(CN_MCQS,subject,chapter);
-       else if (subject=="DSA")
-       show_data(DSA_MCQS,subject,chapter);
-       else if (subject=="OS")
-       show_data(OS_MCQS,subject,chapter);
-       else if (subject=="CP")
-       show_data(CP_MCQS,subject,chapter);
-       else if (subject=="CPP")
-       show_data(CPP_MCQS,subject,chapter);
-       else if (subject=="SE")
-       show_data(SE_MCQS,subject,chapter);
-       else if (subject=="DBS")
-       show_data(DBS_MCQS,subject,chapter);
-       else if (subject=="ITC")
-       show_data(ITC_MCQS,subject,chapter);
-       else
-       console.log('no subject mentioned');
-    </script>
-    <br>
-    <button class="noprint btn-marks" id="showMarks" onclick="show_marks()"> Show Marks </button>
+  if (subject == "CN")
+    show_data(CN_MCQS, subject, chapter);
+  else if (subject == "DSA")
+    show_data(DSA_MCQS, subject, chapter);
+  else if (subject == "OS")
+    show_data(OS_MCQS, subject, chapter);
+  else if (subject == "CP")
+    show_data(CP_MCQS, subject, chapter);
+  else if (subject == "CPP")
+    show_data(CPP_MCQS, subject, chapter);
+  else if (subject == "SE")
+    show_data(SE_MCQS, subject, chapter);
+  else if (subject == "DBS")
+    show_data(DBS_MCQS, subject, chapter);
+  else if (subject == "AI")
+    show_data(AI_MCQS, subject, chapter);
+  else if (subject == "ITC")
+    show_data(ITC_MCQS, subject, chapter);
+  else if (subject == "PF")
+    show_data(PF_MCQS, subject, chapter);
+  else
+    console.log('no subject mentioned');
+</script>
+<br>
+<button class="noprint btn-marks" id="showMarks" onclick="show_marks()"> Show Marks </button>
 </body>
+
 </html>
