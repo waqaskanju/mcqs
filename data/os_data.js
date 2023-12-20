@@ -4699,7 +4699,7 @@ option_two: '68.0 ns',
 option_three: '68.5 ns',
 option_four: '78.5 ns',
 answer: 'C',
-explanation: '<img src="page_hit.png" alt="page hit ratio">'
+explanation: '<img src="./images/page_hit.png" alt="page hit ratio">'
 },],
 mcq360: [{
    id: '360',
@@ -4831,7 +4831,7 @@ option_two: '14 bits',
 option_three: '15 bits',
 option_four: '16 bits',
 answer: 'C',
-explanation: 'To specify a particular segment, 5 bits are required. To select a particular byte after selecting a page, 10 more bits are required. Hence 15 bits are required.<br> If there are 32 segments , each of size 1Kb, then the logical address should have 14 bits. This is because the segment number is represented using log2(32) = 5 bits ((since 2^5 = 32).), and the offset within the segment is represented using log2(1024) ( (since 2^10 = 1024).)= 10 bits. Therefore, the total number of bits required to represent the logical address is 5 + 10 = 15 bits.'
+explanation: 'To specify a particular segment, 5 bits are required. To select a particular byte after selecting a page, 10 more bits are required. Hence 15 bits are required.<br> If there are 32 segments , each of size 1Kb, then the logical address should have 15 bits. This is because the segment number is represented using log2(32) = 5 bits ((since 2^5 = 32).), and the offset within the segment is represented using log2(1024) ( (since 2^10 = 1024).)= 10 bits. Therefore, the total number of bits required to represent the logical address is 5 + 10 = 15 bits.'
 },],
 mcq371: [{
    id: '371',
@@ -5167,7 +5167,7 @@ option_two: 'not the same as',
 option_three: 'all of the mentioned',
 option_four: 'none of the mentioned',
 answer: 'B',
-explanation: ''
+explanation: 'Spooling,  stands for "Simultaneous Peripheral Operations On-Line" and is a technique used in computer systems to temporarily hold data in a queue until it can be processed by a device. This is often used in printing, where print jobs are spooled to a temporary storage area before being sent to the printer.'
 },],
 mcq399: [{
    id: '399',
@@ -5200,7 +5200,7 @@ chapter_name: 'I/O System',
 question: 'The ________ keeps state information about the use of I/O components.',
 option_one: 'CPU',
 option_two: 'OS',
-option_three: 'kernal',
+option_three: 'kernel',
 option_four: 'shell',
 answer: 'C',
 explanation: ''
@@ -5275,7 +5275,7 @@ option_two: 'longer duration job has higher priority',
 option_three: 'priority does not depend on the duration of the job',
 option_four: 'none of the mentioned',
 answer: 'A',
-explanation: ''
+explanation: 'In rate monotonic scheduling (RMS), the priority of a task is determined based on its period, not its duration. The period of a task is the time interval between the starts of consecutive instances of the task. In RMS, tasks with shorter periods are given higher priority than tasks with longer periods.'
 },],
 mcq408: [{
    id: '408',
@@ -5287,7 +5287,7 @@ option_two: 'proportional share scheduling',
 option_three: 'equal share scheduling',
 option_four: 'none of the mentioned',
 answer: 'B',
-explanation: ''
+explanation: 'Proportional share scheduling is a type of scheduling that preallocates a certain amount of CPU time to each of the processes. In a proportional share algorithm, every job has a weight, and jobs receive a share of the available resources proportional to the weight of every job'
 },],
 mcq409: [{
    id: '409',
@@ -5299,7 +5299,7 @@ option_two: 'priority inversion protocol',
 option_three: 'both priority inheritance and inversion protocol',
 option_four: 'none of the mentioned',
 answer: 'A',
-explanation: ''
+explanation: 'Priority inversion is a problem that can occur in systems with priority-based scheduling, where a low-priority task holds a shared resource that is required by a high-priority task. This can cause the high-priority task to be blocked, and if another medium-priority task becomes runnable, it can preempt the low-priority task, further delaying the high-priority task'
 },],
 mcq410: [{
    id: '410',
@@ -5335,7 +5335,7 @@ option_two: 'linux kernel',
 option_three: 'unix kernel',
 option_four: 'none of the mentioned',
 answer: 'A',
-explanation: ''
+explanation: 'The Wind Microkernel is a small, highly modular, and real-time operating system microkernel developed by Wind River Systems. It forms the core of the VxWorks operating system. A microkernel is a minimalist approach to an operating system design, where the kernel provides only essential services, and most operating system functions are implemented as user-level processes or tasks.'
 },],
 mcq413: [{
    id: '413',
@@ -5347,7 +5347,7 @@ option_two: 'time consumption overhead',
 option_three: 'absence of memory protection between processes',
 option_four: 'restricted access to memory locations by processes',
 answer: 'C',
-explanation: ''
+explanation: 'In real addressing mode, the memory addresses used by the CPU directly correspond to physical memory locations. As a result, there is no memory protection mechanism in place to prevent one process from accessing or modifying the memory used by another process. '
 },],
 mcq414: [{
    id: '414',
@@ -5419,7 +5419,7 @@ option_two: 'provide preemptive kernels',
 option_three: 'make it user programmed',
 option_four: 'run less number of processes at a time',
 answer: 'B',
-explanation: ''
+explanation: 'By using a preemptive kernel, the operating system can respond quickly to high-priority tasks and ensure that critical processes get CPU time when needed. This reduces the dispatch latency, which is the time taken by the operating system to switch from one process to another.'
 },],
 mcq420: [{
    id: '420',
@@ -5428,7 +5428,7 @@ chapter_name: 'Real Time Operating Systems',
 question: 'In a real time system the computer results ____________',
 option_one: 'must be produced within a specific deadline period',
 option_two: 'may be produced at any time',
-option_three: 'may be correct',
+option_three: 'may be produced late',
 option_four: 'all of the mentioned',
 answer: 'A',
 explanation: ''
@@ -5600,7 +5600,7 @@ option_two: 'proportional share',
 option_three: 'earliest deadline first',
 option_four: 'none of the mentioned',
 answer: 'B',
-explanation: ''
+explanation: 'In the proportional share scheduling algorithm, T shares of time are allocated among all processes out of N shares. The idea behind proportional share scheduling is to divide the available CPU time (N shares) among multiple processes based on their relative weights or priorities. Each process is allocated a proportional share (T shares) of the CPU time according to its weight compared to the total weight of all processes.'
 },],
 
 mcq435: [{
@@ -5613,7 +5613,7 @@ option_two: '15',
 option_three: '50',
 option_four: 'None of the mentioned',
 answer: 'C',
-explanation: ''
+explanation: 'If there are a total of T = 100 shares to be divided among three processes, A, B, and C, and A is assigned 50 shares, then A will have 50 percent of the total processor time. This is because the number of shares assigned to a process in a proportional share scheduling algorithm determines the proportion of the total processor time that the process will receive. In this case, since A has been assigned 50 out of the total 100 shares, it will receive 50/100 = 0.5 or 50% of the total processor time'
 },],
 mcq436: [{
    id: '436',
@@ -5649,7 +5649,7 @@ option_two: '2 &times; P ',
 option_three: '1/P',
 option_four: 'P',
 answer: 'C',
-explanation: ''
+explanation: 'If the period of a process is "p", then the rate of the task is given by the reciprocal of the period, which is 1/P.'
 },],
 mcq439: [{
    id: '439',
@@ -7383,7 +7383,7 @@ mcq583: [{
    id: '583',
 subject_name: 'OS',
 chapter_name: 'Linux OS',
-question: ' Standard set of functions through which interacts with kernel is defined by ___________',
+question: ' Standard set of functions through which applications interacts with kernel is defined by ___________',
 option_one: 'system libraries',
 option_two: 'kernel code',
 option_three: 'compilers',
@@ -7650,7 +7650,7 @@ chapter_name: 'Linux OS',
 question: 'Because the kernel thread management is done by the Operating System itself ___________',
 option_one: 'kernel threads are faster to create than user threads',
 option_two: 'kernel threads are slower to create than user threads',
-option_three: 'kernel threads are easier to manage as well as create then user threads',
+option_three: 'kernel threads are easier to manage as well as create than user threads',
 option_four: 'none of the mentioned',
 answer: 'B',
 explanation: ''
@@ -7689,17 +7689,113 @@ option_two: 'One to Many model',
 option_three: 'Many to Many model',
 option_four: 'One to One model',
 answer: 'A',
-explanation: ''
+explanation: 'There are three types of mappping. Many to one: in which many user level threads are mapped to one kernal thread. <br>one to one: in which one user thread is mapped with one kernal thread. <br> Many to Many: in which many user threads are mapped with many kernal thread. for example for user threads to 3 kernal threads. Here many user threads are mapped with equal or smaller kenrla threads.<a href="https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/4_Threads.html">More Detail</a>'
 },],
 mcq609: [{
   id: '609',
 subject_name: 'OS',
 chapter_name: 'Linux OS',
-question: ' The model in which one user-level thread is mapped to many kernel level threads is called ___________',
-option_one: 'Many to One model',
-option_two: 'One to Many model',
-option_three: 'Many to Many model',
-option_four: 'One to One model',
+question: 'In the Many to One model, if a thread makes a blocking system call ___________',
+option_one: 'the entire process will be blocked',
+option_two: 'a part of the process will stay blocked, with the rest running',
+option_three: 'the entire process will run',
+option_four: 'none of the mentioned',
+answer: 'A',
+explanation: 'Because there is only one kernal thread for many user threads. to by blocking the kernal, non of the user level threads can run.'
+},],
+mcq610: [{
+   id: '610',
+subject_name: 'OS',
+chapter_name: 'Linux OS',
+question: 'In the Many to One model, multiple threads are unable to run in parallel on multiprocessors because of ___________',
+option_one: 'only one thread can access the kernel at a time',
+option_two: 'many user threads have access to just one kernel thread',
+option_three: 'there is only one kernel thread',
+option_four: 'none of the mentioned',
+answer: 'A',
+explanation: ''
+},],
+mcq611: [{
+   id: '611',
+subject_name: 'OS',
+chapter_name: 'Linux OS',
+question: 'The One to One model allows ___________',
+option_one: 'increased concurrency',
+option_two: 'decreased concurrency',
+option_three: ' increased or decreased concurrency',
+option_four: 'concurrency equivalent to other models',
+answer: 'A',
+explanation: 'In the One to One threading model, each user-level thread is individually mapped to a separate kernel-level thread. This allows multiple user-level threads to run in parallel on multiple CPU cores, which can result in increased concurrency and potential performance improvement, as compared to other threading models like Many to One or Many to Many, where user-level threads might need to share kernel-level threads, leading to potentially less parallel execution.'
+},],
+mcq612: [{
+   id: '612',
+subject_name: 'OS',
+chapter_name: 'Linux OS',
+question: 'In the One to One model when a thread makes a blocking system call ___________',
+option_one: 'other threads are strictly prohibited from running',
+option_two: 'other threads are allowed to run',
+option_three: 'other threads only from other processes are allowed to run',
+option_four: 'none of the mentioned',
+answer: 'B',
+explanation: ''
+},],
+mcq613: [{
+   id: '613',
+subject_name: 'OS',
+chapter_name: 'Linux OS',
+question: 'Which of the following is the drawback of the One to One Model?',
+option_one: 'increased concurrency provided by this model',
+option_two: 'decreased concurrency provided by this model',
+option_three: 'creating so many threads at once can crash the system',
+option_four: 'creating a user thread requires creating the corresponding kernel thread',
+answer: 'D',
+explanation: ''
+},],
+mcq614: [{
+   id: '614',
+subject_name: 'OS',
+chapter_name: 'Linux OS',
+question: 'When is the Many to One model at an advantage?',
+option_one: 'When the program does not need multithreading',
+option_two: 'When the program has to be multi-threaded',
+option_three: 'When there is a single processor',
+option_four: 'None of the mentioned',
+answer: 'A',
+explanation: ''
+},],
+mcq615: [{
+   id: '615',
+subject_name: 'OS',
+chapter_name: 'Linux OS',
+question: 'In the Many to Many model true concurrency cannot be gained because ___________',
+option_one: 'the kernel can schedule only one thread at a time',
+option_two: 'there are too many threads to handle',
+option_three: 'it is hard to map threads with each other',
+option_four: 'none of the mentioned',
+answer: 'A',
+explanation: ''
+},],
+mcq616: [{
+   id: '616',
+subject_name: 'OS',
+chapter_name: 'Linux OS',
+question: 'In the Many to Many models when a thread performs a blocking system call ___________',
+option_one: 'other threads are strictly prohibited from running',
+option_two: 'other threads are allowed to run',
+option_three: 'other threads only from other processes are allowed to run',
+option_four: 'none of the mentioned',
+answer: 'B',
+explanation: ''
+},],
+mcq617: [{
+   id: '617',
+subject_name: 'OS',
+chapter_name: 'Linux OS',
+question: 'Which of the following system calls does not return control to the calling point, on termination?',
+option_one: 'fork',
+option_two: 'exec',
+option_three: 'loctl',
+option_four: 'longjmp',
 answer: 'B',
 explanation: ''
 },],

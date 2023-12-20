@@ -66,7 +66,7 @@ const subjects = {
         {
             id : '13',
             name :'Linux OS',
-            total: '9'
+            total: '34'
         },
         {
             id : '14',
@@ -124,7 +124,7 @@ const subjects = {
     CPP : {
        chapters: [
         {
-        id: "1",
+        id: '1',
         name: 'Introduction',
         total: '0'
 
@@ -135,7 +135,7 @@ const subjects = {
     CP : {
         chapters: [
          {
-         id: "1",
+         id: '1',
          name: 'Mcqs in CS',
          total: '10'
 
@@ -145,11 +145,29 @@ const subjects = {
      SE : {
         chapters: [
          {
-         id: "1",
+         id: '1',
          name: 'Mcqs in CS',
          total: '61'
 
      }
         ]
+     },
+     DBS : {
+      chapters: [
+        {
+          id: '1',
+          name: 'Introduction',
+          total: '1'
+        }
+      ]
+     },
+     AI : {
+      chapters: [
+        {
+          id: '1',
+          name: 'Introduction',
+          total: '1'
+        }
+      ]
      }
 };
