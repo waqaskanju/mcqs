@@ -3,13 +3,6 @@
 
 # How to add new MCQ
 
-<<<<<<< HEAD
-- First go to index.html and add the name of the subject. so that abbrivations can be converted into full name.
-- Then go to show mcqs.html and  add the script file which has the data of mcqs. Each subject has its on file.
-- Also add it in the if else statment in mcqs.html page. show that your included script file can be loaded on-demand.
-- Then go to subject.js and add its chapters and number of mcqs in that chapter.
-
-=======
 ## index.html file configuration
 
 - First go to index.html and add the name of the subject. so that abbrivations can be converted into full name.
@@ -27,7 +20,6 @@
 - The create a file in data folder. This file while have the actual mcqs that will be loaded in 
   showmcqs.html page.
 
->>>>>>> a70641b3c74a02b2dde867e07819ef47ad50926a
 <!-- If you only perform the the subject.js step mcq chapter will show. but it will have no(undefined) subject name 
 and the console will show (no subject mentioned)-->
 
@@ -45,11 +37,7 @@ and the console will show (no subject mentioned)-->
 - 443 - 504 - Multimedia Systems ->62
 - 505 - 566 - Security -> 62
 - 567 - 575 - Secondary Storage -> 9
-<<<<<<< HEAD
-- 576 -  - Linux OS -> 34
-=======
 - 576 -  - Linux OS -> 42
->>>>>>> a70641b3c74a02b2dde867e07819ef47ad50926a
 
 <!-- Confiremed means the no of mcqs in source = to the mcqs in my bank, the speeling and answer to mcqs are correct.
 see the numbering inside the data file. Also calculate the number of mcqs in this file.
