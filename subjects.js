@@ -66,7 +66,11 @@ const subjects = {
         {
             id : '13',
             name :'Linux OS',
+<<<<<<< HEAD
             total: '34'
+=======
+            total: '42'
+>>>>>>> a70641b3c74a02b2dde867e07819ef47ad50926a
         },
         {
             id : '14',
@@ -169,5 +173,19 @@ const subjects = {
           total: '1'
         }
       ]
+<<<<<<< HEAD
      }
+=======
+     },
+      // Introduction to Computers.
+    ITC : {
+      chapters:[
+          {
+          id : '1',
+          name :'Introduction',
+          total: '50'
+          },
+      ],
+      },
+>>>>>>> a70641b3c74a02b2dde867e07819ef47ad50926a
 };

@@ -7569,7 +7569,7 @@ option_two: 'has a single thread of execution',
 option_three: 'can have multiple or a single thread for execution',
 option_four: 'none of the mentioned',
 answer: 'B',
-explanation: ''
+explanation: 'A process is said to be heavy weight because OS has to do lot of housekeeping to create a process . It has to allocate lot of buffers, make a note of entry in different files and notify schedulers , memory management etc about this new entry. Hence creating a new process is slow and it is heavy weight. Be default a single process will have a single thread of execution.'
 },],
 mcq599: [{
    id: '599',
