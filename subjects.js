@@ -186,4 +186,13 @@ const subjects = {
       },
     ],
   },
+  PP: {
+    chapters: [
+      {
+        id: "1",
+        name: "SS In IT Adv_9_21",
+        total: "40",
+      },
+    ],
+  },
 };

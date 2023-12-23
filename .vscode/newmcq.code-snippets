@@ -12,8 +12,8 @@
 	 	"body": [
 			"mcq${1:x}: [{",
 			"   id: '${1:x}',",
-			"subject_name: 'ITC',",
-			"chapter_name: 'Introduction',",
+			"subject_name: 'PP',",
+			"chapter_name: 'SS In IT Adv_9_21',",
 			"question: '${3:}',",
 			"option_one: '${4:}',",
 			"option_two: '${5:}',",

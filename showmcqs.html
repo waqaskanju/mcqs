@@ -28,6 +28,9 @@
   <!-- Programming Fundaments -->
   <script src="data/pf_data.js"></script>
 
+    <!-- Past Papers -->
+    <script src="data/pp_data.js"></script>
+
   <script src="sandbox.js"></script>
   <title id="page_title">
 
@@ -71,6 +74,8 @@
     show_data(ITC_MCQS, subject, chapter);
   else if (subject == "PF")
     show_data(PF_MCQS, subject, chapter);
+    else if (subject == "PP")
+    show_data(PP_MCQS, subject, chapter);
   else
     console.log('no subject mentioned');
 </script>
