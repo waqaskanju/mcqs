@@ -1,6 +1,6 @@
 // This file contain subject and chapter names.
 const subjects = {
-  // Operating Systems
+  // 1- Operating Systems
   OS: {
     chapters: [
       {
@@ -73,9 +73,14 @@ const subjects = {
         name: "Virtual Memory",
         total: "x",
       },
+      {
+        id: "15",
+        name: "Mcqs in CS",
+        total: "x",
+      },
     ],
   },
-  // Computer Networks.
+  // 2 - Computer Networks.
   CN: {
     chapters: [
       {
@@ -100,7 +105,7 @@ const subjects = {
       },
     ],
   },
-  // Data Structure and algorithums
+  // 3 - Data Structure and algorithums
   DSA: {
     chapters: [
       {
@@ -116,7 +121,7 @@ const subjects = {
     ],
   },
 
-  // C++
+  // 4 - C++
 
   CPP: {
     chapters: [
@@ -127,7 +132,7 @@ const subjects = {
       },
     ],
   },
-  // C Programming.
+  // 5 -C Programming.
   CP: {
     chapters: [
       {
@@ -137,7 +142,7 @@ const subjects = {
       },
     ],
   },
-  //Software Engineering
+  //6 - Software Engineering
   SE: {
     chapters: [
       {
@@ -147,7 +152,7 @@ const subjects = {
       },
     ],
   },
-  // Database System
+  // 7- Database System
   DBS: {
     chapters: [
       {
@@ -157,7 +162,7 @@ const subjects = {
       },
     ],
   },
-  // Artificial Intelligence
+  // 8- Artificial Intelligence
   AI: {
     chapters: [
       {
@@ -167,7 +172,7 @@ const subjects = {
       },
     ],
   },
-  // Introduction to Computers.
+  // 9- Introduction to Computers.
   ITC: {
     chapters: [
       {
@@ -177,6 +182,7 @@ const subjects = {
       },
     ],
   },
+  // Programming Fundamentals
   PF: {
     chapters: [
       {
@@ -186,12 +192,38 @@ const subjects = {
       },
     ],
   },
+  // Past Papers
   PP: {
     chapters: [
       {
         id: "1",
         name: "SS In IT Adv_9_21",
         total: "40",
+      },
+      {
+        id: "2",
+        name: "AP Adv_5_23",
+        total: "13",
+      },
+    ],
+  },
+   // Theory of Automata
+   TOA: {
+    chapters: [
+      {
+        id: "1",
+        name: "Introduction",
+        total: "1",
+      },
+    ],
+  },
+   // Principal of compiler Design
+   PCD: {
+    chapters: [
+      {
+        id: "1",
+        name: "Introduction",
+        total: "1",
       },
     ],
   },

@@ -38,6 +38,8 @@ and the console will show (no subject mentioned)-->
 - 505 - 566 - Security -> 62
 - 567 - 575 - Secondary Storage -> 9
 - 576 -  - Linux OS -> 42
+- xxx - xxx Theory of Automata ->
+- xxx - xxx Principles of Compiler Design ->
 
 <!-- Confiremed means the no of mcqs in source = to the mcqs in my bank, the speeling and answer to mcqs are correct.
 see the numbering inside the data file. Also calculate the number of mcqs in this file.

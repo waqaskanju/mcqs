@@ -1,0 +1,23 @@
+1.What is true about break?
+2. All class in Java are inhirted from
+3. What is iterator
+4. Literal can be of which data type
+5. To generate a samll notifcation for an object on runtime
+6. Correct way to include a file
+7. inhertitance is done by _____ keyword
+8. String class to botain a character
+9. In correct way to define an array
+0. Input/ out operation is done by
+11. Right shift operator
+12. How to prevent inheritance
+13. Why are generic used
+14. Applet done not recurie main ( choose the correct statement)
+15. To implement delegate the necessary condtion  are
+16. Classs to read and write bytes
+17. Which type of polyporhism in java
+18 clear data at runtime
+19 Super user method
+20 select statemnt in java
+21 Static method only access accessors
+
+Sara Aunty

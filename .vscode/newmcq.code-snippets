@@ -13,7 +13,7 @@
 			"mcq${1:x}: [{",
 			"   id: '${1:x}',",
 			"subject_name: 'PP',",
-			"chapter_name: 'SS In IT Adv_9_21',",
+			"chapter_name: 'AP Adv_5_23',",
 			"question: '${3:}',",
 			"option_one: '${4:}',",
 			"option_two: '${5:}',",

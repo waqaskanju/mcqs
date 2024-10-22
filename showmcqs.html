@@ -24,12 +24,14 @@
   <script src="data/ai_data.js"></script>
   <!-- Introduction to Computers -->
   <script src="data/itc_data.js"></script>
-
   <!-- Programming Fundaments -->
   <script src="data/pf_data.js"></script>
-
     <!-- Past Papers -->
     <script src="data/pp_data.js"></script>
+  <!-- Theory of Automata -->
+  <script src="data/toa_data.js"></script>
+  <!-- Principles of Compiler Design -->
+  <script src="data/pcd_data.js"></script>
 
   <script src="sandbox.js"></script>
   <title id="page_title">
@@ -74,8 +76,12 @@
     show_data(ITC_MCQS, subject, chapter);
   else if (subject == "PF")
     show_data(PF_MCQS, subject, chapter);
-    else if (subject == "PP")
-    show_data(PP_MCQS, subject, chapter);
+  else if (subject == "PP")
+  show_data(PP_MCQS, subject, chapter);
+  else if (subject == "TOA")
+  show_data(TOA_MCQS, subject, chapter);
+  else if (subject == "PCD")
+  show_data(PCD_MCQS, subject, chapter);
   else
     console.log('no subject mentioned');
 </script>

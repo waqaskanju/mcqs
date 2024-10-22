@@ -60,7 +60,7 @@ const CP_MCQS = {
           id: "5",
           subject_name: "CP",
           chapter_name: "Mcqs in CS",
-          question: "Even if a particular implementation does not limit the number of characters in an identifier, it is advisable to be consie because",
+          question: "Even if a particular implementation does not limit the number of characters in an identifier, it is advisable to be concise because",
           option_one: "chances of typographic errors are less",
           option_two: "it may be processed by assembler, loader etc which may have their own rules that may contradict the language rules",
           option_three: "Both option A and B",

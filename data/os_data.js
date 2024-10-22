@@ -7799,4 +7799,115 @@ option_four: 'longjmp',
 answer: 'B',
 explanation: ''
 },],
-};
+mcq618: [{
+   id: '618',
+subject_name: 'OS',
+chapter_name: 'Linux OS',
+question: 'The following program results in the creation of?<br><img src="./images/os/fork.png" alt="fork and sleep">',
+option_one: 'an orphan process',
+option_two: 'a zombie process',
+option_three: 'a process that executes forever',
+option_four: 'None of the mentioned',
+answer: 'B',
+explanation: ''
+},],
+mcq619: [{
+   id: '619',
+subject_name: 'OS',
+chapter_name: 'Linux OS',
+question: 'Which of the following system calls transforms executable binary file into a process?',
+option_one: 'fork',
+option_two: 'exec',
+option_three: 'loctl',
+option_four: 'longjmp',
+answer: 'B',
+explanation: ''
+},],
+mcq620: [{
+   id: '620',
+subject_name: 'OS',
+chapter_name: 'Linux OS',
+question: 'How many times the following C program prints yes?<br> <img src="./images/os/print yes.png" alt="print yes">',
+option_one: 'once',
+option_two: 'twice',
+option_three: 'four times',
+option_four: 'eight times',
+answer: 'C',
+explanation: ''
+},],
+mcq621: [{
+   id: '621',
+subject_name: 'OS',
+chapter_name: 'Linux OS',
+question: 'Which of the following calls never returns an error?',
+option_one: 'getpid',
+option_two: 'fork',
+option_three: 'ioctl',
+option_four: 'open',
+answer: 'A',
+explanation: ''
+},],
+mcq622: [{
+   id: '622',
+subject_name: 'OS',
+chapter_name: 'Linux OS',
+question: 'A fork system call will fail if ______________',
+option_one: 'the previously executed statement is also a fork call',
+option_two: 'the limit on the maximum number of processes in the system would be executed',
+option_three: 'the limit on the minimum number of processes that can be under execution by a single user would be executed',
+option_four: 'all of the mentioned',
+answer: '',
+explanation: ''
+},],
+mcq623: [{
+   id: '623',
+subject_name: 'OS',
+chapter_name: 'Linux OS',
+question: '',
+option_one: '',
+option_two: '',
+option_three: '',
+option_four: '',
+answer: '',
+explanation: ''
+},],
+mcq624: [{
+   id: '624',
+subject_name: 'OS',
+chapter_name: 'Linux OS',
+question: '',
+option_one: '',
+option_two: '',
+option_three: '',
+option_four: '',
+answer: '',
+explanation: ''
+},],
+
+
+mcq625: [{
+   id: '625',
+subject_name: 'OS',
+chapter_name: 'Linux OS',
+question: '',
+option_one: '',
+option_two: '',
+option_three: '',
+option_four: '',
+answer: '',
+explanation: ''
+},],
+
+mcq626: [{
+   id: '626',
+subject_name: 'OS',
+chapter_name: 'Linux OS',
+question: '',
+option_one: '',
+option_two: '',
+option_three: '',
+option_four: '',
+answer: '',
+explanation: ''
+},],
+}; // 654
