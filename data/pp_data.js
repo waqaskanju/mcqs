@@ -866,4 +866,76 @@ var PP_MCQS = {
   answer: 'C',
   explanation: ''
   },],
+  mcq71: [{
+     id: '71',
+  subject_name: 'PP',
+  chapter_name: 'AP Adv_5_23',
+  question: 'Which of the given modifiers can be used to prevent Method overriding? In C#.net',
+  option_one: 'Static',
+  option_two: 'Constant',
+  option_three: 'Sealed',
+  option_four: 'final',
+  answer: 'C',
+  explanation: 'When an instance method declaration includes the sealed modifier, the method is said to be sealed method. It means a derived class cannot override this method.'
+  },],
+  mcq72: [{
+     id: '72',
+  subject_name: 'PP',
+  chapter_name: 'AP Adv_5_23',
+  question: 'Which operator is used to invert all the digits in a binary representation of a number?',
+  option_one: '~',
+  option_two: '<<<',
+  option_three: '>>>',
+  option_four: '^',
+  answer: 'A',
+  explanation: ''
+  },],
+  mcq73: [{
+     id: '73',
+  subject_name: 'PP',
+  chapter_name: 'AP Adv_5_23',
+  question: 'To generate a simple notification for an object in runtime, the programming construct to be used for implementing this idea?',
+  option_one: 'namespace',
+  option_two: 'interface',
+  option_three: 'delegate',
+  option_four: 'attribute',
+  answer: 'C',
+  explanation: ''
+  },],
+  mcq74: [{
+     id: '74',
+  subject_name: 'PP',
+  chapter_name: 'AP Adv_5_23',
+  question: 'To implement delegates, the necessary condition is?',
+  option_one: 'class declaration',
+  option_two: 'inheritance',
+  option_three: 'runtime polymorphism',
+  option_four: 'exceptions',
+  answer: 'A',
+  explanation: ''
+  },],
+  mcq75: [{
+     id: '75',
+  subject_name: 'PP',
+  chapter_name: 'AP Adv_5_23',
+  question: 'Which right shift operator preserves the sign of the value?',
+  option_one: '<<',
+  option_two: '>>',
+  option_three: '<<=',
+  option_four: '>>=',
+  answer: 'B',
+  explanation: ''
+  },],
+  mcq76: [{
+     id: '76',
+  subject_name: 'PP',
+  chapter_name: 'AP Adv_5_23',
+  question: 'Which of these have highest precedence?',
+  option_one: '()',
+  option_two: '++',
+  option_three: '*',
+  option_four: '>>',
+  answer: 'A',
+  explanation: ''
+  },],
 }
