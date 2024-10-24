@@ -503,7 +503,7 @@ var PP_MCQS = {
   answer: 'B',
   explanation: ''
   },],
-  //https://mcqmate.com/topic/166/data-mining-and-warehouse
+  
   mcq41: [{
      id: '41',
   subject_name: 'PP',
@@ -672,7 +672,7 @@ var PP_MCQS = {
   answer: 'A',
   explanation: ''
   },],
-  //https://www.sanfoundry.com/java-mcqs-constructors-garbage-collection/
+  
   mcq55: [{
      id: '55',
   subject_name: 'PP',
@@ -709,7 +709,7 @@ var PP_MCQS = {
   answer: 'A',
   explanation: ''
   },],
-  //https://www.sanfoundry.com/java-questions-bank/
+  
   mcq58: [{
      id: '58',
   subject_name: 'PP',
@@ -779,7 +779,7 @@ var PP_MCQS = {
   option_two: 'this',
   option_three: 'extent',
   option_four: 'extends',
-  answer: '',
+  answer: 'D',
   explanation: ''
   },],
   mcq64: [{
@@ -791,7 +791,7 @@ var PP_MCQS = {
   option_two: 'class B inherits class A {}',
   option_three: 'class B extends A {}',
   option_four: 'class B extends class A {}',
-  answer: '',
+  answer: 'C',
   explanation: ''
   },],
   mcq65: [{
@@ -840,6 +840,30 @@ var PP_MCQS = {
   option_three: 'fflush()',
   option_four: 'close()',
   answer: 'B',
+  explanation: ''
+  },],
+  mcq69: [{
+     id: '69',
+  subject_name: 'PP',
+  chapter_name: 'AP Adv_5_23',
+  question: 'Which of these is used to perform all input & output operations in Java?',
+  option_one: 'streams',
+  option_two: 'variables',
+  option_three: 'classes',
+  option_four: 'methods',
+  answer: 'A',
+  explanation: ''
+  },],
+  mcq70: [{
+     id: '70',
+  subject_name: 'PP',
+  chapter_name: 'AP Adv_5_23',
+  question: 'Why are generics used?',
+  option_one: 'Generics make code more fast',
+  option_two: 'Generics make code more optimised and readable',
+  option_three: 'Generics add stability to your code by making more of your bugs detectable at compile time',
+  option_four: 'Generics add stability to your code by making more of your bugs detectable at runtime',
+  answer: 'C',
   explanation: ''
   },],
 }
