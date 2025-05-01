@@ -227,4 +227,23 @@ const subjects = {
       },
     ],
   },
+  EDU: {
+    chapters: [
+      {
+        id: "1",
+        name: "Introduction",
+        total: "50",
+      },
+      {
+        id: "2",
+        name: "Research",
+        total: "1",
+      },
+      {
+        id: "3",
+        name: "Previous_Test_30Apr2025",
+        total: "1",
+      },
+    ],
+  },
 };
